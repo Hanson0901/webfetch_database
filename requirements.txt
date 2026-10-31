@@ -1,0 +1,6 @@
+beautifulsoup4>=4.12
+requests>=2.31
+trafilatura>=1.9
+Pillow>=10.0
+# Optional: enables YouTube metadata/caption probing without downloading video/audio.
+yt-dlp>=2024.1
