@@ -36,7 +36,7 @@ python crawler/crawler.py
 python crawler/crawler.py \
   --url "https://example.org/related" \
   --source-kind internal \
-  --parent-id page_001 \
+  --parent-id A_page_001 \
   --notes "與觀音區歷史沿革相關" \
   --output output/A
 ```
@@ -53,8 +53,8 @@ python crawler/crawler.py --url "https://youtu.be/example" --source-kind extra
 
 ```csv
 id,type,source_url,source_kind,parent_id,depth,assigned_member,notes
-page_032,web,https://example.org/related,internal,page_001,1,A,與觀音區歷史沿革相關
-page_033,web,https://example.org/new-source,extra,,0,C,由關鍵字「觀音 白沙岬燈塔 官方」找到
+A_page_032,web,https://example.org/related,internal,A_page_001,1,A,與觀音區歷史沿革相關
+A_page_033,web,https://example.org/new-source,extra,,0,C,由關鍵字「觀音 白沙岬燈塔 官方」找到
 ```
 
 欄位規則：
@@ -69,7 +69,7 @@ page_033,web,https://example.org/new-source,extra,,0,C,由關鍵字「觀音 白
 
 ### A：維基百科、歷史地理與文化知識
 
-主要來源：`page_001`、`page_010`、`page_015`、`page_016`、`page_020`、`page_028`、`page_031`。
+主要來源：`A_page_001`、`A_page_010`、`A_page_015`、`A_page_016`、`A_page_020`、`A_page_028`、`A_page_031`。
 
 工作內容：整理維基與文化資料、找出歷史地理敘述、處理相關內部文章，並完成至少 3 筆官方或正式出版品交叉查核。建議關鍵字包括「觀音區歷史沿革」、「石觀音」、「觀音區河川」、「大潭發電廠」。
 
@@ -81,31 +81,31 @@ page_033,web,https://example.org/new-source,extra,,0,C,由關鍵字「觀音 白
 - 執行：
   ```bash
   python3 crawler/crawler_member_A.py --delay 1.2
-  # 只跑部分來源： --only page_010,page_020 ；關閉渲染： --no-render
+  # 只跑部分來源： --only A_page_010,A_page_020 ；關閉渲染： --no-render
   ```
 - 產出：`output/index.jsonl`（20 筆結構化資料）、`output/articles/*.md`、`output/images/*.jpg`（51 張）、
   `output/crawl_report.csv`、`output/duplicates.json`、`output/records/*.json`、`output/raw/*.html`。
 - 對照截圖：`report/screenshots/*_compare.jpg`（維基／國家文化記憶庫／政府機關／前端渲染 SPA 四種站型，原始 vs 清理後），
   由 `tools/make_screenshots.py` 產生。
 - 完整說明：`report/report.md`（任務 1–6 對照、清理策略、圖片規則、影片說明、查證表、範圍警示）。
-- 延伸頁去重：page_016 的第 2 個延伸候選與 page_001_ext_02 同址，程式自動跳過，因此延伸頁為 13 頁。
-- ⚠️ 範圍警示：`page_015`「觀音坑溪」經查為**新北市五股區**水系，非桃園觀音區；報告已加註，不列入觀音區地方知識。
+- 延伸頁去重：A_page_016 的第 2 個延伸候選與 A_page_001_ext_02 同址，程式自動跳過，因此延伸頁為 13 頁。
+- ⚠️ 範圍警示：`A_page_015`「觀音坑溪」經查為**新北市五股區**水系，非桃園觀音區；報告已加註，不列入觀音區地方知識。
 
 ### B：YouTube、字幕與代表性畫面
 
-主要來源：`page_005`、`page_011`、`page_018`、`page_019`、`page_026`、`page_027`、`page_030`。
+主要來源：`A_page_005`、`A_page_011`、`A_page_018`、`A_page_019`、`A_page_026`、`A_page_027`、`A_page_030`。
 
 工作內容：取得影片標題、頻道、公開 metadata、合法字幕與 3–5 張代表畫面。每張畫面要有時間點和描述。影片沒有字幕或受到平台限制時，記錄原因，不自行猜測字幕內容。
 
 ### C：官方、政府與機構網站
 
-主要來源：`page_002`、`page_006`、`page_007`、`page_008`、`page_012`、`page_013`、`page_024`。
+主要來源：`A_page_002`、`A_page_006`、`A_page_007`、`A_page_008`、`A_page_012`、`A_page_013`、`A_page_024`。
 
 工作內容：整理官方頁面、圖片與地方產業資料，優先尋找桃園市政府、中央機關、政府資料庫與官方出版品作為查核來源。建議關鍵字包括「白沙岬燈塔 航港局」、「觀新藻礁 保護區」、「觀音蓮花 農業部」、「觀音工業區 經濟部」。
 
 ### D：新聞、部落格、旅遊與飲食媒體
 
-主要來源：`page_003`、`page_004`、`page_009`、`page_014`、`page_017`、`page_021`、`page_022`、`page_023`、`page_025`、`page_029`。
+主要來源：`A_page_003`、`A_page_004`、`A_page_009`、`A_page_014`、`A_page_017`、`A_page_021`、`A_page_022`、`A_page_023`、`A_page_025`、`A_page_029`。
 
 工作內容：清理長篇文章、篩選文章圖片、比對不同媒體的重複敘述，並把媒體內容與官方查核資料分開標示。作者、日期、原始網址與圖片來源都要保留。
 

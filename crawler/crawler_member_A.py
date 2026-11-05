@@ -65,6 +65,9 @@ TZ = timezone(timedelta(hours=8))
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 CHROME_PROFILE = os.path.join(ROOT, ".chrome-profile")
 
+# 所有產出（id、檔名）統一组別前綴，避免四人同 repo 撞名
+PREFIX = "A_"
+
 
 def chrome_available():
     return os.path.exists(CHROME)
@@ -609,6 +612,10 @@ def _dedupe_str(items):
 
 def process(page_id, url, kind, seed_id=None, args=None):
     args = args or {}
+    if not page_id.startswith(PREFIX):
+        page_id = PREFIX + page_id
+    if seed_id and not seed_id.startswith(PREFIX):
+        seed_id = PREFIX + seed_id
     cat, kws = CATEGORY.get(seed_id or page_id, ("歷史文化", []))
     rec = {
         "id": page_id,
@@ -876,6 +883,7 @@ def main():
     ap.add_argument("--no-extension", action="store_true")
     ap.add_argument("--timeout", type=int, default=30)
     ap.add_argument("--no-render", action="store_true", help="不使用 headless Chrome 渲染 SPA")
+    ap.add_argument("--rebuild", action="store_true", help="不重新抓取，只由 output/records 重建 index/articles/csv")
     ns = ap.parse_args()
     args = vars(ns)
 
@@ -897,7 +905,7 @@ def main():
 
     crawled = {}
 
-    for s in seeds:
+    for s in (seeds if not args["rebuild"] else []):
         print("[seed] %s %s" % (s["id"], s["url"]))
         rec, doc = process(s["id"], s["url"], "seed", args=args)
         rec["member"] = s.get("member") or "A"
