@@ -4,3 +4,5 @@ trafilatura>=1.9
 Pillow>=10.0
 # Optional: enables YouTube metadata/caption probing without downloading video/audio.
 yt-dlp>=2024.1
+# Optional (member D): better Chinese keyword extraction in analyze_member_D.py
+# jieba>=0.42
