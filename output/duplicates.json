@@ -1,0 +1,6 @@
+{
+  "pairs": [],
+  "compared_pairs": 190,
+  "threshold": 0.55,
+  "note": "以清理後正文的 5-gram 字元 shingle Jaccard 相似度比對"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "A_page_001",
+    "site_type": "維基百科（百科全書型）",
+    "status": "ok",
+    "original": true,
+    "cleaned": true
+  },
+  {
+    "id": "A_page_028",
+    "site_type": "國家文化記憶庫（策展資料庫型）",
+    "status": "ok",
+    "original": true,
+    "cleaned": true
+  },
+  {
+    "id": "A_page_010_ext_02",
+    "site_type": "桃園市觀音區公所（政府機關型）",
+    "status": "ok",
+    "original": true,
+    "cleaned": true
+  },
+  {
+    "id": "A_page_010_ext_01",
+    "site_type": "桃園觀光導覽網（前端渲染 SPA 型）",
+    "status": "ok",
+    "original": true,
+    "cleaned": true
+  }
+]
