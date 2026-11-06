@@ -116,6 +116,8 @@ page_033,web,https://example.org/new-source,extra,,0,C,由關鍵字「觀音 白
 
 文章與圖片檔案會依來源 id 保存。相同 id 重新爬取時，新的文章會覆蓋同名文章；舊圖片檔案不會自動刪除，避免誤刪仍被其他資料引用的檔案。
 
+組員 B 的批次爬蟲（`crawler/clawer_b_1.py`）使用 `page_<seed>_ext_<nn>` 命名延伸來源，例如由 `page_005` 延伸的第一筆資料為 `page_005_ext_01`。文章、圖片檔名，以及 `urls.csv`、`index.jsonl`、`crawl_report.csv`、`link_assessment.csv` 中的 ID 會使用同一格式；重跑同一網址時會沿用既有 ID。
+
 ## 各組修改自己的爬蟲
 
 不同網站的 HTML 結構可能不同。每位組員可以複製 `crawler/crawler.py`，另存為自己的檔案，例如 `crawler_member_A.py`，再依分配到的網站修改：

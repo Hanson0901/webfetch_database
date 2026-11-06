@@ -19,5 +19,9 @@
     "audio_downloaded": 0,
     "frames_available": 0,
     "records_added_or_replaced": 3
+  },
+  "id_naming": {
+    "seed": "page_<number>",
+    "extension": "page_<seed>_ext_<two_digit_sequence>"
   }
 }

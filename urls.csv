@@ -30,7 +30,7 @@ page_028,web,https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Route&id=593
 page_029,web,https://vocus.cc/article/6692021dfd89780001850bb9,seed,,0,D,
 page_030,youtube,https://youtu.be/AWP_v5I0zYA?si=0RkOhrRUMGU9zJfu,seed,,0,B,
 page_031,web,https://ihc.cip.gov.tw/EJournal/EJournalCat/737,seed,,0,A,
-B-EXT-001,web,https://natsuphil.com/fun-taiwan/guanyin/,internal,page_005,1,B,連結文字：觀音玩樂懶人包；命中觀音區或在地地名：觀音; 與父頁面同站
-B-EXT-002,web,https://natsuphil.com/taoyuan/guanyin-sea/,internal,page_005,1,B,連結文字：觀音濱海遊憩區；命中觀音區或在地地名：觀音; 與父頁面同站
-B-EXT-006,web,https://natsuphil.com/taoyuan/caota-dune-indoor/,internal,B-EXT-002,2,B,連結文字：草漯沙丘觀音展示館；命中觀音區或在地地名：觀音; 與父頁面同站
-B-EXT-007,web,https://www.cwa.gov.tw/V8/C/M/tide.html?NSeaID=NSea03,internal,B-EXT-002,2,B,連結文字：新竹鹿港沿海 – 桃園市觀音；命中觀音區或在地地名：觀音
+page_005_ext_01,web,https://natsuphil.com/fun-taiwan/guanyin/,internal,page_005,1,B,連結文字：觀音玩樂懶人包；命中觀音區或在地地名：觀音; 與父頁面同站
+page_005_ext_02,web,https://natsuphil.com/taoyuan/guanyin-sea/,internal,page_005,1,B,連結文字：觀音濱海遊憩區；命中觀音區或在地地名：觀音; 與父頁面同站
+page_005_ext_04,web,https://natsuphil.com/taoyuan/caota-dune-indoor/,internal,page_005_ext_02,2,B,連結文字：草漯沙丘觀音展示館；命中觀音區或在地地名：觀音; 與父頁面同站
+page_005_ext_05,web,https://www.cwa.gov.tw/V8/C/M/tide.html?NSeaID=NSea03,internal,page_005_ext_02,2,B,連結文字：新竹鹿港沿海 – 桃園市觀音；命中觀音區或在地地名：觀音

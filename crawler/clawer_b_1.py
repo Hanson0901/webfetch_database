@@ -3,7 +3,9 @@
 
 這支程式以 urls.csv 中 page_005、page_011、page_018、page_019 為起點，
 整理頁面內的連結，依連結文字與網址判斷是否值得納入觀音區知識資料，
-並以 BFS 方式最多延伸兩層（seed=0、延伸頁=1/2）。
+並以 BFS 方式最多延伸兩層（seed=0、延伸頁=1/2）。延伸頁 ID 使用
+`page_<seed>_ext_<nn>` 格式，例如 `page_005_ext_01`；同一網址重跑時沿用
+`urls.csv` 中既有的 ID。
 
 原始 crawler.py 保持不變；本檔只負責組員 B 的批次流程與連結判斷。
 所有被判斷過的連結會寫入 link_assessment.csv，實際納入的延伸來源
@@ -20,6 +22,7 @@ import logging
 import re
 import sys
 import time
+from collections import defaultdict
 from pathlib import Path
 from typing import Any
 from urllib.parse import unquote, urljoin, urlparse
@@ -59,6 +62,8 @@ except ImportError as exc:  # pragma: no cover - 由 requirements.txt 提供
 
 
 SEED_IDS = {"page_005", "page_011", "page_018", "page_019"}
+# 延伸頁面的 ID 以原始 seed 為前綴，例如 page_005_ext_01。
+EXTENSION_ID_RE = re.compile(r"^(page_\d+)_ext_(\d+)$")
 STRONG_TERMS = ("觀音區", "觀音", "白沙岬", "甘泉寺", "坑溪", "大堀溪", "大潭")
 LOCAL_TERMS = ("燈塔", "藻礁", "觀新", "蓮花", "埤塘", "客家")
 EXCLUDE_RE = re.compile(
@@ -480,6 +485,54 @@ def append_urls_csv(csv_path: Path, records: list[dict[str, Any]]) -> int:
     return len(new_records)
 
 
+def existing_extension_ids(csv_path: Path) -> tuple[dict[str, str], dict[str, set[int]]]:
+    """讀取既有延伸來源，讓重跑時沿用同一個 ID。
+
+    URL 已存在於 urls.csv 時，新的爬取結果必須使用原本的 ID，否則
+    index.jsonl 會同時留下同一網址的舊資料與新資料。回傳值包含 URL→ID
+    對照，以及每個 seed 已使用的延伸序號。
+    """
+    url_to_id: dict[str, str] = {}
+    used: dict[str, set[int]] = defaultdict(set)
+    if not csv_path.exists():
+        return url_to_id, used
+    with csv_path.open(newline="", encoding="utf-8-sig") as handle:
+        for row in csv.DictReader(handle):
+            record_id = str(row.get("id") or "")
+            match = EXTENSION_ID_RE.fullmatch(record_id)
+            if not match:
+                continue
+            root_id, sequence = match.groups()
+            used[root_id].add(int(sequence))
+            source_url = canonical_url(row.get("source_url") or "")
+            if source_url:
+                url_to_id[source_url] = record_id
+    return url_to_id, used
+
+
+def allocate_extension_id(
+    root_id: str,
+    source_url: str,
+    existing_url_to_id: dict[str, str],
+    used_extension_numbers: dict[str, set[int]],
+) -> str:
+    """為延伸網址取得穩定的 page_<seed>_ext_<nn> ID。"""
+    canonical = canonical_url(source_url)
+    existing_id = existing_url_to_id.get(canonical, "")
+    if existing_id:
+        match = EXTENSION_ID_RE.fullmatch(existing_id)
+        if match and match.group(1) == root_id:
+            return existing_id
+
+    sequence = 1
+    while sequence in used_extension_numbers[root_id]:
+        sequence += 1
+    used_extension_numbers[root_id].add(sequence)
+    target_id = f"{root_id}_ext_{sequence:02d}"
+    existing_url_to_id[canonical] = target_id
+    return target_id
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="組員 B：四個起點、最多兩層延伸的觀音區爬蟲")
     parser.add_argument("--urls", type=Path, default=ROOT / "urls.csv")
@@ -500,12 +553,15 @@ def main() -> int:
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT})
     seen_hashes: dict[str, str] = {}
+    existing_url_to_id, used_extension_numbers = existing_extension_ids(args.urls)
     seen_urls: set[str] = set()
+    root_by_id: dict[str, str] = {}
     queue: list[dict[str, str]] = []
     for seed in seeds:
         seed["source_url"] = canonical_url(seed["source_url"])
         queue.append(seed)
         seen_urls.add(seed["source_url"])
+        root_by_id[seed["id"]] = seed["id"]
 
     records: list[dict[str, Any]] = []
     assessments: list[dict[str, Any]] = []
@@ -520,6 +576,19 @@ def main() -> int:
             if item.get("crawl_status") == "success"
         }
         if requested_url in known_final_urls:
+            duplicate_id = next(
+                (
+                    str(item.get("id"))
+                    for item in records
+                    if item.get("crawl_status") == "success"
+                    and canonical_url(str(item.get("final_url") or item.get("source_url") or ""))
+                    == requested_url
+                ),
+                row.get("id", ""),
+            )
+            for prior_assessment in assessments:
+                if prior_assessment.get("target_id") == row.get("id", ""):
+                    prior_assessment["target_id"] = duplicate_id
             assessments.append(
                 {
                     "parent_id": row.get("parent_id", ""),
@@ -531,7 +600,7 @@ def main() -> int:
                     "relevant": True,
                     "reason": "入口網址已在本輪其他網址取得，略過重複爬取",
                     "action": "skip_duplicate",
-                    "target_id": row.get("id", ""),
+                    "target_id": duplicate_id,
                 }
             )
             continue
@@ -554,6 +623,19 @@ def main() -> int:
                 image_path = out / image.get("file", "")
                 if image_path.exists() and image_path.name.startswith(f"{row['id']}_"):
                     image_path.unlink()
+            duplicate_id = next(
+                (
+                    str(item.get("id"))
+                    for item in records
+                    if item.get("crawl_status") == "success"
+                    and canonical_url(str(item.get("final_url") or item.get("source_url") or ""))
+                    == final_url
+                ),
+                row.get("id", ""),
+            )
+            for prior_assessment in assessments:
+                if prior_assessment.get("target_id") == row.get("id", ""):
+                    prior_assessment["target_id"] = duplicate_id
             assessments.append(
                 {
                     "parent_id": row.get("parent_id", ""),
@@ -565,7 +647,7 @@ def main() -> int:
                     "relevant": True,
                     "reason": f"導向已保存來源 {final_url}，略過重複內容",
                     "action": "skip_duplicate_final",
-                    "target_id": row.get("id", ""),
+                    "target_id": duplicate_id,
                 }
             )
             continue
@@ -592,7 +674,13 @@ def main() -> int:
             }
             if item["relevant"] and selected < args.per_page and item["url"] not in seen_urls:
                 next_depth = depth + 1
-                target_id = f"B-EXT-{len([r for r in records if r.get('source_kind') == 'internal']) + queued_count + 1:03d}"
+                root_id = root_by_id.get(record["id"], record["id"])
+                target_id = allocate_extension_id(
+                    root_id,
+                    item["url"],
+                    existing_url_to_id,
+                    used_extension_numbers,
+                )
                 child = {
                     "id": target_id,
                     "type": "web",
@@ -604,6 +692,7 @@ def main() -> int:
                     "notes": f"連結文字：{item.get('label') or '無'}；{item['reason']}",
                 }
                 queue.append(child)
+                root_by_id[target_id] = root_id
                 seen_urls.add(item["url"])
                 queued_count += 1
                 selected += 1
@@ -643,6 +732,10 @@ def main() -> int:
     added_to_urls = append_urls_csv(args.urls, records)
     summary = {
         "generated_at": now_iso(),
+        "id_naming": {
+            "seed": "page_<number>",
+            "extension": "page_<seed>_ext_<two_digit_sequence>",
+        },
         "seed_count": len(seeds),
         "max_depth": args.max_depth,
         "crawled_count_this_run": len(records),

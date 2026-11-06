@@ -10,6 +10,7 @@
 - 代表畫面狀態：not_available_video_not_downloaded
 
 ## 描述
+
 這集影片我們來到位於桃園西海岸的觀音區，一座融合濱海自然景觀與客庄文化的地方。
 從龍貓公車站、林家古厝休閒農場、崙坪文化地景園區、甘泉寺 石觀音寺到草漯沙丘，這裡不僅能欣賞蓮花、沙丘與濱海燈塔的壯闊風光，還能品嚐在地老店的美味小吃。
 就讓我們一起深入觀音，看看這座「蓮花之鄉」到底藏了什麼驚喜！
@@ -40,7 +41,7 @@
 
 Ana Luisa 👉 https://shop.analuisa.com/zu-iroiro
 
-🌍 English subtitles are available. Just turn on CC to enjoy the video in English! 
+🌍 English subtitles are available. Just turn on CC to enjoy the video in English!
 🌸 日本語字幕あります！設定から字幕をオンにして、ぜひ一緒に旅しましょう。
 🇰🇷 한국어 자막도 있어요! CC 버튼 눌러 함께 여행해요
 
@@ -57,6 +58,7 @@ https://www.youtube.com/playlist?list=PLSp7MXjFZS_SL-edcqqcmZrDckgxSJLC-
 #觀音區 #草漯沙丘 #白沙岬燈塔 #桃園 #guanyin #茗潮精工茶房
 
 ## 字幕或逐字稿
+
 - [00:00:00] 正身門的上方也有TR磚
 - [00:00:02] 代表這邊就是非常重要
 - [00:00:04] 大家可以來找找林家古厝裡面
@@ -1061,6 +1063,6 @@ https://www.youtube.com/playlist?list=PLSp7MXjFZS_SL-edcqqcmZrDckgxSJLC-
 - [00:38:08] 沒有錯 任君選擇
 
 ## 未取得項目
+
 - 字幕：無
 - 語音轉文字：未下載音訊；需確認合法使用權並以 --allow-audio-download 啟用後續流程
-- 代表畫面：目前只取得公開縮圖，沒有合法影片檔可擷取代表畫面

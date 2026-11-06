@@ -342,6 +342,10 @@ def main() -> int:
         "frames_available": sum(r.get("frames_status") == "available" for r in records),
         "records_added_or_replaced": len(records),
     }
+    old_summary["id_naming"] = {
+        "seed": "page_<number>",
+        "extension": "page_<seed>_ext_<two_digit_sequence>",
+    }
     old_summary["total_records_after_merge"] = len(merged)
     summary_path.write_text(json.dumps(old_summary, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(old_summary["youtube_run"], ensure_ascii=False, indent=2))
