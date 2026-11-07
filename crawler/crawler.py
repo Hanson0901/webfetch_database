@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""從觀音區參考起點建立可重複執行的多媒體資料集（支援多層遞迴爬取）。
+"""從觀音區參考起點建立可重複執行的多媒體資料集。
 
 設計原則：尊重 robots.txt、只擷取公開 HTML/圖片與可合法取得的字幕資訊，
 所有失敗與未取得項目都寫入 crawl_report.csv / index.jsonl。
@@ -15,7 +15,6 @@ import mimetypes
 import re
 import sys
 import time
-from collections import deque
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -48,7 +47,8 @@ except ImportError:
 USER_AGENT = "GuanyinKnowledgeCrawler/1.0 (+educational; respectful-rate-limit)"
 DEFAULT_TIMEOUT = 25
 IMAGE_LIMIT = 12
-LINK_LIMIT = 30  # 每頁最多抓取延伸連結數，避免層數深時數量爆炸
+LINK_LIMIT = 80
+EXTENSION_LIMIT = 12
 KEYWORDS = ("觀音", "白沙岬", "甘泉寺", "坑溪", "大堀溪", "大潭", "桃園", "燈塔", "藻礁", "埤塘", "客家")
 NOISE_SELECTORS = [
     "nav", "header", "footer", "aside", "script", "style", "noscript", "form",
@@ -141,7 +141,6 @@ def related_links(soup: BeautifulSoup, base_url: str) -> list[str]:
             continue
         label = compact(tag.get_text(" ", strip=True), 120)
         candidate = f"{label} {href}".lower()
-        # 限制同網域或包含關鍵字的連結，避免爬到不相關的外站
         if parsed.netloc == base_host or any(k.lower() in candidate for k in KEYWORDS):
             links.append(href)
         if len(links) >= LINK_LIMIT:
@@ -186,10 +185,10 @@ def youtube_id(url: str) -> str | None:
     return None
 
 
-def crawl_youtube(row: dict[str, Any], out: Path, session: requests.Session) -> dict[str, Any]:
+def crawl_youtube(row: dict[str, str], out: Path, session: requests.Session) -> dict[str, Any]:
     url = row["source_url"]
     vid = youtube_id(url)
-    result: dict[str, Any] = {"id": row.get("id", ""), "assigned_member": row.get("assigned_member") or "", "source_kind": row.get("source_kind") or "seed", "parent_id": row.get("parent_id") or "", "depth": str(row.get("depth", 0)), "notes": row.get("notes") or "", "type": "youtube", "source_url": url, "video_id": vid, "images": [], "links": [], "timestamps": [], "content": ""}
+    result: dict[str, Any] = {"id": row.get("id", ""), "assigned_member": row.get("assigned_member") or "", "source_kind": row.get("source_kind") or "seed", "parent_id": row.get("parent_id") or "", "depth": row.get("depth") or "0", "notes": row.get("notes") or "", "type": "youtube", "source_url": url, "video_id": vid, "images": [], "links": [], "timestamps": [], "content": ""}
     if not vid:
         result.update(crawl_status="failed", failure_reason="cannot identify YouTube video id")
         return result
@@ -202,10 +201,10 @@ def crawl_youtube(row: dict[str, Any], out: Path, session: requests.Session) -> 
             info = ydl.extract_info(url, download=False)
         title = info.get("title") or url
         result.update(title=title, source_name=info.get("channel") or info.get("uploader") or "YouTube", duration=info.get("duration"), description=info.get("description") or "", keywords=keywords_for(title + " " + (info.get("description") or "")))
-        result["caption_status"] = "not downloaded automatically"
+        result["caption_status"] = "not downloaded automatically; rerun with a legally accessible caption source if available"
         result.update(crawl_status="success", failure_reason="")
-    except Exception as exc:
-        result.update(title=url, source_name="YouTube", crawl_status="unavailable", failure_reason=f"metadata access failed: {type(exc).__name__}")
+    except Exception as exc:  # library errors vary by site and are recorded as data
+        result.update(title=url, source_name="YouTube", crawl_status="unavailable", failure_reason=f"metadata/caption access failed: {type(exc).__name__}: {compact(str(exc), 240)}")
     return result
 
 
@@ -240,9 +239,9 @@ def save_image(session: requests.Session, item: dict[str, str], image_dir: Path,
         return None
 
 
-def crawl_web(row: dict[str, Any], out: Path, session: requests.Session, seen_hashes: dict[str, str]) -> dict[str, Any]:
+def crawl_web(row: dict[str, str], out: Path, session: requests.Session, seen_hashes: dict[str, str]) -> dict[str, Any]:
     url = canonical_url(row["source_url"])
-    result: dict[str, Any] = {"id": row["id"], "assigned_member": row.get("assigned_member") or "", "source_kind": row.get("source_kind") or "seed", "parent_id": row.get("parent_id") or "", "depth": str(row.get("depth", 0)), "notes": row.get("notes") or "", "type": "web", "source_url": url, "source_name": urlparse(url).netloc, "title": url, "content": "", "images": [], "links": [], "timestamps": [], "keywords": [], "crawled_at": now_iso()}
+    result: dict[str, Any] = {"id": row["id"], "assigned_member": row.get("assigned_member") or "", "source_kind": row.get("source_kind") or "seed", "parent_id": row.get("parent_id") or "", "depth": row.get("depth") or "0", "notes": row.get("notes") or "", "type": "web", "source_url": url, "source_name": urlparse(url).netloc, "title": url, "content": "", "images": [], "links": [], "timestamps": [], "keywords": [], "crawled_at": now_iso()}
     allowed, robot_reason = robots_allowed(url, session)
     if not allowed:
         result.update(crawl_status="unavailable", failure_reason=robot_reason)
@@ -271,6 +270,17 @@ def crawl_web(row: dict[str, Any], out: Path, session: requests.Session, seen_ha
         logging.exception("unexpected failure for %s", url)
         result.update(crawl_status="failed", failure_reason=f"{type(exc).__name__}: {compact(str(exc), 300)}")
     return result
+
+
+def extension_candidates(records: list[dict[str, Any]]) -> list[str]:
+    candidates: list[str] = []
+    for record in records:
+        for link in record.get("links", []):
+            if link not in candidates and any(k in link for k in KEYWORDS):
+                candidates.append(link)
+            if len(candidates) >= EXTENSION_LIMIT:
+                return candidates
+    return candidates
 
 
 def prompt_value(label: str, default: str = "", required: bool = False) -> str:
@@ -312,7 +322,7 @@ def next_id(out: Path, member: str) -> str:
     return f"{prefix}{largest + 1:03d}"
 
 
-def prompt_record(index: int, args: argparse.Namespace, out: Path) -> dict[str, Any] | None:
+def prompt_record(index: int, args: argparse.Namespace, out: Path) -> dict[str, str] | None:
     print(f"\n--- 新增第 {index} 筆來源 ---")
     record_id = args.id if index == 1 and args.id else next_id(out, args.assigned_member)
     print(f"編號：{record_id}（可用 quit 結束）")
@@ -320,14 +330,15 @@ def prompt_record(index: int, args: argparse.Namespace, out: Path) -> dict[str, 
     if source_url.lower() == "quit":
         return None
     inferred_type = "youtube" if youtube_id(source_url) else "web"
+    source_type = inferred_type
     source_kind = prompt_value("來源種類 seed/internal/extra", "seed").lower()
     parent_id = prompt_value("父頁面 id（只有 internal 才需要）") if source_kind == "internal" else ""
-    depth = 1 if source_kind == "internal" else 0
+    depth = "1" if source_kind == "internal" else "0"
     notes = prompt_value("備註（可留白）")
-    return {"id": record_id, "type": inferred_type, "source_url": canonical_url(source_url), "source_kind": source_kind, "parent_id": parent_id, "depth": depth, "assigned_member": args.assigned_member, "notes": notes}
+    return {"id": record_id, "type": source_type, "source_url": canonical_url(source_url), "source_kind": source_kind, "parent_id": parent_id, "depth": depth, "assigned_member": args.assigned_member, "notes": notes}
 
 
-def input_rows(args: argparse.Namespace, out: Path) -> list[dict[str, Any]]:
+def input_rows(args: argparse.Namespace, out: Path) -> list[dict[str, str]]:
     if args.url:
         source_url = canonical_url(args.url)
         return [{
@@ -336,12 +347,12 @@ def input_rows(args: argparse.Namespace, out: Path) -> list[dict[str, Any]]:
             "source_url": source_url,
             "source_kind": args.source_kind,
             "parent_id": args.parent_id,
-            "depth": args.depth if args.depth is not None else (1 if args.source_kind == "internal" else 0),
+            "depth": str(args.depth if args.depth is not None else (1 if args.source_kind == "internal" else 0)),
             "assigned_member": args.assigned_member,
             "notes": args.notes,
         }]
-    print("互動模式：輸入起點網址。輸入 quit 可結束。")
-    rows: list[dict[str, Any]] = []
+    print("互動模式：本程式不讀取 urls.csv，只處理這次輸入的網址。輸入 quit 可結束。")
+    rows: list[dict[str, str]] = []
     index = 1
     while True:
         row = prompt_record(index, args, out)
@@ -374,6 +385,7 @@ def load_index(path: Path) -> list[dict[str, Any]]:
         try:
             value = json.loads(line)
         except json.JSONDecodeError:
+            logging.warning("略過無法解析的 JSONL 行：%s", line[:120])
             continue
         if isinstance(value, dict):
             records.append(value)
@@ -381,6 +393,7 @@ def load_index(path: Path) -> list[dict[str, Any]]:
 
 
 def merge_records_by_id(existing: list[dict[str, Any]], incoming: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """相同 id 取 incoming；新 id 依輸入順序追加到最後。"""
     replacements = {str(record.get("id")): record for record in incoming if record.get("id")}
     merged: list[dict[str, Any]] = []
     seen: set[str] = set()
@@ -404,17 +417,16 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=Path("output"))
     parser.add_argument("--delay", type=float, default=1.0)
-    parser.add_argument("--max-depth", type=int, default=3, help="最大爬取層數（預設 3 層）")
+    parser.add_argument("--no-extension", action="store_true", help="不執行一層延伸探索")
     parser.add_argument("--id", help="非互動模式的來源編號")
-    parser.add_argument("--url", help="非互動模式的單一網址")
+    parser.add_argument("--url", help="非互動模式的單一網址；不提供則進入互動輸入")
     parser.add_argument("--type", choices=("web", "youtube"))
     parser.add_argument("--source-kind", choices=("seed", "internal", "extra"), default="seed")
     parser.add_argument("--parent-id", default="")
     parser.add_argument("--depth", type=int, default=None)
-    parser.add_argument("--member", "--assigned-member", dest="assigned_member", help="組員編號")
+    parser.add_argument("--member", "--assigned-member", dest="assigned_member", help="自動化執行時可指定組員；一般執行會改由程式詢問")
     parser.add_argument("--notes", default="")
     args = parser.parse_args()
-    
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     member = prompt_member(args)
     out = args.output
@@ -422,93 +434,53 @@ def main() -> int:
         out = out / member
     for folder in (out, out / "articles", out / "images", out / "videos"):
         folder.mkdir(parents=True, exist_ok=True)
-        
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT})
-    
-    # 取得初始輸入的起點網址
-    initial_rows = input_rows(args, out)
-    if not initial_rows:
+    rows = input_rows(args, out)
+    if not rows:
         print("沒有輸入來源，程式結束。")
         return 0
-
-    # 使用 Queue (BFS) 進行多層遞迴爬取
-    queue = deque()
-    for row in initial_rows:
-        queue.append({
-            "id": row["id"],
-            "type": row["type"],
-            "source_url": row["source_url"],
-            "source_kind": row["source_kind"],
-            "parent_id": row["parent_id"],
-            "depth": 0,
-            "assigned_member": row["assigned_member"],
-            "notes": row["notes"]
-        })
-
-    visited_urls = set()
-    records = []
-    seen_hashes = {}
-    sub_counter = 1
-
-    while queue:
-        current = queue.popleft()
-        url = canonical_url(current["source_url"])
-        current_depth = current["depth"]
-
-        if url in visited_urls:
-            continue
-        visited_urls.add(url)
-
-        logging.info("crawling [depth %d] id: %s -> %s", current_depth, current["id"], url)
-
-        # 執行實際抓取
-        if current["type"] == "youtube":
-            record = crawl_youtube(current, out, session)
-            record.update(id=current["id"], crawled_at=now_iso(), depth=str(current_depth))
+    seen_urls: set[str] = set()
+    unique_rows: list[dict[str, str]] = []
+    for row in rows:
+        url = canonical_url(row["source_url"])
+        if url not in seen_urls:
+            item = dict(row)
+            item["source_url"] = url
+            unique_rows.append(item)
+            seen_urls.add(url)
+    rows = unique_rows
+    records: list[dict[str, Any]] = []
+    seen_hashes: dict[str, str] = {}
+    for row in rows:
+        logging.info("crawling %s %s", row["id"], row["source_url"])
+        if row["type"] == "youtube":
+            record = crawl_youtube(row, out, session)
+            record.update(id=row["id"], crawled_at=now_iso())
         else:
-            record = crawl_web(current, out, session, seen_hashes)
-            record.update(depth=str(current_depth))
-
+            record = crawl_web(row, out, session, seen_hashes)
         records.append(record)
         time.sleep(max(0.0, args.delay))
-
-        # 如果還沒達到設定的最大層數（預設 3 層），則自動把頁面內的連結加入 Queue 往下爬
-        if current_depth < args.max_depth and record.get("crawl_status") == "success":
-            links = record.get("links", [])
-            for link in links:
-                if link not in visited_urls:
-                    child_id = f"{current['id']}_sub{sub_counter:03d}"
-                    sub_counter += 1
-                    queue.append({
-                        "id": child_id,
-                        "type": "web",
-                        "source_url": link,
-                        "source_kind": "internal",
-                        "parent_id": current["id"],
-                        "depth": current_depth + 1,
-                        "assigned_member": current["assigned_member"],
-                        "notes": f"auto-discovered from depth {current_depth}"
-                    })
-
-    # 寫入結果與統計
+    if not args.no_extension:
+        for index, url in enumerate(extension_candidates(records), 1):
+            records.append({"id": f"ext_{index:03d}", "type": "web_extension", "source_url": url, "source_kind": "internal", "parent_id": "AUTO_DISCOVERED", "depth": "1", "assigned_member": "UNASSIGNED", "notes": "請人工確認後加入 urls.csv", "source_name": urlparse(url).netloc, "title": "延伸探索尚未擷取", "content": "", "images": [], "links": [], "timestamps": [], "keywords": [], "crawl_status": "queued", "failure_reason": "延伸連結已建立清單；以 --no-extension 關閉或另行排程擷取", "crawled_at": now_iso()})
     index_path = out / "index.jsonl"
     existing_records = load_index(index_path)
     existing_ids = {str(record.get("id")) for record in existing_records if record.get("id")}
     incoming_ids = {str(record.get("id")) for record in records if record.get("id")}
     merged_records = merge_records_by_id(existing_records, records)
-    
     write_index(merged_records, index_path)
     write_report(merged_records, out / "crawl_report.csv")
-    
     summary = {
         "generated_at": now_iso(),
-        "max_depth": args.max_depth,
         "current_run_records": len(records),
         "current_run_success": sum(r.get("crawl_status") == "success" for r in records),
         "current_run_failed": sum(r.get("crawl_status") == "failed" for r in records),
         "current_run_unavailable": sum(r.get("crawl_status") == "unavailable" for r in records),
+        "replaced_records": len(existing_ids & incoming_ids),
+        "new_records": len(incoming_ids - existing_ids),
         "total_records_after_merge": len(merged_records),
+        "extension_records": len(records) - len(rows),
     }
     (out / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
