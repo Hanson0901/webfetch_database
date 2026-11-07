@@ -1,0 +1,33 @@
+# 公佈欄 | 經濟部觀音產業園區服務中心
+
+- 原始網址：https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=108977
+- 網站：www.bip.gov.tw
+- 關鍵字：觀音
+
+轉知:國軍退除役官兵輔導委員會辦理產學合作學校及企業徵求案，歡迎有意願者踴躍洽詢。
+2026/10/16
+1.旨揭計畫係為協助退除役官兵就學及就業，透過產學合作方式提升其學歷並培養企業專業技術人才，由合作學校依開辦科系尋求企業共同辦理。
+2.有意願參與本計畫之企業及學校，請於115年11月30日（星期一）前逕洽國軍退除役官兵輔導委員會就學就業處李福來專員，電話：02-27571653，電子郵件：vac054124@mail.vac.gov.tw。
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/kuangin/
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=99
+- https://www.bip.gov.tw/iphw/kuangin/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=80
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=20
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/activity.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/policy.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=10
+- https://www.bip.gov.tw/iphw/kuangin/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=download
+- https://www.bip.gov.tw/iphw/kuangin/factory.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=06
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=07
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=70
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=0
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

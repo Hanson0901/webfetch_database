@@ -1,0 +1,65 @@
+# 線上申辦
+
+- 原始網址：https://www.guanyin-hro.tycg.gov.tw/ENews.aspx?n=13811&sms=17539
+- 網站：桃園市觀音區戶政事務所
+- 關鍵字：待人工補充
+
+我們提供各項的申辦服務，請依照下列步驟操作
+STEP1 請鍵入關鍵字查詢
+STEP2 並選擇類別及負責單位
+STEP3 勾選是否為線上申辦項目
+STEP4 送出
+| No | 項目名稱 | 申請說明 | 線上申請 | 處理時間 | 類型 | 
+|---|---|---|---|---|---|
+| 1 | 紙本戶籍謄本申請 | 申請說明 |  | 申請期限： 隨到隨辦。 官方審核天數： 現場申辦約 10 至 15 分鐘即可取件。 | 臨櫃 | 
+| 2 | 歸化、喪失、回復、撤銷喪失國籍 | 申請說明 |  | 申請期限： 依個人需求隨時申請。 官方審核天數： 本項服務列為「專案需求」，因需報請內政部核定，各案件處理時效不等（通常歸化流程約需數月至半年以上）。 | 臨櫃 | 
+| 3 | 印鑑登記、證明、變更、廢止 | 申請說明 |  | 申請期限： 隨到隨辦，依當事人需求申辦。 官方審核天數： 現場作業約 15 至 30 分鐘即可完成。 | 臨櫃 | 
+| 4 | 國民身分證核發 | 申請說明 |  | 申請期限： 隨到隨辦；補領應於遺失後儘速申辦。 官方審核天數： 現場櫃檯作業約 20 至 40 分鐘即可完成領證。 | 臨櫃 | 
+| 5 | 姓名變更登記 | 申請說明 |  | 申請期限： 隨到隨辦，由當事人自由決定辦理時機。 官方審核天數： 現場作業時間約 30 至 60 分鐘即可完成。 | 臨櫃 | 
+| 6 | 初設戶籍登記 | 申請說明 |  | 申請期限： 應於收到定居證後 30 日內辦理。 官方審核天數： 現場隨到隨辦，作業時間約 40 至 60 分鐘。 | 臨櫃 | 
+| 7 | 住址變更登記 | 申請說明 |  | 申請期限： 應於搬遷後 30 日內辦理。 官方審核天數： 現場隨到隨辦，櫃檯作業約 30 至 60 分鐘。 | 臨櫃 | 
+| 8 | 遷入登記 | 申請說明 |  | 申請期限： 應於搬遷後 30 日內辦理。 官方審核天數： 現場隨到隨辦，作業時間約 40 至 60 分鐘。 | 臨櫃 | 
+| 9 | 結婚登記 | 申請說明 |  | 申請期限： 隨到隨辦。若欲指定生效日，可於前 3 個辦公日內申請。 審核天數： 現場櫃檯作業約 30 至 60 分鐘（依人潮而定）。 | 臨櫃 | 
+| 10 | 冠配偶姓登記 | 申請說明 | 線上申請 | 隨到隨辦 | 線上申辦 | 
+| 11 | 終止收養撤銷登記 | 申請說明 | 線上申請 | 隨到隨辦 | 線上申辦 | 
+| 12 | 收養撤銷登記 | 申請說明 | 線上申請 | 隨到隨辦 | 線上申辦 | 
+| 13 | 原住民身分及民族別登記 | 申請說明 | 線上申請 | 隨到隨辦 | 線上申辦 | 
+| 14 | 經法院宣告變更子女姓氏之登記 | 申請說明 | 線上申請 | 隨到隨辦 | 線上申辦 | 
+| 15 | 未滿14歲之未成年人改名登記 | 申請說明 | 線上申請 | 隨到隨辦 | 線上申辦 | 
+| 16 | 撤冠配偶姓登記 | 申請說明 | 線上申請 | 隨到隨辦 | 線上申辦 | 
+| 17 | 戶長變更登記 | 申請說明 | 線上申請 | 隨到隨辦 | 線上申辦 | 
+| 18 | 出境遷出登記 | 申請說明 | 線上申請 | 隨到隨辦 | 線上申辦 | 
+| 19 | 全戶戶籍暫遷至戶政事務所 | 申請說明 | 線上申請 | 隨到隨辦 | 線上申辦 | 
+| 20 | 終止收養及回復本姓登記 | 申請說明 | 線上申請 | 隨到隨辦 | 線上申辦 |
+
+## 相關連結
+- https://www.guanyin-hro.tycg.gov.tw/Advanced_Search.aspx?q=書表下載
+- https://www.guanyin-hro.tycg.gov.tw/Advanced_Search.aspx?q=門牌查詢
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13766
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13767
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13768
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13769
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13770
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13771
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13772
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13773
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13774
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13775
+- https://www.guanyin-hro.tycg.gov.tw/News_Photo.aspx?n=17201&sms=18535
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13776
+- https://www.guanyin-hro.tycg.gov.tw/News.aspx?n=13777&sms=15793
+- https://www.guanyin-hro.tycg.gov.tw/News_Photo.aspx?n=18346&sms=18892
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=27095
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13779
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13780
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13786
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13793
+- https://www.guanyin-hro.tycg.gov.tw/News_Content.aspx?n=13777&s=1098928
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13808
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=20219
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=25023
+- https://www.guanyin-hro.tycg.gov.tw/News_Link.aspx?n=13809&sms=15805
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13813
+- https://www.guanyin-hro.tycg.gov.tw/News_Link.aspx?n=13814&sms=15807
+- http://household.tycg.gov.tw/index.php
+- https://www.guanyin-hro.tycg.gov.tw/News.aspx?n=13817&sms=15808

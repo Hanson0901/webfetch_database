@@ -1,0 +1,65 @@
+# 公佈欄 | 經濟部產業園區管理局臺北分局
+
+- 原始網址：https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=6
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+公佈欄
+				
+					發佈日期
+				
+				
+					類別
+				
+				
+					標題
+				
+        
+        	發佈單位
+        
+			
+				
+					2026-11-03
+				
+				
+訊息佈告				
+				
+				
+					
+						園管局定115年11月10日於總局第二會議室（高雄市楠梓區加昌路600號）辦理【出口拓銷資源說明會】，針對出口拓銷措施進行完整說明。本活動免費參加，敬請廠商踴躍參與，活動議程及網路報名方式詳如附件。
+					
+				
+        
+        	美崙兼和平及光華產業園區服務中心
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=99
+- https://www.bip.gov.tw/iphw/tpb/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=80
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=20
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/policy.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=download
+- https://www.bip.gov.tw/iphw/tpb/factory.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=70
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=0
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109296
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109295
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109294
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109293
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109292
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109290
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109289
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109288
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109286
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109284
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=1
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=2
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=3
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=4
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=5
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=7

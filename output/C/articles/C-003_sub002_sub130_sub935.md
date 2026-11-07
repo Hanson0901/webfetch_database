@@ -1,0 +1,35 @@
+# 入區相關規定 | 經濟部產業園區管理局臺北分局
+
+- 原始網址：https://www.bip.gov.tw/iphw/tpb/entreg.do?method=goContent&sn=95316
+- 網站：www.bip.gov.tw
+- 關鍵字：桃園
+
+2025/06/01
+一、林口(工二)及林口(工三)產業園區為法規所定產業用地（一），依法僅供特定行業或產業使用，非所有產業均可進駐。基此，為利廠商掌握本園區產業用地之使用限制，特此公告本園區得引進之產業類別。(相關資料如附件)
+二、林口(工二)屬於小型綜合性產業園區，污水係納入新北市林口水資源回收中心，依主管機關新北市政府規定：僅能排放生活污水。請(工二)園區廠商依規定向服務中心申辦污水納管或聯接使用。設廠之廠商以無嚴重污染之中小企業為主，並應自行設置相關污染防治設施，除依「產業園區各種用地用途及使用規範辦法」規定外。林口(工三)屬於綜合性產業園區，污水係納入桃園市龜山水資源回收中心，依規定請向桃園市政府水利局申辦污水納管或聯接使用。
+三、廠商進駐前如有疑問，得洽詢本服務中心，瞭解本園區得引進之產業類別，以利掌握園區產業配置及相關資訊。
+四、本中心洽詢電話:(03)3282380#6558
+相關資料:
+相關網址: 全國法規資料庫
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=99
+- https://www.bip.gov.tw/iphw/tpb/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=80
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=20
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/policy.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=download
+- https://www.bip.gov.tw/iphw/tpb/factory.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=70
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=0
+- https://www.bip.gov.tw/iphw/downLoad?index=news&id=95316&f=0
+- https://www.bip.gov.tw/iphw/downLoad?index=news&id=95316&f=1
+- https://www.bip.gov.tw/iphw/downLoad?index=news&id=95316&f=2
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

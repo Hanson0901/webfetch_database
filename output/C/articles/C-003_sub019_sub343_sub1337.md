@@ -1,0 +1,47 @@
+# 經濟部產業園區管理局- 楠梓園區徵才18日登場 釋出逾300個職缺
+
+- 原始網址：https://www.bip.gov.tw/info.aspx?pageid=5aa966ecd020763c&cid=ed44c345a6ae3714
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+經濟部產業園區管理局(簡稱園管局)於今（14）日表示，楠梓科技產業園區第3季現場徵才活動將於9月18日（星期五）登場，集結日月光半導體、台灣開滋、台灣集廣科技、長華科技、旺詮公司、迅束企業、國巨公司、華泰電子、楠梓電子、穎崴科技、興勤電子等11家知名企業，釋出343個職缺，涵蓋製程工程師、設備維護工程師、IT客服工程師等多元職位，盼吸引具相關專業背景人才加入園區產業行列。
+園管局表示，此次徵才除提供多元技術型及管理類職缺，企業亦規劃完整培訓計畫，協助求職者快速融入職場。亦設置身障專區以落實社會責任，鼓勵多元人才進入職場。其中，華泰等公司釋出製程工程師、QAE品保工程師、產品工程師等技術職位，歡迎具電子、電機、機械等相關專業背景人才踴躍應徵。
+除了高科技專業人才需求，此次徵才也提供不同類型的就業選擇。迅束企業釋出50多名環境管理人員職缺，並招募清潔管理幹部、儲備管理幹部等職位，提供求職者更多元的職涯選項。
+園管局強調，楠梓園區為南臺灣高科技產業聚落，持續推動產業升級發展，透過現場徵才活動搭起企業與求職者的媒合平台，協助企業吸納優秀人才，也讓求職者有機會快速進入職場，創造企業與人才雙贏。
+本次徵才活動將於9月18日（星期五）上午9時30分至11時30分，在楠梓科技產業園區從業員工育樂活動中心（高雄市楠梓區新建南路8號）3樓304、305教室舉行。有意求職者可於當天攜帶履歷前往參加現場面試，活動詳情可至活動網址查詢：https://pse.is/76umpu，或洽楠梓就業服務台（07-3640508）陳小姐。
+本案發言人：經濟部產業園區管理局 劉副局長
+聯絡電話：（07）3613349、0911363680
+本案聯絡人：園管局環安勞動組工安勞動科 楊小姐
+聯絡電話：07-3611212#416
+
+## 相關連結
+- https://www.bip.gov.tw/sitemap.aspx
+- https://www.bip.gov.tw/index.aspx
+- https://www.bip.gov.tw/qa.aspx?pageid=075874dc882a5bfd
+- https://www.bip.gov.tw/formemail.aspx?tid=45da8e73a81d495d&pageid=0a4848283dfe9c40
+- https://www.bip.gov.tw/english/index.aspx
+- https://www.bip.gov.tw/pagedownloadfile.aspx?fid=3416ee2e02c61003
+- https://www.bip.gov.tw/pagelist.aspx?pageid=d029508289e436b7&nowid=1161169820bf2ac4
+- https://www.bip.gov.tw/friendlink.aspx?pageid=3459e2617205287e
+- https://www.bip.gov.tw/list.aspx?pageid=5aa966ecd020763c
+- https://www.bip.gov.tw/list.aspx?pageid=35c6d56cf2bc1f47
+- https://www.bip.gov.tw/list.aspx?pageid=9aef2da48d1c26b7
+- https://www.bip.gov.tw/list.aspx?pageid=fb7b56f7a69ce4bc
+- https://www.bip.gov.tw/lawlist.aspx?pageid=1f07e8862ba550cf
+- https://www.bip.gov.tw/photos.aspx?pageid=327e35461197b44d
+- https://www.bip.gov.tw/list.aspx?pageid=7b98079d47d2133b
+- https://www.bip.gov.tw/parkmanufacturerexport.aspx?pageid=5e01715488ed70f0
+- https://www.bip.gov.tw/pagelist.aspx?pageid=36fe40e3c355f116&nowid=36fe40e3c355f116
+- https://www.bip.gov.tw/pagelist.aspx?pageid=f0435aa07e86514e&nowid=bc121365e7b1593d
+- https://www.bip.gov.tw/pagelist.aspx?pageid=9e411e75899935ba&nowid=5a0eb18b87124450
+- https://www.bip.gov.tw/list.aspx?pageid=3c8e85eb9ed6d47b
+- https://www.bip.gov.tw/formdownload.aspx?pageid=ba9bc8e2b5bc5183
+- https://www.bip.gov.tw/pagelist.aspx?pageid=80736c3f53d96f0c&nowid=80736c3f53d96f0c
+- https://www.bip.gov.tw/pagelist.aspx?pageid=2d731b07f768cd64&nowid=f6aa1694bdf640d8
+- https://www.bip.gov.tw/pagelist.aspx?pageid=079f1fa027a4a3e7&nowid=54b18c71dbdb1a0c
+- https://www.bip.gov.tw/pagelist.aspx?pageid=ee50d45d1c23f8fa&nowid=4fe70f0e92a3402e
+- https://www.bip.gov.tw/formdownload.aspx?pageid=96db24ec1b9e3711
+- https://www.bip.gov.tw/formdownload.aspx?pageid=17ea6b51236653d1
+- https://www.bip.gov.tw/formdownload.aspx?pageid=cd3a207628fcff2c
+- https://www.bip.gov.tw/formdownload.aspx?pageid=065c2dca7c1dcd48
+- https://www.bip.gov.tw/links.aspx?pageid=71af3fadbed2da2c

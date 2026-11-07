@@ -1,0 +1,62 @@
+# 經濟部產業園區管理局- 115年度小人提計畫說明會熱情邀約【勞動部免費補助】
+
+- 原始網址：https://www.bip.gov.tw/info.aspx?pageid=35c6d56cf2bc1f47&cid=55ba2e0990b51d3d
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+115年度小型企業人力提升計畫説明會來啦！
+本計畫適用對象為投保人數50人以下且不具辦理教育訓練能力之企業
+線上申請，免寫計畫書！免費企業健診！免費行政支援、免做核銷！
+補助講師鐘點費、補助全額外訓報名費！
+針對企業需求打造客製化課程！
+※💪企業訓練~政府補助來相挺💪※
+✦結合最新AI工具提升企業效率！
+✦找出部門溝通密碼打造最強團隊！
+✦解密企業淨零轉型重要關鍵！
+✦掌握關鍵技術獨佔一片天！
+✦解鎖成功行銷技巧成為業界最紅巨星！
+讓勞動部幫您！快來參加說明會，了解更多政府補助🤩
+👏大大減輕企業教育訓練的成本👏
+📅活動日期與地點(免費報名，名額有限，額滿為止)
+✨01/16(五)1430-1700岡山場 地點：岡山本洲產業園區服務中心-會議室 (高雄市岡山區本工路17號)
+✨01/21(三)1430-1700屏東場 地點：屏東縣勞動暨青年發展處-302研習教室 (屏東縣屏東市自由路17號)
+✨01/29(四)1430-1700高雄場 地點：中華民國外貿協會高雄辦事處-401會議室（高雄市苓雅區民權一路28號4F）
+✨02/04(三)1430-1700高雄場 地點：李科永紀念圖書館（高雄市前金區民生二路37號）
+說明會報名連結：https://forms.gle/QvDaPsoT8LKEmKtW7?openExternalBrowser=1
+立即獲取最新補助訊息LINE加入【@kppt.train.wda】
+專案辦公室洽詢電話：
+07-9587100  #7718 黃小姐
+#7714 辛先生  #7715湯小姐  #7716 趙小姐 
+#7719 葉小姐  #7720 陳小姐  #7721 張小姐
+
+## 相關連結
+- https://www.bip.gov.tw/sitemap.aspx
+- https://www.bip.gov.tw/index.aspx
+- https://www.bip.gov.tw/qa.aspx?pageid=075874dc882a5bfd
+- https://www.bip.gov.tw/formemail.aspx?tid=45da8e73a81d495d&pageid=0a4848283dfe9c40
+- https://www.bip.gov.tw/english/index.aspx
+- https://www.bip.gov.tw/pagedownloadfile.aspx?fid=3416ee2e02c61003
+- https://www.bip.gov.tw/pagelist.aspx?pageid=d029508289e436b7&nowid=1161169820bf2ac4
+- https://www.bip.gov.tw/friendlink.aspx?pageid=3459e2617205287e
+- https://www.bip.gov.tw/list.aspx?pageid=5aa966ecd020763c
+- https://www.bip.gov.tw/list.aspx?pageid=35c6d56cf2bc1f47
+- https://www.bip.gov.tw/list.aspx?pageid=9aef2da48d1c26b7
+- https://www.bip.gov.tw/list.aspx?pageid=fb7b56f7a69ce4bc
+- https://www.bip.gov.tw/lawlist.aspx?pageid=1f07e8862ba550cf
+- https://www.bip.gov.tw/photos.aspx?pageid=327e35461197b44d
+- https://www.bip.gov.tw/list.aspx?pageid=7b98079d47d2133b
+- https://www.bip.gov.tw/parkmanufacturerexport.aspx?pageid=5e01715488ed70f0
+- https://www.bip.gov.tw/pagelist.aspx?pageid=36fe40e3c355f116&nowid=36fe40e3c355f116
+- https://www.bip.gov.tw/pagelist.aspx?pageid=f0435aa07e86514e&nowid=bc121365e7b1593d
+- https://www.bip.gov.tw/pagelist.aspx?pageid=9e411e75899935ba&nowid=5a0eb18b87124450
+- https://www.bip.gov.tw/list.aspx?pageid=3c8e85eb9ed6d47b
+- https://www.bip.gov.tw/formdownload.aspx?pageid=ba9bc8e2b5bc5183
+- https://www.bip.gov.tw/pagelist.aspx?pageid=80736c3f53d96f0c&nowid=80736c3f53d96f0c
+- https://www.bip.gov.tw/pagelist.aspx?pageid=2d731b07f768cd64&nowid=f6aa1694bdf640d8
+- https://www.bip.gov.tw/pagelist.aspx?pageid=079f1fa027a4a3e7&nowid=54b18c71dbdb1a0c
+- https://www.bip.gov.tw/pagelist.aspx?pageid=ee50d45d1c23f8fa&nowid=4fe70f0e92a3402e
+- https://www.bip.gov.tw/formdownload.aspx?pageid=96db24ec1b9e3711
+- https://www.bip.gov.tw/formdownload.aspx?pageid=17ea6b51236653d1
+- https://www.bip.gov.tw/formdownload.aspx?pageid=cd3a207628fcff2c
+- https://www.bip.gov.tw/formdownload.aspx?pageid=065c2dca7c1dcd48
+- https://www.bip.gov.tw/links.aspx?pageid=71af3fadbed2da2c

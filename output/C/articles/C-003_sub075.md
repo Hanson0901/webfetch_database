@@ -1,0 +1,45 @@
+# 四季農遊體驗－農業易遊網
+
+- 原始網址：https://ezgo.ardswc.gov.tw/zh-tw/seasonal-tours/
+- 網站：農業易遊網
+- 關鍵字：待人工補充
+
+台灣被稱作福爾摩沙，有著美麗之島的意思。
+在四季擁有不同農遊體驗，
+春季賞花、夏季採果、秋收品味、冬日滋補，
+每個季節都能帶來豐富的在地風情與美食。
+快來一起探索當季的特色農產品、地方節慶與體驗活動，
+感受台灣農村的四季之美，
+深入體會福爾摩沙的魅力！
+
+## 相關連結
+- https://ezgo.ardswc.gov.tw/zh-tw/
+- https://ezgo.ardswc.gov.tw/zh-tw/hot-topic/
+- https://ezgo.ardswc.gov.tw/zh-tw/events/
+- https://ezgo.ardswc.gov.tw/zh-tw/epapers/
+- https://ezgo.ardswc.gov.tw/zh-tw/social-medias/
+- https://ezgo.ardswc.gov.tw/zh-tw/votes/
+- https://ezgo.ardswc.gov.tw/zh-tw/selected-tours/
+- https://ezgo.ardswc.gov.tw/zh-tw/selected-columns/
+- https://ezgo.ardswc.gov.tw/zh-tw/tags/
+- https://ezgo.ardswc.gov.tw/zh-tw/themes/
+- https://ezgo.ardswc.gov.tw/zh-tw/areas/
+- https://ezgo.ardswc.gov.tw/zh-tw/leisure-areas/
+- https://ezgo.ardswc.gov.tw/zh-tw/farms/
+- https://ezgo.ardswc.gov.tw/zh-tw/shops/
+- https://ezgo.ardswc.gov.tw/zh-tw/tianmamas/
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=32
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=34
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=35
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=36
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=306
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=81
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=76
+- https://ezgo.ardswc.gov.tw/zh-tw/map/
+- https://ezgo.ardswc.gov.tw/zh-tw/immersive/
+- https://ezgo.ardswc.gov.tw/zh-tw/gourment/tianmama/
+- https://ezgo.ardswc.gov.tw/zh-tw/dishes/
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=74
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=83,84
+- https://ezgo.ardswc.gov.tw/zh-tw/seasonal-foods/

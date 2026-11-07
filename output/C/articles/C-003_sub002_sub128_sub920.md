@@ -1,0 +1,34 @@
+# 活動訊息 | 經濟部產業園區管理局臺北分局
+
+- 原始網址：https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29880
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+轉知台中市電腦商業同業公會訂於115年11月19日(星期四)上午10時於潮港城國際美食館3樓帝國C廳，辦理115年資訊月論壇（台中場）－共創AI新時代，敬請區內廠商踴躍報名參加，請 查照。
+活動時間
+  			
+  				2026/10/29 ~ 2026/11/19
+				
+       
+活動內容
+隨著人工智慧快速發展，AI已成為企業提升競爭力與推動數位轉型的重要關鍵，本年度「115年資訊月論壇（台中場）－共創AI新時代」特別邀集知名企業，分享AI技術於產業現場的創新應用與實務經驗，並結合8個主題分享及8家企業技術展示，帶領與會者掌握AI最新發展趨勢，探索智慧轉型與跨域合作新契機。
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=99
+- https://www.bip.gov.tw/iphw/tpb/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=80
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=20
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/policy.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=download
+- https://www.bip.gov.tw/iphw/tpb/factory.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=70
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=0
+- https://www.bip.gov.tw/iphw/downLoad?index=activity&id=29880&f=0
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

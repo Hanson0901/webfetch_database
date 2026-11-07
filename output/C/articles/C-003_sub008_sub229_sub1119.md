@@ -1,0 +1,32 @@
+# 公佈欄 | 經濟部觀音產業園區服務中心
+
+- 原始網址：https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=104133
+- 網站：www.bip.gov.tw
+- 關鍵字：觀音
+
+【轉知】環境部資源循環署函釋認定「廢電木板(或稱廢尿素板)非屬廢棄物代碼R-0201(廢塑膠)及R-0221(固體再生燃料原料用廢塑膠)種類
+2026/05/11
+依據環境部資源循環署旨揭函釋，若貴公司有產出廢電木板且有進行再利用之需求，請依廢棄物清理法第39條規定略以，「事業廢棄物之再利用，應依中央目的事業主管機關或中央主管機關規定辦理」應向產業發展署申請再利用許可並經同意，始得為之。貴公司事業廢棄物清理計畫書倘未符合前述規定，請儘速辦理變更。
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/kuangin/
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=99
+- https://www.bip.gov.tw/iphw/kuangin/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=80
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=20
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/activity.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/policy.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=10
+- https://www.bip.gov.tw/iphw/kuangin/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=download
+- https://www.bip.gov.tw/iphw/kuangin/factory.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=06
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=07
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=70
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=0
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

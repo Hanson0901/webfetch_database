@@ -1,0 +1,53 @@
+# 表單文件下載 | 經濟部觀音產業園區服務中心
+
+- 原始網址：https://www.bip.gov.tw/iphw/kuangin/index.do?id=download
+- 網站：www.bip.gov.tw
+- 關鍵字：觀音
+
+- 工廠危險物品管理自主檢核表
+- 納管聯接
+- 產業園區用戶申辦污水納管或聯接使用查檢作業程序
+- 經濟部產業園區管理局所屬產業園區服務中心受理申請挖掘道路埋設管線申請書
+- 經濟部產業園區管理局所屬產業園區服務中心受理申請廠區車道出入口申請書
+- 經濟部產業園區管理局所屬產業園區服務中心辦理申請挖掘道路埋設管線作業要點修正規定
+- 觀音產業園區行道樹申請移植或修剪注意事項
+- 一般公共設施維護費:ACH委託轉帳繳款授權書
+- 觀音產業園區服務中心場地租借申請需知
+- 經濟部所屬產業園區管理機構下水道使用管理及收費規定
+- 產業園區污水下水道標準計量槽及採樣井規範
+- 產業園區管理機構污水處理系統使用費收費基本單價表
+- 經濟部所屬產業園區管理機構污水處系統使用費率
+- 聯接納管申請資料-附件切結書
+- 觀音產業園區污水下水道系統下水水質標準
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/kuangin/
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=99
+- https://www.bip.gov.tw/iphw/kuangin/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=80
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=20
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/activity.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/policy.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=10
+- https://www.bip.gov.tw/iphw/kuangin/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/factory.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=06
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=07
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=70
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=0
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHw5NjB8NDExMA==
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHw5NjB8NDYxOQ==
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHw5NjB8MzgwOA==
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHw5NjB8NDYyMQ==
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHwxMDIwfDQwNzU=
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHwxMDIwfDQ2MjQ=
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHwxMDIwfDQwNzM=
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHwxMDIwfDQ2MjM=
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHwzMDl8Mzk0NQ==
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHwzMDl8NDYyNQ==
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHwzMDl8MzgyNw==
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHwxMDU3fDQyNzQ=
+- https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDUxMTAxMHwxMDcyfDQzNjI=

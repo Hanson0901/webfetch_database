@@ -1,0 +1,35 @@
+# 公佈欄 | 經濟部觀音產業園區服務中心
+
+- 原始網址：https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=109158
+- 網站：www.bip.gov.tw
+- 關鍵字：觀音
+
+2026/10/28
+1.職安署為推動勞工健康保護相關作業資訊化管理，建置「勞工健康保護管理報備資訊系統」（下稱報備系統），以提升行政機關管理效能，及便捷事業單位與認可醫療機構報備管道。
+2.該署配合勞動部 115 年 6 月 26 日修正發布「勞工健康保護規則」，及協助各單位人員熟稔報備系統各項功能之操作，特委託環資國際有限公司辦理本說明會。
+3.如有本說明會相關疑義，請洽「環資國際有限公司」（客服電話：（02）8978-0790分機8，客服信箱：eri_hrpm@eri.com.tw，請敘明「詢問HRPM系統操作說明會」）。
+相關資料:
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/kuangin/
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=99
+- https://www.bip.gov.tw/iphw/kuangin/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=80
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=20
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/activity.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/policy.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=10
+- https://www.bip.gov.tw/iphw/kuangin/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=download
+- https://www.bip.gov.tw/iphw/kuangin/factory.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=06
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=07
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=70
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=0
+- https://www.bip.gov.tw/iphw/downLoad?index=news&id=109158&f=0
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

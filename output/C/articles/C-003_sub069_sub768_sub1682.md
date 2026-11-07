@@ -1,0 +1,46 @@
+# 東眼山自然教育中心－農業易遊網
+
+- 原始網址：https://ezgo.ardswc.gov.tw/zh-tw/spot/961/
+- 網站：農業易遊網
+- 關鍵字：桃園
+
+東眼山自然教育中心
+東眼山自然教育中心位於桃園市復興區霞雲里，隸屬於林務局新竹林區管理處，占地916公傾，海拔高度650~1,212公尺之間，山形由遠處眺望恰似倒臥的人的側臉，清晨的日出由側臉眼窩的位置升起，因而得名。
+沿著東眼山林間步道緩慢地往上行走，一棵棵高聳入天的柳杉，彷彿是在比賽誰能夠先摸到藍色的天空，一棵還比一棵高。這些人造林，以柳杉、杉木為主，綿延達數百公頃，是東眼山森林遊樂區的特色之一，也說明了台灣早期的造林政策，從林間步道入口一直到山脊線，都感受到這片人造林的魅力。夏季時，棲息在樹幹上的蟪蛄一同放聲合鳴，不需指揮，不需樂譜，就可以演奏出大自然美妙的樂章。當您在林間行走時，可留意您的腳步，您會不經意發現步道上有許多錯綜複雜、交互纏繞的樹根，這些是步道旁樹木的根，您可以停下您的腳步，仔細地欣賞樹根生長的方式，以及樹根曲線之美。
+經過了一大片的人造林後，來到了山脊線，沿著山脊線上的步道行走，步道兩旁的闊葉林，凸顯了東眼山森林遊樂區原始森林的特色，主要是以殼斗科與樟科的植物為主。東眼山森林遊樂區的天然闊葉林因為受東北季風的影響，因此涼溫帶森林下降至山脊線，又因為東北季風風壓的影響，造成林中的樹木較密，且樹幹大多不粗大的現象。在這一片闊葉林中，粉紅色的西施花總會在春天時不吝嗇地展現花顏，吸引遊客的目光。西施花是屬於喬木狀的杜鵑花，又稱為西施杜鵑，喜歡生長在暖溫帶的環境。
+由於東眼山森林遊樂區經常有雲霧繚繞，因此環境較潮濕，成為蕨類與苔鮮類生長的天堂，無論是步道旁、樹幹上與石壁上，到處充滿了綠意盎然的景象。步道旁古老的蕨類─瘤足蕨，是台灣雲霧帶森林重要的指標植物之一，看到它時，往往也就可以欣賞到雲霧或檜木。
+東眼山林道沿線有許多的地層露頭，包括乾溝層、大桶山層、木山層與南港層，岩層內含有許多貝類、有孔蟲、海膽等生物的生痕化石。藉由這些生痕化石，科學家們可以用以觀察、推測3,000多萬年前這些生物的覓食、休息等行為模式及環境狀態，是極具科學研究與自然教育價值的瑰寶。另外，包括河流侵蝕、搬運、波痕、洋蔥狀風化、結核等地質景觀，也常能在這些地層露頭中觀察得到，在漫步東眼山林到之餘，也能享受一趟精彩豐富的地質之旅。
+走到東眼山森林遊樂區的最高點，可在瞭望台上遠眺桃園、三峽、淡水河與七星山系，山巒、溪流與城市，盡收眼底。在瞭望台上，時而會有雲霧飄來，您可以體驗「坐看雲起時」的美景，享受漫步在雲端的浪漫景緻，您一定會喜歡上東眼山。
+【如欲安排前往建議事先電話聯繫確認】
+
+## 相關連結
+- https://ezgo.ardswc.gov.tw/zh-tw/
+- https://ezgo.ardswc.gov.tw/zh-tw/hot-topic/
+- https://ezgo.ardswc.gov.tw/zh-tw/events/
+- https://ezgo.ardswc.gov.tw/zh-tw/epapers/
+- https://ezgo.ardswc.gov.tw/zh-tw/social-medias/
+- https://ezgo.ardswc.gov.tw/zh-tw/votes/
+- https://ezgo.ardswc.gov.tw/zh-tw/seasonal-tours/
+- https://ezgo.ardswc.gov.tw/zh-tw/selected-tours/
+- https://ezgo.ardswc.gov.tw/zh-tw/selected-columns/
+- https://ezgo.ardswc.gov.tw/zh-tw/tags/
+- https://ezgo.ardswc.gov.tw/zh-tw/themes/
+- https://ezgo.ardswc.gov.tw/zh-tw/areas/
+- https://ezgo.ardswc.gov.tw/zh-tw/leisure-areas/
+- https://ezgo.ardswc.gov.tw/zh-tw/farms/
+- https://ezgo.ardswc.gov.tw/zh-tw/shops/
+- https://ezgo.ardswc.gov.tw/zh-tw/tianmamas/
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=32
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=34
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=35
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=36
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=306
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=81
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=76
+- https://ezgo.ardswc.gov.tw/zh-tw/map/
+- https://ezgo.ardswc.gov.tw/zh-tw/immersive/
+- https://ezgo.ardswc.gov.tw/zh-tw/gourment/tianmama/
+- https://ezgo.ardswc.gov.tw/zh-tw/dishes/
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=74
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=83,84
