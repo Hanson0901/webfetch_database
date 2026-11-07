@@ -1,4 +1,4 @@
-﻿id,type,source_url,source_kind,parent_id,depth,assigned_member,notes,title,source_name,crawl_status,failure_reason,crawled_at,image_count,link_count
+id,type,source_url,source_kind,parent_id,depth,assigned_member,notes,title,source_name,crawl_status,failure_reason,crawled_at,image_count,link_count
 page_005,web,https://natsuphil.com/taoyuan/baisha-cape/,seed,,0,B,,"桃園觀音景點〡白沙岬燈塔〡百年日治時代燈塔, 希臘鐘塔熱門打卡景點, 超Q台灣縮小版燈塔 @小菲親子玩樂生活",小菲親子玩樂生活,success,,2026-11-04T14:23:28+08:00,36,80
 page_011,web,https://travel.tycg.gov.tw/ja/travel/attraction/1045,seed,,0,B,,白沙岬灯塔(灯台)(白沙岬燈塔),桃園観光旅行,success,,2026-11-04T14:23:38+08:00,12,0
 page_018,web,https://travel.tycg.gov.tw/zh-tw/travel/attraction/1442,seed,,0,B,,草漯沙丘地質公園,桃園觀光導覽網,success,,2026-11-04T14:23:43+08:00,15,0
@@ -12,3 +12,26 @@ page_027,youtube,https://youtube.com/shorts/uRHrog9kbvA?si=HV51h_uice8StG-i,seed
 page_030,youtube,https://youtu.be/AWP_v5I0zYA?si=0RkOhrRUMGU9zJfu,seed,,0,B,,歷史那一刻 石門水庫遷村故事｜華視新聞雜誌｜精選,華視新聞雜誌,success,,2026-11-07T19:51:45+08:00,1,0
 page_032,youtube,https://www.youtube.com/watch?v=8SGwUFnAP-U,seed,,0,B,,桃園觀音一日遊，比想像中更精彩！ #崙坪文化地景園區 #觀音龍貓公車站 #水之丘主題公園 #甘泉寺 #白沙岬燈塔 #觀音草漯沙丘,嘎菜研究室,success,,2026-11-07T19:51:47+08:00,1,0
 page_033,youtube,https://youtu.be/kjTZZOL4YYc?si=JT-aiTkkMzgE2mX_,seed,,0,B,,龍貓隧道在這🌱？超美水上鞦韆😍130kg挑戰大王蓮花！？《桃園觀音小城鎮旅遊🚲》,Zoebitalk,success,,2026-11-07T19:51:50+08:00,1,0
+
+id,type,parent_id,url,final_url,status,http_status,engine,title,content_chars,images_saved,links_found,published,category,error
+page_001,article,,https://zh.wikipedia.org/zh-tw/%E8%A7%80%E9%9F%B3%E5%8D%80,https://zh.wikipedia.org/zh-tw/%E8%A7%80%E9%9F%B3%E5%8D%80,success,200,urllib,觀音區,5360,4,216,2019-12-19,歷史文化,
+page_001_ext_01,article_ext,page_001,https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13772,https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13772,success,200,urllib,桃園市觀音區戶政事務所-歷史沿革,915,0,100,2022-03-31,歷史文化,
+page_001_ext_02,article_ext,page_001,https://wrb.tycg.gov.tw/cp.aspx?n=10870,https://wrb.tycg.gov.tw/cp.aspx?n=10870,success,200,curl,桃園市政府水務局-河川管理及維護,267,3,85,2022-11-17,歷史文化,
+page_010,article,,https://zh.wikipedia.org/wiki/%E7%94%98%E6%B3%89%E5%AF%BA_(%E6%A1%83%E5%9C%92%E5%B8%82),https://zh.wikipedia.org/wiki/%E7%94%98%E6%B3%89%E5%AF%BA_(%E6%A1%83%E5%9C%92%E5%B8%82),success,200,urllib,甘泉寺 (桃園市),1513,5,101,,歷史文化,
+page_010_ext_01,article_ext,page_010,https://travel.tycg.gov.tw/zh-tw/Travel/Attraction/292,https://travel.tycg.gov.tw/zh-tw/Travel/Attraction/292,success,200,urllib,甘泉寺 | 桃園觀光導覽網,324,2,116,,歷史文化,
+page_010_ext_02,article_ext,page_010,https://www.guanyin.tycg.gov.tw/cp.aspx?n=6884,https://www.guanyin.tycg.gov.tw/cp.aspx?n=6884,success,200,urllib,桃園市觀音區公所-本所沿革,369,0,65,,歷史文化,
+page_015,article,,https://zh.wikipedia.org/wiki/%E8%A7%80%E9%9F%B3%E5%9D%91%E6%BA%AA,https://zh.wikipedia.org/wiki/%E8%A7%80%E9%9F%B3%E5%9D%91%E6%BA%AA,success,200,urllib,觀音坑溪,486,3,59,,自然景觀,
+page_015_ext_01,article_ext,page_015,https://zh.wikipedia.org/wiki/%E6%B7%A1%E6%B0%B4%E6%B2%B3,https://zh.wikipedia.org/wiki/%E6%B7%A1%E6%B0%B4%E6%B2%B3,success,200,urllib,淡水河,15699,4,300,2021-12-20,自然景觀,
+page_015_ext_02,article_ext,page_015,https://zh.wikipedia.org/wiki/%E8%A7%80%E9%9F%B3%E5%B1%B1_(%E6%96%B0%E5%8C%97%E5%B8%82),https://zh.wikipedia.org/wiki/%E8%A7%80%E9%9F%B3%E5%B1%B1_(%E6%96%B0%E5%8C%97%E5%B8%82),success,200,urllib,觀音山 (新北市),3637,4,153,,自然景觀,
+page_016,article,,https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%A0%80%E6%BA%AA,https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%A0%80%E6%BA%AA,success,200,urllib,大堀溪,488,1,56,,自然景觀,
+page_016_ext_01,article_ext,page_016,https://wrb.tycg.gov.tw/cp.aspx?n=10865,https://wrb.tycg.gov.tw/cp.aspx?n=10865,success,200,curl,桃園市政府水務局-大堀溪,457,3,86,2017-07-27,自然景觀,
+page_020,article,,https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0,https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0,success,200,urllib,大潭發電廠,3436,2,107,2008-11-19,地方產業,
+page_020_ext_01,article_ext,page_020,https://service.taipower.com.tw/tpcjournal/article/7728,https://service.taipower.com.tw/tpcjournal/article/7728,success,200,urllib,台電月刊 - 打開電力新視野,541,0,32,,地方產業,
+page_020_ext_02,article_ext,page_020,https://ea01.moeaea.gov.tw/e0408/energy-smartcity/page/stronghold/show.aspx?kind=2&num=83&page=1,https://ea01.moeaea.gov.tw/e0408/energy-smartcity/page/stronghold/show.aspx?kind=2&num=83&page=1,success,200,urllib,大潭火力發電廠,683,1,32,,地方產業,
+page_028,article,,https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Route&id=593957,https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Route&id=593957,success,200,urllib,石門水庫移民聚落─觀音草漯移民新村｜國家文化記憶庫,877,1,45,,歷史文化,
+page_028_ext_01,article_ext,page_028,https://tcmb.culture.tw/zh-tw/detail?id=574199&indexCode=Culture_Place,https://tcmb.culture.tw/zh-tw/detail?id=574199&indexCode=Culture_Place,success,200,urllib,石門水庫移民新村牌樓｜國家文化記憶庫,868,1,47,,歷史文化,
+page_028_ext_02,article_ext,page_028,https://culture.tycg.gov.tw/News_Content.aspx?n=11238&sms=14627&s=1066849,https://culture.tycg.gov.tw/News_Content.aspx?n=11238&sms=14627&s=1066849,success,200,urllib,《石門水庫：移動的聚落風景》文史旅行手冊,150,1,70,,歷史文化,
+page_031,article,,https://ihc.cip.gov.tw/EJournal/EJournalCat/737,https://ihc.cip.gov.tw/EJournal/EJournalCat/737,success,200,urllib,原住民族文獻,3432,8,22,2023-11-26,歷史文化,
+page_031_ext_01,article_ext,page_031,https://news.tycg.gov.tw/News_Content.aspx?n=5016&s=316772,https://news.tycg.gov.tw/News_Content.aspx?n=5016&s=316772,success,200,curl,《流動的社群：卡拉社族裔生命故事》專書成果發表，留下卡拉社遷移歷史、凝聚散居族人的情感,1327,4,59,,歷史文化,
+page_031_ext_02,article_ext,page_031,https://ihc.cip.gov.tw/EJournal/EJournalCat/735,https://ihc.cip.gov.tw/EJournal/EJournalCat/735,success,200,urllib,原住民族文獻,2668,4,22,2023-12-09,歷史文化,
+

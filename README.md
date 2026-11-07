@@ -73,9 +73,27 @@ page_033,web,https://example.org/new-source,extra,,0,C,由關鍵字「觀音 白
 
 工作內容：整理維基與文化資料、找出歷史地理敘述、處理相關內部文章，並完成至少 3 筆官方或正式出版品交叉查核。建議關鍵字包括「觀音區歷史沿革」、「石觀音」、「觀音區河川」、「大潭發電廠」。
 
+#### A 組完成紀錄（分支 `member-A`）
+
+已依作業要求完成 A 組 7 個來源與 13 個一層延伸頁，共 20 頁，全部 success。重點如下：
+
+- 程式：`crawler/crawler_member_A.py`（只用標準函式庫 + lxml + Pillow，不需要 `pip install`；SPA 頁面可選用本機 headless Chrome 渲染）。
+- 執行：
+  ```bash
+  python3 crawler/crawler_member_A.py --delay 1.2
+  # 只跑部分來源： --only page_010,page_020 ；關閉渲染： --no-render
+  ```
+- 產出：`output/index.jsonl`（20 筆結構化資料）、`output/articles/*.md`、`output/images/*.jpg`（51 張）、
+  `output/crawl_report.csv`、`output/duplicates.json`、`output/records/*.json`、`output/raw/*.html`。
+- 對照截圖：`report/screenshots/*_compare.jpg`（維基／國家文化記憶庫／政府機關／前端渲染 SPA 四種站型，原始 vs 清理後），
+  由 `tools/make_screenshots.py` 產生。
+- 完整說明：`report/report.md`（任務 1–6 對照、清理策略、圖片規則、影片說明、查證表、範圍警示）。
+- 延伸頁去重：page_016 的第 2 個延伸候選與 page_001_ext_02 同址，程式自動跳過，因此延伸頁為 13 頁。
+- ⚠️ 範圍警示：`page_015`「觀音坑溪」經查為**新北市五股區**水系，非桃園觀音區；報告已加註，不列入觀音區地方知識。
+
 ### B：YouTube、字幕與代表性畫面
 
-主要來源：`page_005`、`page_011`、`page_018`、`page_019`、`page_026`、`page_027`、`page_030`、`page_032`、`page_033`。
+主要來源：`page_005`、`page_011`、`page_018`、`page_019`、`page_026`、`page_027`、`page_030`。
 
 工作內容：取得影片標題、頻道、公開 metadata、合法字幕與 3–5 張代表畫面。每張畫面要有時間點和描述。影片沒有字幕或受到平台限制時，記錄原因，不自行猜測字幕內容。
 
@@ -115,8 +133,6 @@ page_033,web,https://example.org/new-source,extra,,0,C,由關鍵字「觀音 白
 因此組員可以一次爬一個網址，之後再繼續執行，不需要手動複製或合併報告。相同編號適合用來重新爬取或修正同一筆資料；如果是不同來源，請使用新的編號。
 
 文章與圖片檔案會依來源 id 保存。相同 id 重新爬取時，新的文章會覆蓋同名文章；舊圖片檔案不會自動刪除，避免誤刪仍被其他資料引用的檔案。
-
-組員 B 的批次爬蟲（`crawler/clawer_b_1.py`）使用 `page_<seed>_ext_<nn>` 命名延伸來源，例如由 `page_005` 延伸的第一筆資料為 `page_005_ext_01`。文章、圖片檔名，以及 `urls.csv`、`index.jsonl`、`crawl_report.csv`、`link_assessment.csv` 中的 ID 會使用同一格式；重跑同一網址時會沿用既有 ID。
 
 ## 各組修改自己的爬蟲
 
