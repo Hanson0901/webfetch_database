@@ -93,7 +93,7 @@ page_033,web,https://example.org/new-source,extra,,0,C,由關鍵字「觀音 白
 
 ### B：YouTube、字幕與代表性畫面
 
-主要來源：`page_005`、`page_011`、`page_018`、`page_019`、`page_026`、`page_027`、`page_030`、`page_032`、`page_033`。
+主要來源：`page_005`、`page_011`、`page_018`、`page_019`、`page_026`、`page_027`、`page_030`。
 
 工作內容：取得影片標題、頻道、公開 metadata、合法字幕與 3–5 張代表畫面。每張畫面要有時間點和描述。影片沒有字幕或受到平台限制時，記錄原因，不自行猜測字幕內容。
 
@@ -133,8 +133,6 @@ page_033,web,https://example.org/new-source,extra,,0,C,由關鍵字「觀音 白
 因此組員可以一次爬一個網址，之後再繼續執行，不需要手動複製或合併報告。相同編號適合用來重新爬取或修正同一筆資料；如果是不同來源，請使用新的編號。
 
 文章與圖片檔案會依來源 id 保存。相同 id 重新爬取時，新的文章會覆蓋同名文章；舊圖片檔案不會自動刪除，避免誤刪仍被其他資料引用的檔案。
-
-組員 B 的批次爬蟲（`crawler/clawer_b_1.py`）使用 `page_<seed>_ext_<nn>` 命名延伸來源，例如由 `page_005` 延伸的第一筆資料為 `page_005_ext_01`。文章、圖片檔名，以及 `urls.csv`、`index.jsonl`、`crawl_report.csv`、`link_assessment.csv` 中的 ID 會使用同一格式；重跑同一網址時會沿用既有 ID。
 
 ## 各組修改自己的爬蟲
 
