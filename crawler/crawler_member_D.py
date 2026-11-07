@@ -641,7 +641,7 @@ def write_article(out: Path, r: dict[str, Any], md_lines: list[str]) -> None:
         f"- 發表日期：{r['published_at'] or r['published_raw'] or '未標示'}" + (f"（最後更新 {r['modified_at']}）" if r.get("modified_at") and r["modified_at"] != r.get("published_at") else ""),
         f"- 取得時間：{r['crawled_at']}",
         f"- 擷取方式：{r['extraction_method']}",
-        "- 資料性質：**媒體／部落格內容，尚未經官方資料查核**（查核結果見 analysis/fact_check_D.md）",
+        "- 資料性質：**媒體／部落格內容，尚未經官方資料查核**（查核結果見 output/analysis/fact_check_D.md）",
     ]
     if r.get("relevance_warning"):
         head.append(f"- ⚠ 相關性提醒：{r['relevance_warning']}")
@@ -1255,8 +1255,7 @@ def main() -> int:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     member = prompt_member(args)
     out = args.output
-    if out == PROJECT_OUTPUT:
-        out = out / member
+    # D 修改：依組員約定，資料直接放在 output/（不再分 output/D）
     for folder in (out, out / "articles", out / "images", out / "videos"):
         folder.mkdir(parents=True, exist_ok=True)
     session = requests.Session()

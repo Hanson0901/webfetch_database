@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """組員 D：資料整理與來源查證（任務 6）。
 
-讀取 output/D/index.jsonl（crawler_member_D.py 的結果），產生：
-  output/D/analysis/keywords_topics.csv   每篇 3–5 個關鍵字 + 主題分類
-  output/D/analysis/duplicates.json       不同媒體之間重複／高度相似的段落與文章
-  output/D/analysis/duplicates_D.md       可閱讀的重複敘述比對表（含同一景點在不同媒體的說法）
-  output/D/analysis/claims_candidates.csv 程式自動找出的「可查核敘述」候選（狀態：待查核）
-  output/D/analysis/fact_check_D.md       人工查核結果（媒體敘述 vs 官方資料，分開標示）
-  output/D/knowledge_D.jsonl              整合後的知識資料：media_content 與 verification 分欄
+讀取 output/index.jsonl（crawler_member_D.py 的結果），產生：
+  output/analysis/keywords_topics.csv   每篇 3–5 個關鍵字 + 主題分類
+  output/analysis/duplicates.json       不同媒體之間重複／高度相似的段落與文章
+  output/analysis/duplicates_D.md       可閱讀的重複敘述比對表（含同一景點在不同媒體的說法）
+  output/analysis/claims_candidates.csv 程式自動找出的「可查核敘述」候選（狀態：待查核）
+  output/analysis/fact_check_D.md       人工查核結果（媒體敘述 vs 官方資料，分開標示）
+  output/knowledge_D.jsonl              整合後的知識資料：media_content 與 verification 分欄
 
 只使用標準函式庫，不需額外安裝套件。可加 --compare-all 一起比對 output/A、B、C。
 """
@@ -200,7 +200,7 @@ def claim_candidates(records: list[dict]) -> list[dict]:
 # ---------------------------------------------------------------------------
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--output", type=Path, default=Path(__file__).resolve().parent.parent / "output" / "D")  # 固定為專案根目錄的 output/D
+    ap.add_argument("--output", type=Path, default=Path(__file__).resolve().parent.parent / "output")  # 固定為專案根目錄的 output
     ap.add_argument("--fact-check", type=Path, default=HERE / "fact_check_D.json")
     ap.add_argument("--compare-all", action="store_true", help="一起比對 output/A、B、C 的資料（偵測跨組重複）")
     args = ap.parse_args()

@@ -13,7 +13,7 @@
 - [交通部航港局 燈塔專區－白沙岬燈塔](https://lighthouse.motcmpb.gov.tw/lighthouse_3_29.html)：構造及高度：白色圓形磚塔 27.7 公尺；燈高 36.6 公尺；1901 年完工。
 - （其他）[桃園市觀音區公所 景點介紹（觀光文宣）](https://www.guanyin.tycg.gov.tw/News_Content.aspx?n=6877&s=647192)：同樣寫「塔高37公尺」，與媒體文字幾乎相同，屬觀光介紹而非技術資料。
 - （其他）[客庄小旅行（page_004，媒體）](https://romantichakka.com/hakkatours/TourExpert?a=1202&fromlist=1&id=1624)：同樣寫「圓形燈塔高約37公尺，是台灣唯一使用紅磚…」，與 Yahoo（page_023）說法相同，顯示媒體之間互相沿用同一段介紹。
-- （其他）[痞客邦 美食人生（D_page_022_ext_02，媒體）](https://wonderfood.pixnet.net/blog/post/228444359)：同樣寫「燈塔塔高約37公尺，僅次於墾丁鵝鑾鼻燈塔」，與 Yahoo（D_page_023）文字相同。
+- （其他）[痞客邦 美食人生（page_022_ext_02，媒體）](https://wonderfood.pixnet.net/blog/post/228444359)：同樣寫「燈塔塔高約37公尺，僅次於墾丁鵝鑾鼻燈塔」，與 Yahoo（page_023）文字相同。
 
 **說明**：航港局的技術資料塔身高度為 27.7 公尺；36.6 公尺（約 37 公尺）是「燈高」（燈光離平均海平面的高度），媒體把燈高寫成塔高。「僅次於鵝鑾鼻」本次未查到官方佐證，維持未證實。
 

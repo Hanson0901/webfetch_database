@@ -15,8 +15,7 @@ webfetch_database-main/
 │   ├── analyze_member_D.py        D 的分析：關鍵字、主題、重複比對、查核報告
 │   └── fact_check_D.json          D 的人工查核紀錄（媒體說法 vs 官方資料）
 ├── urls_member_D.csv              D 的網址登記表（含延伸頁與自行新增）
-├── output/
-│   └── D/                         D 的爬取與分析成果（程式自動產生）
+├── output/                        D 的爬取與分析成果（程式自動產生，直接放在 output/ 底下）
 └── report/
     ├── report.md                  全組共用報告（待整合）
     ├── report_D.md                D 的實作報告
@@ -44,7 +43,7 @@ webfetch_database-main/
 
 ### 2. `crawler/analyze_member_D.py`（分析）
 
-讀取 `output/D/index.jsonl`，完成作業任務 6「資料整理及來源查證」：
+讀取 `output/index.jsonl`，完成作業任務 6「資料整理及來源查證」：
 
 - 每篇文章產生 3–5 個關鍵字
 - 主題分類：自然景觀、歷史文化、地方產業、觀光景點、美食飲食
@@ -63,7 +62,7 @@ webfetch_database-main/
 
 ## 三、怎麼執行
 
-結果固定存到專案根目錄的 `output\D`，不論在哪個資料夾執行、或在 VS Code 按 ▶ 都一樣。
+結果固定存到專案根目錄的 `output\`，不論在哪個資料夾執行、或在 VS Code 按 ▶ 都一樣。
 
 ### 第一次：安裝套件
 
@@ -99,7 +98,7 @@ python crawler\crawler_member_D.py --member D --url "https://supertaste.tvbs.com
 - 自己找的網站接在 urls.csv 原本的 `page_031` 後面；`page_032`～`page_034` 是其他組員的，D 從 `page_035` 開始。
 - 已經爬過的網址重爬，會沿用原本的編號，新資料取代舊資料。
 - D 新增的網址登記在 `urls_member_D.csv`，不修改共用的 `urls.csv`（避免合併時跟其他組員衝突）。
-- 舊編號（page_003 格式）的對照在 `output/D/id_mapping.json`。
+- 舊編號（page_003 格式）的對照在 `output/id_mapping.json`。
 
 ### 來源種類怎麼選
 
@@ -111,7 +110,7 @@ python crawler\crawler_member_D.py --member D --url "https://supertaste.tvbs.com
 
 ---
 
-## 四、執行結果（`output/D/`）
+## 四、執行結果（`output/`）
 
 ### 爬蟲產生的檔案
 
@@ -136,7 +135,7 @@ python crawler\crawler_member_D.py --member D --url "https://supertaste.tvbs.com
 | `total_records_after_merge` | 合併後總共幾筆 |
 | `extension_records` | 產生幾個延伸連結（`ext_001`…） |
 
-### 分析產生的檔案（`output/D/analysis/` 與 `knowledge_D.jsonl`）
+### 分析產生的檔案（`output/analysis/` 與 `knowledge_D.jsonl`）
 
 | 檔案 | 內容 |
 | --- | --- |
@@ -166,7 +165,7 @@ python crawler\crawler_member_D.py --member D --url "https://supertaste.tvbs.com
 | --- | --- |
 | `No module named 'requests'` | 目前的 Python 沒裝套件。執行 `python -m pip install -r requirements.txt`，或改用已安裝好的 `py -3.10` |
 | `No module named 'crawler'` | 資料夾裡少了公版 `crawler.py`（舊版才會），請用完整專案資料夾 |
-| 結果跑到 `crawler\output` | 舊版才會這樣；現在的版本固定存到專案根目錄的 `output\D` |
+| 結果跑到 `crawler\output` | 舊版才會這樣；現在的版本固定存到專案根目錄的 `output\` |
 | 狀態 `unavailable`、原因 403 | 網站拒絕程式存取。依作業規定保留紀錄、不繞過，報告中說明原因 |
 | 正文出現廣告或推薦文章 | 該網站的規則需要調整，修改 `crawler_member_D.py` 裡 `SITE_RULES` 的 `noise` 清單 |
 | 老師給沒見過的網址 | 程式仍可執行，會用通用方法；`crawl_report.csv` 的 `extraction_method` 會顯示 `trafilatura (no site rule matched)` |

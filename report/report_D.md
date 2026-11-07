@@ -11,7 +11,7 @@
 | `crawler/crawler_member_D.py` | D 專用爬蟲（各站正文規則、圖片篩選、作者／日期、一層延伸） |
 | `crawler/analyze_member_D.py` | 重複比對、主題分類、關鍵字、查核候選、整合知識資料 |
 | `crawler/fact_check_D.json` | 人工查核紀錄（媒體敘述 vs 官方資料） |
-| `output/D/` | 爬取成果：`index.jsonl`、`crawl_report.csv`、`articles/`、`images/`、`analysis/`、`knowledge_D.jsonl` |
+| `output/` | 爬取成果：`index.jsonl`、`crawl_report.csv`、`articles/`、`images/`、`analysis/`、`knowledge_D.jsonl` |
 
 ---
 
@@ -26,7 +26,7 @@ python crawler/analyze_member_D.py       # 產生關鍵字、主題、重複比�
 ```
 
 互動模式會依序詢問：組員編號（輸入 `D`）→ 網址 → 來源種類 seed/internal/extra → （internal 才問）父頁面 id → 備註；
-編號依網址自動產生（`page_022`、`page_022_ext_01`、`page_035`，規則見下方「編號規則」），輸入 `quit` 結束，資料存到 `output/D`。
+編號依網址自動產生（`page_022`、`page_022_ext_01`、`page_035`，規則見下方「編號規則」），輸入 `quit` 結束，資料存到 `output/`。
 
 單筆命令列模式（參數與公版相同），可用來指定和 `urls.csv` 一樣的編號：
 
@@ -75,14 +75,14 @@ TVBS 另外移除「本週優惠券」區、本文目錄、文中廣告、「看
 
 | 類型 | 網址 | 原始頁面截圖 | 清理結果 | 原始頁面上被移除的雜訊 |
 | --- | --- | --- | --- | --- |
-| 新聞／飲食媒體 | page_021 TVBS 食尚玩家 | `screenshots/page_021_before.png` | `output/D/articles/page_021.md` | 頂部選單、TVBS 財經橫幅廣告、側欄 Adobe／背包廣告、浮動「AI 顧問」廣告與右下角影片廣告、「搶優惠」跑馬燈、「本週優惠券，領起來」區塊、「下載食尚APP」連結 |
-| 部落格 | page_022 痞客邦 | `screenshots/page_022_before.png` | `output/D/articles/page_022.md` | 頂部痞客邦登入列、側欄「社群金點賞」徽章與臉書粉絲團、文中遊戲廣告、右下角浮動購物廣告、標題前的表情 gif；文末另有延伸閱讀、作者框、留言與人氣（截圖未截到，清理結果中同樣被移除） |
-| 飲食店家頁 | page_017 客庄小旅行 | `screenshots/page_017_before.png` | `output/D/articles/page_017.md` | 頂部網站選單與語言／翻譯按鈕、「#餐食」標籤、「本頁店家資料由業者提供」免責聲明、「最後更新日期」、「周邊資訊」分頁與周邊美食／景點／旅宿卡片（截圖外另有 Cookie 提示與登入彈窗，同樣被移除）；保留店家電話、地址、營業時間與店家介紹 |
+| 新聞／飲食媒體 | page_021 TVBS 食尚玩家 | `screenshots/page_021_before.png` | `output/articles/page_021.md` | 頂部選單、TVBS 財經橫幅廣告、側欄 Adobe／背包廣告、浮動「AI 顧問」廣告與右下角影片廣告、「搶優惠」跑馬燈、「本週優惠券，領起來」區塊、「下載食尚APP」連結 |
+| 部落格 | page_022 痞客邦 | `screenshots/page_022_before.png` | `output/articles/page_022.md` | 頂部痞客邦登入列、側欄「社群金點賞」徽章與臉書粉絲團、文中遊戲廣告、右下角浮動購物廣告、標題前的表情 gif；文末另有延伸閱讀、作者框、留言與人氣（截圖未截到，清理結果中同樣被移除） |
+| 飲食店家頁 | page_017 客庄小旅行 | `screenshots/page_017_before.png` | `output/articles/page_017.md` | 頂部網站選單與語言／翻譯按鈕、「#餐食」標籤、「本頁店家資料由業者提供」免責聲明、「最後更新日期」、「周邊資訊」分頁與周邊美食／景點／旅宿卡片（截圖外另有 Cookie 提示與登入彈窗，同樣被移除）；保留店家電話、地址、營業時間與店家介紹 |
 
 --- | --- | --- | --- |
-| 新聞 | page_023 Yahoo | `screenshots/page_023_before.png` | `output/D/articles/page_023.md` |
-| 部落格 | page_022 痞客邦 | `screenshots/page_022_before.png` | `output/D/articles/page_022.md` |
-| 飲食店家頁 | page_017 客庄小旅行 | `screenshots/page_017_before.png` | `output/D/articles/page_017.md` |
+| 新聞 | page_023 Yahoo | `screenshots/page_023_before.png` | `output/articles/page_023.md` |
+| 部落格 | page_022 痞客邦 | `screenshots/page_022_before.png` | `output/articles/page_022.md` |
+| 飲食店家頁 | page_017 客庄小旅行 | `screenshots/page_017_before.png` | `output/articles/page_017.md` |
 
 ---
 
@@ -155,7 +155,7 @@ TVBS 另外移除「本週優惠券」區、本文目錄、文中廣告、「看
 
 ## 7. 爬取結果與失敗紀錄
 
-21 筆全部 `success`，沒有失敗或無法存取的網址（最新結果以 `output/D/crawl_report.csv`、`output/D/analysis/crawl_summary_D.md` 為準）。
+21 筆全部 `success`，沒有失敗或無法存取的網址（最新結果以 `output/crawl_report.csv`、`output/analysis/crawl_summary_D.md` 為準）。
 
 | id | type | 狀態 | 網站 | 正文字數 | 圖片（保存／排除） | 備註 |
 | --- | --- | --- | --- | --- | --- | --- |
