@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-07T12:36:02+00:00",
+  "generated_at": "2026-11-07T13:47:51+00:00",
   "max_depth": 3,
-  "current_run_records": 694,
-  "current_run_success": 579,
-  "current_run_failed": 3,
-  "current_run_unavailable": 112,
-  "total_records_after_merge": 690
+  "current_run_records": 1,
+  "current_run_success": 1,
+  "current_run_failed": 0,
+  "current_run_unavailable": 0,
+  "total_records_after_merge": 691
 }
