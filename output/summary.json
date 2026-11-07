@@ -1,4 +1,13 @@
 {
+  "generated_at": "2026-11-07T21:48:18+08:00",
+  "current_run_records": 1,
+  "current_run_success": 1,
+  "current_run_failed": 0,
+  "current_run_unavailable": 0,
+  "replaced_records": 1,
+  "new_records": 0,
+  "total_records_after_merge": 21,
+  "extension_records": 0
   "generated_at": "2026-11-04T14:24:17+08:00",
   "seed_count": 4,
   "max_depth": 2,
