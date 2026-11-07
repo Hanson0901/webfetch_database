@@ -14,6 +14,7 @@ webfetch_database-main/
 │   ├── crawler_member_D.py        D 的爬蟲：抓網頁、清理正文、存圖片
 │   ├── analyze_member_D.py        D 的分析：關鍵字、主題、重複比對、查核報告
 │   └── fact_check_D.json          D 的人工查核紀錄（媒體說法 vs 官方資料）
+├── urls_member_D.csv              D 的網址登記表（含延伸頁與自行新增）
 ├── output/
 │   └── D/                         D 的爬取與分析成果（程式自動產生）
 └── report/
@@ -33,7 +34,7 @@ webfetch_database-main/
 **做的事情：**
 
 1. 讀取你輸入的網址，檢查 robots.txt 是否允許。
-2. 依網址的網域找出對應的網站規則（共 8 套，清單寫在檔案最上面的註解）。
+2. 依網址的網域找出對應的網站規則（共 9 套，清單寫在檔案最上面的註解）。
 3. 只取正文區塊，移除廣告、選單、推薦文章、優惠券、分享按鈕等雜訊。
 4. 抓出標題、作者、發表日期。
 5. 下載正文內的圖片（包含延遲載入的圖），排除 Logo、小圖示、表情符號，並記錄圖說與「圖片來源」標示。
@@ -76,7 +77,7 @@ python -m pip install -r requirements.txt
 python crawler\crawler_member_D.py
 ```
 
-依序輸入：組員編號 `D` → 網址 → 來源種類（直接按 Enter 為 `seed`）→ 備註 → 是否繼續。輸入 `quit` 結束。編號自動產生 `D-001`、`D-002`…
+依序輸入：組員編號 `D` → 網址 → 來源種類（直接按 Enter 為 `seed`）→ 父頁面（internal 才問）→ 備註 → 是否繼續。輸入 `quit` 結束。編號依網址自動產生（`page_022`、`page_022_ext_01`、`page_035`，規則見下方「編號規則」）
 
 ### 爬蟲：單筆模式
 
@@ -84,31 +85,21 @@ python crawler\crawler_member_D.py
 python crawler\crawler_member_D.py --member D --url "https://supertaste.tvbs.com.tw/travel/348994"
 ```
 
-### 編號規則
+### 編號規則（依組員約定）
 
-D 的資料一律用 `D-001`、`D-002`…（程式自動接續編號）。原始網址對應的 `urls.csv` 編號（page_xxx）記在 `notes` 欄，
-完整對照表在 `output/D/id_mapping.json`：
+程式會自動判斷編號，不用手動輸入：
 
-| D 編號 | urls.csv | 網站 |
-| --- | --- | --- |
-| D-001 | page_003 | 微笑台灣 |
-| D-002 | page_004 | 客庄小旅行（達人帶路） |
-| D-003 | page_009 | 方格子 |
-| D-004 | page_014 | 我的旅圖中 |
-| D-005 | page_017 | 客庄小旅行（店家） |
-| D-006 | page_021 | TVBS 食尚玩家 |
-| D-007 | page_022 | 痞客邦 |
-| D-008 | page_023 | Yahoo 奇摩新聞 |
-| D-009 | page_025 | 旅聯網 |
-| D-010 | page_029 | 方格子 |
-| D-011 | （extra） | NOWnews 今日新聞 |
-| D-012 | （internal，父頁面 D-007） | 痞客邦 白沙岬燈塔文章 |
+| 來源 | 編號格式 | type | 例子 |
+| --- | --- | --- | --- |
+| 老師給的網址 | urls.csv 原編號 | `article` | `page_022` |
+| 網頁內延伸 | 父頁面編號 + `_ext_` + 序號 | `article_ext` | `page_022_ext_01`（父頁面 `page_022`） |
+| 自己找的網站 | `page_` + 接續編號（從 035 開始） | `article` | `page_035` |
 
-### 分析
-
-```
-python crawler\analyze_member_D.py
-```
+- 延伸頁輸入父頁面時，打父頁面的編號，例如 `page_022`。
+- 自己找的網站接在 urls.csv 原本的 `page_031` 後面；`page_032`～`page_034` 是其他組員的，D 從 `page_035` 開始。
+- 已經爬過的網址重爬，會沿用原本的編號，新資料取代舊資料。
+- D 新增的網址登記在 `urls_member_D.csv`，不修改共用的 `urls.csv`（避免合併時跟其他組員衝突）。
+- 舊編號（page_003 格式）的對照在 `output/D/id_mapping.json`。
 
 ### 來源種類怎麼選
 

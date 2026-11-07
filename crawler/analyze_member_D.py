@@ -50,6 +50,7 @@ TOPIC_RULES = {
 # 「同一景點在不同媒體的說法」比對用
 ENTITIES = ["白沙岬燈塔", "甘泉寺", "白千層", "草漯沙丘", "觀新藻礁", "崙坪", "向陽農場", "蓮荷園", "石滬", "飛機", "移民新村", "樹園子"]
 STOP = set("的了是在有和與及也就都而但這那一個我們你他她它很更最還要會可以可能因為所以如果以及或是及其之為於從到被讓把對".replace("", " ").split())
+NOISE_TERMS = ("時間", "日至", "優惠", "營業", "星期", "電話", "地址", "小時", "人次", "錢錢", "中央社", "記者", "編輯")
 GENERIC_META = {"旅行", "生活", "旅人", "專欄", "風土", "台灣味", "微笑台灣", "319鄉鎮", "368鄉鎮", "誠食", "桃園市", "桃園", "居民", "工程", "建設", "紀念", "海邊", "3C"}
 FACT_HINT = re.compile(r"\d{3,4}\s*年|民國\s*\d+|清(朝|代)?|乾隆|嘉慶|道光|咸豐|同治|光緒|明治|大正|昭和|日治|\d+(\.\d+)?\s*(公尺|公頃|公里|平方公里|戶|人|萬|億)|唯一|第一|最早|最大|最高|僅次")
 
@@ -141,6 +142,8 @@ def keywords(records: list[dict]) -> dict[str, list[str]]:
             if len(picked) >= 5:
                 break
             if any(g in p or p in g for p in picked):
+                continue
+            if any(w in g for w in NOISE_TERMS):  # 營業時間、電話這類資訊不是主題關鍵字
                 continue
             picked.append(g)
         picked = [w for w in picked if not any(w != o and w in o for o in picked)]  # 「燈塔」併入「白沙岬燈塔」

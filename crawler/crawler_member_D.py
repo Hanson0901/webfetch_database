@@ -34,29 +34,29 @@
 # page_029  https://vocus.cc/article/6692021dfd89780001850bb9
 #
 # ---------------------------------------------------------------------------
-# 目前有的網站規則（SITE_RULES，共 8 套）：程式用網址的網域判斷要套哪一套
+# 目前有的網站規則（SITE_RULES，共 9 套）：程式用網址的網域判斷要套哪一套
 #   - 網域相同或是它的子網域就套用，例如 abc.pixnet.net → pixnet.net 規則
 #   - 會先轉址的網址，用「轉址後」的網域判斷
 #   - 對不到任何一套 → 用公版的通用方法（trafilatura → <article>/<main>）
 #
 #   規則（網域）                  網站                    類型                 適用網址
-#   smiletaiwan.cw.com.tw         微笑台灣                旅遊媒體             page_003
+#   smiletaiwan.cw.com.tw         微笑台灣                旅遊媒體             page_003、page_041
 #   romantichakka.hakka.gov.tw    客庄小旅行（客委會）    旅遊／飲食媒體       page_004、page_017
 #                                 （romantichakka.com 會轉址到這裡）
 #   vocus.cc                      方格子                  部落格               page_009、page_029
 #   duringmyjourney.com           我的旅圖中              部落格（WordPress）  page_014
-#   supertaste.tvbs.com.tw        TVBS 食尚玩家           新聞／飲食媒體       page_021
+#   supertaste.tvbs.com.tw        TVBS 食尚玩家           新聞／飲食媒體       page_021、page_036、page_037
 #   pixnet.net                    痞客邦（所有部落格）    部落格               page_022
 #   tw.news.yahoo.com             Yahoo 奇摩新聞          新聞                 page_023
 #   waytogo.cc                    旅聯網                  旅遊入口網           page_025
+#   cna.com.tw                    中央社 CNA              新聞                 page_038（作者從內文「中央社記者○○電」取得）
 #
 # 另外有「通用規則」，每個網站都會套用：
 #   移除廣告／分享／訂閱／Cookie／彈窗、遇到「延伸閱讀」截斷、刪除分享數（如 2.1K）、
 #   排除 Logo／icon／追蹤像素圖片、沒有作者欄位時從正文「文／」「記者／」找作者
 #
-# 編號規則：D 的資料一律用 D-001、D-002…（程式自動接續）；對應的 urls.csv 編號記在備註，
-# 目前對照：D-001=page_003、D-002=page_004、D-003=page_009、D-004=page_014、D-005=page_017、
-#           D-006=page_021、D-007=page_022、D-008=page_023、D-009=page_025、D-010=page_029
+# 編號規則（依組員約定）：老師給的網址 → page_003；延伸頁 → page_022_ext_01；自己找的 → page_035 起
+#   程式會自動判斷，不用手動輸入編號；父頁面輸入 page_022
 
 from __future__ import annotations
 
@@ -170,7 +170,7 @@ SITE_RULES: dict[str, dict[str, Any]] = {
     "supertaste.tvbs.com.tw": {
         "media_type": "新聞／飲食媒體（TVBS 食尚玩家）",
         "content": ["article#article-content"],
-        "noise": [".ins-container", "header", "#coupon_block", "section.max-w-195", "div.my-5", "p.endtext", 'a[href*="tvbs.to"]'],  # 優惠券、本文目錄、文中廣告、「看更多」、下載APP
+        "noise": [".ins-container", "header", "#coupon_block", "section.max-w-195", "div.my-5", "p.endtext", 'a[href*="tvbs.to"]', r"div.h-7\.5"],  # h-7.5 = 文章上方「搶優惠」跑馬燈  # 優惠券、本文目錄、文中廣告、「看更多」、下載APP
         "title_strip": r"\s\|\s.*$",
     },
     "pixnet.net": {  # 所有痞客邦部落格（xxx.pixnet.net）共用同一套版型
@@ -184,6 +184,13 @@ SITE_RULES: dict[str, dict[str, Any]] = {
         "media_type": "新聞（Yahoo 奇摩新聞）",
         "content": ['article[id^="article-"] div.atoms', "div.caas-body"],
         "noise": ["[class*=ad-]"],
+    },
+    "cna.com.tw": {
+        "media_type": "新聞（中央社 CNA）",
+        "content": ["div.centralContent div.paragraph", "article.article"],
+        "noise": ['a[href*="news.google"]', 'img[src*="google-news"]', ".moreArticle", ".paragraph-ad"],
+        "author_from_body": True,  # 作者寫在內文「中央社記者○○○桃園14日電」，meta 只有「中央通訊社」
+        "title_strip": r"\s\|.*$",
     },
     "waytogo.cc": {
         "media_type": "旅遊入口網（旅聯網主題頁）",
@@ -202,7 +209,7 @@ GUANYIN_PATTERN = re.compile(
 STOP_BLOCK = re.compile(r"^(延伸閱讀|推薦閱讀|相關文章|你可能也會喜歡|更多相關|看更多|熱門文章|本文經授權)")
 
 
-JUNK_BLOCK = re.compile(r"^(分享|分享至|分享到|複製連結|加入好友|追蹤我們|訂閱|廣告|Advertisement|上一張|下一張|:::|請左右移動看更多|更多資訊|\d+(\.\d+)?\s*[KkMm萬]?|追蹤.{0,20}Follow us!?)$")
+JUNK_BLOCK = re.compile(r"^(分享|分享至|分享到|複製連結|加入好友|追蹤我們|訂閱|廣告|Advertisement|上一張|下一張|:::|請左右移動看更多|更多資訊|\d+(\.\d+)?\s*[KkMm萬]?|追蹤.{0,20}Follow us!?|搶優惠(搶優惠)*|.{1,6}\s?▶\s?.{2,50}|●?更多內容.{0,15}https?://\S+|【看更多】|■\s?.{2,60})$")
 
 
 CREDIT_PATTERN = re.compile(r"[（(]?\s*(?:圖片來源|圖片提供|圖片|圖文|圖|攝影|照片來源)\s*[：:／/]\s*([^）)\n]{1,40})")
@@ -501,7 +508,10 @@ def filter_blocks(items: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], in
         text = item.get("text", "")
         if item["kind"] != "img":
             if (len(text) <= 20 and STOP_BLOCK.match(text)) or re.match(r"^[【\[]?延伸閱讀", text):
-                dropped += len(items) - idx  # 之後全部是延伸閱讀／推薦區
+                if idx < len(items) * 0.6:  # 出現在文章前半段：只是夾在正文裡的推薦連結，刪這一段就好
+                    dropped += 1
+                    continue
+                dropped += len(items) - idx  # 出現在文章後段：之後全部是延伸閱讀／推薦區
                 break
             if JUNK_BLOCK.match(text) or text == last_text:
                 dropped += 1
@@ -585,6 +595,10 @@ def caption_for(tag: Tag, item: dict[str, Any], rule: dict[str, Any]) -> str:
 def author_from_text(content: str) -> str:
     """D：網站沒有作者欄位時，從正文開頭的署名找作者，例如 Yahoo 的「文／MOOK景點家編輯部整理報導」。"""
     m = re.search(r"(?:^|\n)\s*(?:文|撰文|記者|作者)\s*[／/｜|:：]\s*([^\n／/｜|]{2,25})", content[:300])
+    if m:
+        return m.group(1).strip()
+    # 通訊社格式：「（中央社記者吳睿騏、邱俊欽桃園14日電）」
+    m = re.search(r"中央社記者(.+?)(?:台北|臺北|新北|桃園|台中|臺中|台南|臺南|高雄|基隆|新竹|苗栗|彰化|南投|雲林|嘉義|屏東|宜蘭|花蓮|台東|臺東|澎湖|金門|馬祖)?\d+日電", content[:400])
     return m.group(1).strip() if m else ""
 
 
@@ -794,6 +808,8 @@ def image_candidates(blocks: list[dict[str, Any]], rule: dict[str, Any], base_ur
                 (nxt["kind"] == "caption" or nxt["text"] == caption or re.search(r"^▲|圖片|圖／|攝影|照片", nxt["text"])):
             caption = nxt["text"] if len(nxt["text"]) > len(caption) or not caption else caption
             nxt["is_caption"] = True
+        if not caption:  # 原網頁沒有圖說：明確標示，對應段落另記在 context
+            caption = "（原網頁未提供圖說）"
         found.append({"url": url, "caption": caption, "credit": credit_of(caption) or "未標示（文章未註明圖片來源）",
                       "context": {"heading": heading, "near_text": compact(prev_text, 80)},
                       "position": i, "reject_reason": reject_reason(url, tag, rule)})
@@ -888,7 +904,7 @@ def save_image(session: requests.Session, item: dict[str, Any], image_dir: Path,
 
 def crawl_web(row: dict[str, str], out: Path, session: requests.Session, seen_hashes: dict[str, str]) -> dict[str, Any]:
     url = clean_url(row["source_url"])  # D：去掉 Yahoo guccounter 等追蹤參數
-    result: dict[str, Any] = {"id": row["id"], "assigned_member": row.get("assigned_member") or "", "source_kind": row.get("source_kind") or "seed", "parent_id": row.get("parent_id") or "", "depth": row.get("depth") or "0", "notes": row.get("notes") or "", "type": "web", "source_url": url, "source_name": urlparse(url).netloc, "title": url, "content": "", "images": [], "links": [], "timestamps": [], "keywords": [], "crawled_at": now_iso(),
+    result: dict[str, Any] = {"id": row["id"], "assigned_member": row.get("assigned_member") or "", "source_kind": row.get("source_kind") or "seed", "parent_id": row.get("parent_id") or "", "depth": row.get("depth") or "0", "notes": row.get("notes") or "", "type": "article_ext" if row.get("source_kind") == "internal" else "article", "source_url": url, "source_name": urlparse(url).netloc, "title": url, "content": "", "images": [], "links": [], "timestamps": [], "keywords": [], "crawled_at": now_iso(),
                               "data_nature": "media", "verification_status": "unverified"}
     allowed, robot_reason = robots_allowed(url, session)
     if not allowed:
@@ -949,7 +965,8 @@ def crawl_web(row: dict[str, str], out: Path, session: requests.Session, seen_ha
         result.update(
             title=meta["title"], raw_title=meta["raw_title"], source_name=website_name(response.url, art["soup"]),
             site_rule=art["site_key"] or "none", media_type=rule.get("media_type", "其他媒體"),
-            author=meta["author"] or author_from_text(content), author_source=meta["author_source"] if meta["author"] else ("content_byline" if author_from_text(content) else "not_found"), publisher=meta["publisher"],
+            author=(author_from_text(content) if rule.get("author_from_body") and author_from_text(content) else meta["author"] or author_from_text(content)),
+            author_source=("content_byline" if (rule.get("author_from_body") and author_from_text(content)) or (not meta["author"] and author_from_text(content)) else (meta["author_source"] if meta["author"] else "not_found")), publisher=meta["publisher"],
             published_at=meta["published_at"], published_raw=meta["published_raw"], modified_at=meta["modified_at"],
             description=meta["description"], meta_keywords=meta["meta_keywords"],
             content=content, content_length=len(content), extraction_method=art["method"],
@@ -1035,19 +1052,103 @@ def next_id(out: Path, member: str) -> str:
     return f"{prefix}{largest + 1:03d}"
 
 
+# ---------------------------------------------------------------------------
+# D 修改：編號規則（依組員約定，與 A 的格式一致）
+#   老師給的網址      → page_003（與 urls.csv 相同編號），type = article
+#   網頁內延伸        → page_022_ext_01（父頁面編號 + _ext_序號），type = article_ext
+#   自己找的網站      → page_035 起（接在 urls.csv 的 page_031 之後，32～34 為其他組員），type = article
+# ---------------------------------------------------------------------------
+D_PAGE_IDS = {
+    "https://smiletaiwan.cw.com.tw/article/6889": "page_003",
+    "https://romantichakka.com/hakkatours/TourExpert?a=1202&fromlist=1&id=1624": "page_004",
+    "https://vocus.cc/article/695b08a8fd897800017a25c9": "page_009",
+    "https://duringmyjourney.com/treegarden/": "page_014",
+    "https://romantichakka.com/explore/HaFood?a=1955&id=3209": "page_017",
+    "https://supertaste.tvbs.com.tw/travel/348994": "page_021",
+    "https://wonderfood.pixnet.net/blog/posts/8229181678": "page_022",
+    "https://tw.news.yahoo.com/%E5%B7%A8%E5%A4%A7%E9%A3%9B%E6%A9%9F%E7%95%B6%E8%83%8C%E6%99%AF-%E5%BB%A2%E5%A2%9F%E8%AE%8A%E8%BA%AB%E7%86%B1%E9%96%80%E6%89%93%E5%8D%A1%E9%BB%9E-083000098.html": "page_023",
+    "https://www.waytogo.cc/topic/4157": "page_025",
+    "https://vocus.cc/article/6692021dfd89780001850bb9": "page_029",
+}
+
+
+def url_key(url: str) -> str:
+    """比對網址用：去掉 www、追蹤參數、結尾斜線，並把中文編碼還原。"""
+    from urllib.parse import unquote
+    p = urlparse(unquote(clean_url(url)))
+    host = (p.hostname or "").lower().removeprefix("www.").replace("romantichakka.hakka.gov.tw", "romantichakka.com")
+    return f"{host}{p.path.rstrip('/')}?{p.query}"
+
+
+_PAGE_BY_KEY = {url_key(u): pid for u, pid in D_PAGE_IDS.items()}
+EXTRA_START = 35  # 組員約定：自己找的網站從 page_035 開始編號
+
+
+def normalize_parent_id(parent_id: str, member: str) -> str:
+    """父頁面可輸入 page_022 或 D_page_022，統一成 page_022（組員約定編號不加組員代號）。"""
+    parent_id = (parent_id or "").strip()
+    if re.fullmatch(rf"{member}_page_\d+(_ext_\d+)?", parent_id):
+        return parent_id[len(member) + 1:]
+    return parent_id
+
+
+def existing_ids(out: Path) -> set[str]:
+    ids = set(_SESSION_IDS)
+    index_file = out / "index.jsonl"
+    if index_file.exists():
+        for line in index_file.read_text(encoding="utf-8").splitlines():
+            try:
+                ids.add(str(json.loads(line).get("id", "")))
+            except json.JSONDecodeError:
+                continue
+    return ids
+
+
+def next_serial(ids: set[str], prefix: str) -> int:
+    nums = [int(i[len(prefix):]) for i in ids if i.startswith(prefix) and i[len(prefix):].isdigit()]
+    return max(nums, default=0) + 1
+
+
+def make_id(out: Path, member: str, source_url: str, source_kind: str, parent_id: str) -> str:
+    ids = existing_ids(out)
+    # 已經爬過的網址：沿用原本的編號（重爬時會取代舊資料，不會多出一筆）
+    index_file = out / "index.jsonl"
+    if index_file.exists():
+        key = url_key(source_url)
+        for line in index_file.read_text(encoding="utf-8").splitlines():
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if rec.get("id") and key in (url_key(rec.get("source_url", "")), url_key(rec.get("final_url") or "")):
+                return str(rec["id"])
+    if source_kind == "internal" and parent_id:
+        prefix = f"{parent_id}_ext_"
+        return f"{prefix}{next_serial(ids, prefix):02d}"
+    page_id = _PAGE_BY_KEY.get(url_key(source_url))
+    if page_id:
+        return page_id  # 同一個網址重爬會用同一個編號 → 取代舊資料
+    # 自己找的網站：接在 urls.csv 原本的 page_031 後面編號；32～34 是其他組員的，D 從 35 開始
+    prefix = "page_"
+    used = [int(i[len(prefix):]) for i in ids if i.startswith(prefix) and i[len(prefix):].isdigit()]
+    n = max([EXTRA_START - 1] + [u for u in used if u >= EXTRA_START]) + 1
+    return f"{prefix}{n:03d}"
+
+
 def prompt_record(index: int, args: argparse.Namespace, out: Path) -> dict[str, str] | None:
-    print(f"\n--- 新增第 {index} 筆來源 ---")
-    record_id = args.id if index == 1 and args.id else next_id(out, args.assigned_member)
-    print(f"編號：{record_id}（可用 quit 結束）")
-    _SESSION_IDS.add(record_id)
+    print(f"\n--- 新增第 {index} 筆來源 ---（可用 quit 結束）")
     source_url = prompt_value("網址", required=True)
     if source_url.lower() == "quit":
         return None
     inferred_type = "youtube" if youtube_id(source_url) else "web"
     source_type = inferred_type
     source_kind = prompt_value("來源種類 seed/internal/extra", "seed").lower()
-    parent_id = prompt_value("父頁面 id（只有 internal 才需要）") if source_kind == "internal" else ""
+    parent_id = normalize_parent_id(prompt_value("父頁面 id（只有 internal 才需要，例如 page_022）"), args.assigned_member) if source_kind == "internal" else ""
     depth = "1" if source_kind == "internal" else "0"
+    # D 修改：編號依組員約定產生（page_022、page_022_ext_01、page_035），所以先問網址再給編號
+    record_id = args.id if index == 1 and args.id else make_id(out, args.assigned_member, source_url, source_kind, parent_id)
+    print(f"編號：{record_id}")
+    _SESSION_IDS.add(record_id)
     notes = prompt_value("備註（可留白）")
     return {"id": record_id, "type": source_type, "source_url": canonical_url(source_url), "source_kind": source_kind, "parent_id": parent_id, "depth": depth, "assigned_member": args.assigned_member, "notes": notes}
 
@@ -1055,8 +1156,9 @@ def prompt_record(index: int, args: argparse.Namespace, out: Path) -> dict[str, 
 def input_rows(args: argparse.Namespace, out: Path) -> list[dict[str, str]]:
     if args.url:
         source_url = canonical_url(args.url)
+        args.parent_id = normalize_parent_id(args.parent_id, args.assigned_member)
         return [{
-            "id": args.id or next_id(out, args.assigned_member),
+            "id": args.id or make_id(out, args.assigned_member, source_url, args.source_kind, args.parent_id),
             "type": args.type or ("youtube" if youtube_id(source_url) else "web"),
             "source_url": source_url,
             "source_kind": args.source_kind,

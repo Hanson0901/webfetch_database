@@ -1,14 +1,87 @@
 {
-  "page_003": "D-001",
-  "page_004": "D-002",
-  "page_009": "D-003",
-  "page_014": "D-004",
-  "page_017": "D-005",
-  "page_021": "D-006",
-  "page_022": "D-007",
-  "page_023": "D-008",
-  "page_025": "D-009",
-  "page_029": "D-010",
-  "D-001": "D-011",
-  "D-002": "D-012"
+  "_說明": "D 的資料編號對照：舊編號 → 現在的編號（依組員約定：老師給的網址沿用 urls.csv 編號，延伸頁為 page_xxx_ext_01，自己找的從 page_035 開始）",
+  "D-001": {
+    "new_id": "page_003",
+    "urls_csv": "page_003"
+  },
+  "D-002": {
+    "new_id": "page_004",
+    "urls_csv": "page_004"
+  },
+  "D-003": {
+    "new_id": "page_009",
+    "urls_csv": "page_009"
+  },
+  "D-004": {
+    "new_id": "page_014",
+    "urls_csv": "page_014"
+  },
+  "D-005": {
+    "new_id": "page_017",
+    "urls_csv": "page_017"
+  },
+  "D-006": {
+    "new_id": "page_021",
+    "urls_csv": "page_021"
+  },
+  "D-007": {
+    "new_id": "page_022",
+    "urls_csv": "page_022"
+  },
+  "D-008": {
+    "new_id": "page_023",
+    "urls_csv": "page_023"
+  },
+  "D-009": {
+    "new_id": "page_025",
+    "urls_csv": "page_025"
+  },
+  "D-010": {
+    "new_id": "page_029",
+    "urls_csv": "page_029"
+  },
+  "D-011": {
+    "new_id": "page_035",
+    "urls_csv": ""
+  },
+  "D-012": {
+    "new_id": "page_022_ext_01",
+    "urls_csv": ""
+  },
+  "D-013": {
+    "new_id": "page_022_ext_02",
+    "urls_csv": ""
+  },
+  "D-014": {
+    "new_id": "page_003_ext_01",
+    "urls_csv": ""
+  },
+  "D-015": {
+    "new_id": "page_022_ext_03",
+    "urls_csv": ""
+  },
+  "D_extra_02": {
+    "new_id": "page_036",
+    "urls_csv": ""
+  },
+  "D_extra_03": {
+    "new_id": "page_037",
+    "urls_csv": ""
+  },
+  "D_extra_04": {
+    "new_id": "page_038",
+    "urls_csv": ""
+  },
+  "D_extra_05": {
+    "new_id": "page_039",
+    "urls_csv": ""
+  },
+  "D_extra_06": {
+    "new_id": "page_040",
+    "urls_csv": ""
+  },
+  "D_extra_07": {
+    "new_id": "page_041",
+    "urls_csv": ""
+  }
 }

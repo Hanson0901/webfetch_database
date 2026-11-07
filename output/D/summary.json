@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-05T13:24:40+08:00",
+  "generated_at": "2026-11-07T21:48:18+08:00",
   "current_run_records": 1,
   "current_run_success": 1,
   "current_run_failed": 0,
   "current_run_unavailable": 0,
-  "replaced_records": 0,
-  "new_records": 1,
-  "total_records_after_merge": 12,
+  "replaced_records": 1,
+  "new_records": 0,
+  "total_records_after_merge": 21,
   "extension_records": 0
 }
