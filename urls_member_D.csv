@@ -1,0 +1,22 @@
+id,type,source_url,source_kind,parent_id,depth,assigned_member,notes
+page_003,web,https://smiletaiwan.cw.com.tw/article/6889,seed,,0,D,微笑台灣
+page_004,web,https://romantichakka.com/hakkatours/TourExpert?a=1202&fromlist=1&id=1624,seed,,0,D,客庄小旅行 達人帶路
+page_009,web,https://vocus.cc/article/695b08a8fd897800017a25c9,seed,,0,D,方格子 甘泉寺
+page_014,web,https://duringmyjourney.com/treegarden/,seed,,0,D,我的旅圖中 樹園子
+page_017,web,https://romantichakka.com/explore/HaFood?a=1955&id=3209,seed,,0,D,客庄小旅行 店家頁
+page_021,web,https://supertaste.tvbs.com.tw/travel/348994,seed,,0,D,TVBS 食尚玩家
+page_022,web,https://wonderfood.pixnet.net/blog/posts/8229181678,seed,,0,D,痞客邦 白千層
+page_023,web,https://tw.news.yahoo.com/%E5%B7%A8%E5%A4%A7%E9%A3%9B%E6%A9%9F%E7%95%B6%E8%83%8C%E6%99%AF-%E5%BB%A2%E5%A2%9F%E8%AE%8A%E8%BA%AB%E7%86%B1%E9%96%80%E6%89%93%E5%8D%A1%E9%BB%9E-083000098.html,seed,,0,D,Yahoo 新聞
+page_025,web,https://www.waytogo.cc/topic/4157,seed,,0,D,旅聯網（與觀音區關聯低）
+page_029,web,https://vocus.cc/article/6692021dfd89780001850bb9,seed,,0,D,方格子 石門水庫移民
+page_035,web,https://www.nownews.com/news/6738456,extra,,0,D,由關鍵字「觀音 蓮花季 新聞」找到；補充地方產業（蓮花）主題
+page_022_ext_01,web,https://wonderfood.pixnet.net/blog/post/201804730,internal,page_022,1,D,由 page_022 文末連結「【桃園白沙岬燈塔】觀音夕照」延伸
+page_022_ext_02,web,https://wonderfood.pixnet.net/blog/post/228444359,internal,page_022,1,D,由 page_022 文末連結「【白沙岬燈塔 & 觀音濱海遊憩區】」延伸
+page_003_ext_01,web,https://duringmyjourney.com/lunping/,internal,page_003,1,D,由 page_003 文末「本文轉載自《我的旅圖中》」連結延伸，為原始出處
+page_022_ext_03,web,https://wonderfood.pixnet.net/blog/post/201847942,internal,page_022,1,D,由 page_022 文末連結「【桃園半日遊】…白沙岬燈塔」延伸
+page_036,web,https://supertaste.tvbs.com.tw/travel/318067,extra,,0,D,關鍵字「觀音 蓮花 景點」搜尋找到；補充蓮花季主題
+page_037,web,https://supertaste.tvbs.com.tw/hot/355979,extra,,0,D,關鍵字「觀音 蓮花 景點」搜尋找到；與 page_035 農場人數比對
+page_038,web,https://www.cna.com.tw/news/firstnews/201710140028.aspx,extra,,0,D,關鍵字「觀新藻礁 新聞」搜尋找到；補充藻礁環境主題
+page_039,web,https://www.mirrormedia.mg/story/20220809cnt001/,extra,,0,D,關鍵字「草漯沙丘 遊記」搜尋找到
+page_040,web,https://travel.yam.com/article/127695,extra,,0,D,關鍵字「觀音 白沙岬燈塔」搜尋找到
+page_041,web,https://smiletaiwan.cw.com.tw/article/3012,extra,,0,D,關鍵字「觀音 白沙岬燈塔」搜尋找到；與燈塔查核比對
