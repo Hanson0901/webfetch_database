@@ -9,16 +9,16 @@
   "link_assessment_count": 241,
   "relevant_links_queued": 5,
   "urls_csv_rows_added": 0,
-  "total_records_after_merge": 11,
+  "total_records_after_merge": 13,
   "youtube_run": {
-    "generated_at": "2026-11-04T14:26:16+08:00",
-    "processed_count": 3,
-    "metadata_success": 3,
+    "generated_at": "2026-11-07T19:51:52+08:00",
+    "processed_count": 5,
+    "metadata_success": 5,
     "caption_available": 2,
-    "caption_missing": 1,
+    "caption_missing": 3,
     "audio_downloaded": 0,
     "frames_available": 0,
-    "records_added_or_replaced": 3
+    "records_added_or_replaced": 5
   },
   "id_naming": {
     "seed": "page_<number>",

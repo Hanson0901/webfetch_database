@@ -50,7 +50,7 @@ except ImportError as exc:  # pragma: no cover - requirements.txt 提供
     raise SystemExit("請先安裝 requirements.txt：" + str(exc))
 
 
-VIDEO_IDS = {"page_026", "page_027", "page_030"}
+VIDEO_IDS = {"page_026", "page_027", "page_030", "page_032", "page_033"}
 SUBTITLE_LANGS = ["zh-Hant", "zh-TW", "zh", "en", "ja", "zh-Hans"]
 TIMESTAMP_RE = re.compile(
     r"(?P<start>\d{1,2}:\d{2}:\d{2}(?:\.\d{1,3})?)\s+-->\s+"

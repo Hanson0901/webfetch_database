@@ -75,7 +75,7 @@ page_033,web,https://example.org/new-source,extra,,0,C,由關鍵字「觀音 白
 
 ### B：YouTube、字幕與代表性畫面
 
-主要來源：`page_005`、`page_011`、`page_018`、`page_019`、`page_026`、`page_027`、`page_030`。
+主要來源：`page_005`、`page_011`、`page_018`、`page_019`、`page_026`、`page_027`、`page_030`、`page_032`、`page_033`。
 
 工作內容：取得影片標題、頻道、公開 metadata、合法字幕與 3–5 張代表畫面。每張畫面要有時間點和描述。影片沒有字幕或受到平台限制時，記錄原因，不自行猜測字幕內容。
 
