@@ -1,0 +1,331 @@
+# 經濟部產業園區管理局- 本局新聞
+
+- 原始網址：https://www.bip.gov.tw/list.aspx?pageid=5aa966ecd020763c
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+跳到主要內容
+
+網站導覽
+
+經濟部產業園區管理局
+
+Bureau of Industrial Parks, Ministry of Economic Affairs
+
+選單按鈕
+
+:::
+
+經濟部
+
+網站導覽
+
+常見問答
+
+線上報名
+
+民意信箱
+
+English
+
+雙語詞彙
+
+字級
+
+大
+
+中
+
+小
+
+新聞與公告
+
+首頁
+
+-
+
+新聞與公告
+
+:::
+
+本局新聞
+
+友善列印
+
+06
+
+十一月
+
+2026
+
+本局新聞
+
+園管局臺中軟體園區數位轉型服務團展現成果 數創大賞注入產業新動能
+
+詳細內容
+
+04
+
+十一月
+
+2026
+
+本局新聞
+
+經濟部︰持續特工區監測 落實各項減污承諾 維護區域空品
+
+詳細內容
+
+13
+
+十月
+
+2026
+
+本局新聞
+
+瑞儀光電持續深耕高雄　新建廠房今上梁  估創造300個就業機會
+
+詳細內容
+
+30
+
+九月
+
+2026
+
+本局新聞
+
+園管局智慧治理升級 AI辨識工業管線風險　污水智慧管網提升收費效益
+
+詳細內容
+
+14
+
+九月
+
+2026
+
+本局新聞
+
+楠梓園區徵才18日登場 釋出逾300個職缺
+
+詳細內容
+
+08
+
+九月
+
+2026
+
+本局新聞
+
+園管局強化園區安全韌性 實兵演練結合高階管理　公私協力提升複合災害應變力
+
+詳細內容
+
+31
+
+八月
+
+2026
+
+本局新聞
+
+AI賦能產業園區　經濟部攜手六都推動智慧治理新升級
+
+詳細內容
+
+11
+
+八月
+
+2026
+
+本局新聞
+
+矽品精密千億投資雲林產業園區 打造中部先進封裝新聚落 創造2,200個就業
+
+詳細內容
+
+03
+
+七月
+
+2026
+
+本局新聞
+
+半導體供應鏈高機能材料領導廠商 台灣日東電工投資44.83億元高雄新廠竣工
+
+詳細內容
+
+01
+
+七月
+
+2026
+
+本局新聞
+
+產業園區管理局高屏分局新任分局長吳淼文就職視事 持續推動升級轉型 打造智慧安全永續園區
+
+詳細內容
+
+1
+
+2
+
+下一頁
+
+頁數
+
+1
+
+/ 2
+
+資料每頁以
+
+10
+
+筆展現
+
+總共有
+
+15
+
+筆資料
+
+回上頁
+
+回首頁
+
+園區
+
+科技產業園區
+
+產業園區
+
+新聞與公告
+
+本局新聞
+
+訊息公告
+
+活動訊息
+
+就業資訊
+
+相關法規
+
+多媒體
+
+勞工專區
+
+便民服務
+
+園區事業名錄
+
+投資指南
+
+廠商服務
+
+為民服務
+
+廉政園地
+
+人事園地
+
+業務統計
+
+摘要
+
+投資
+
+外貿
+
+工商
+
+勞工
+
+土地廠房
+
+來賓統計
+
+資訊園地
+
+政府資訊公開
+
+個資專區
+
+常用連結
+
+關於園管局
+
+局長介紹
+
+創設沿革
+
+組織架構
+
+業務職掌
+
+聯絡資訊
+
+回頂端
+
+經濟部產業園區管理局
+
+加速推動智慧製造、設備優化、先進材料研發等事項，打造園區成為國內重要之高階製造中心
+
+811636 高雄市楠梓區加昌路600號
+
+電話：(07) 361-1212
+
+傳真：(07) 361-2751
+
+廉政專線：(07) 361-2734
+
+民意信箱：eservice@bip.gov.tw
+
+更新日期 : 2026-11-07
+
+政府網站資料宣告
+
+隱私權政策
+
+網站安全政策
+
+本網站支援Edge、Firefox及Chrome，最佳瀏覽解析度為1280x800以上
+
+## 相關連結
+- https://www.bip.gov.tw/sitemap.aspx
+- https://www.bip.gov.tw/index.aspx
+- https://www.bip.gov.tw/qa.aspx?pageid=075874dc882a5bfd
+- https://www.bip.gov.tw/formemail.aspx?tid=45da8e73a81d495d&pageid=0a4848283dfe9c40
+- https://www.bip.gov.tw/english/index.aspx
+- https://www.bip.gov.tw/pagedownloadfile.aspx?fid=3416ee2e02c61003
+- https://www.bip.gov.tw/info.aspx?pageid=5aa966ecd020763c&cid=71e67de4b12f1519
+- https://www.bip.gov.tw/info.aspx?pageid=5aa966ecd020763c&cid=e92c42a313806758
+- https://www.bip.gov.tw/info.aspx?pageid=5aa966ecd020763c&cid=8eb1f9f57cb85812
+- https://www.bip.gov.tw/info.aspx?pageid=5aa966ecd020763c&cid=261b96b255765385
+- https://www.bip.gov.tw/info.aspx?pageid=5aa966ecd020763c&cid=ed44c345a6ae3714
+- https://www.bip.gov.tw/info.aspx?pageid=5aa966ecd020763c&cid=0c4bea46d3d481b4
+- https://www.bip.gov.tw/info.aspx?pageid=5aa966ecd020763c&cid=59a1b051b83652b0
+- https://www.bip.gov.tw/info.aspx?pageid=5aa966ecd020763c&cid=c38a0a45c74c9057
+- https://www.bip.gov.tw/info.aspx?pageid=5aa966ecd020763c&cid=e5ef453617d74bd3
+- https://www.bip.gov.tw/info.aspx?pageid=5aa966ecd020763c&cid=2ffb60323c06f11d
+- https://www.bip.gov.tw/pagelist.aspx?pageid=d029508289e436b7&nowid=1161169820bf2ac4
+- https://www.bip.gov.tw/friendlink.aspx?pageid=3459e2617205287e
+- https://www.bip.gov.tw/list.aspx?pageid=35c6d56cf2bc1f47
+- https://www.bip.gov.tw/list.aspx?pageid=9aef2da48d1c26b7
+- https://www.bip.gov.tw/list.aspx?pageid=fb7b56f7a69ce4bc
+- https://www.bip.gov.tw/lawlist.aspx?pageid=1f07e8862ba550cf
+- https://www.bip.gov.tw/photos.aspx?pageid=327e35461197b44d
+- https://www.bip.gov.tw/list.aspx?pageid=7b98079d47d2133b
+- https://www.bip.gov.tw/parkmanufacturerexport.aspx?pageid=5e01715488ed70f0
+- https://www.bip.gov.tw/pagelist.aspx?pageid=36fe40e3c355f116&nowid=36fe40e3c355f116
+- https://www.bip.gov.tw/pagelist.aspx?pageid=f0435aa07e86514e&nowid=bc121365e7b1593d
+- https://www.bip.gov.tw/pagelist.aspx?pageid=9e411e75899935ba&nowid=5a0eb18b87124450
+- https://www.bip.gov.tw/list.aspx?pageid=3c8e85eb9ed6d47b
+- https://www.bip.gov.tw/formdownload.aspx?pageid=ba9bc8e2b5bc5183

@@ -1,0 +1,112 @@
+# 公佈欄 | 經濟部產業園區管理局臺北分局
+
+- 原始網址：https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=8
+- 網站：www.bip.gov.tw
+- 關鍵字：觀音, 桃園
+
+公佈欄
+				
+					發佈日期
+				
+				
+					類別
+				
+				
+					標題
+				
+        
+        	發佈單位
+        
+			
+				
+					2026-11-02
+				
+				
+訊息佈告				
+				
+				
+					
+						轉知-115年地方公職人員九合一選舉業訂於115年11月28日舉行，為將反賄選觀念，深入全國各地方社區、鄰里，以強化民眾拒絕賄選決心，並勇於檢舉賄選，避免暴力及金錢介入選舉，影響選舉結果公平性
+					
+				
+        
+        	觀音產業園區服務中心
+        
+			
+				
+					2026-11-02
+				
+				
+訊息佈告				
+				
+				
+					
+						轉知我國產製之鋼鐵產品輸往歐盟採行管理措施（輸出規定代
+號為132），業經經濟部於中華民國115年10月28日以經貿
+字第11550201340號公告修正，請查照。
+					
+				
+        
+        	美崙兼和平及光華產業園區服務中心
+        
+			
+				
+					2026-11-02
+				
+				
+訊息佈告				
+				
+				
+					
+						(轉知)為促進本市待業民眾求職就業及提高活動效益，桃園市政府就業職訓服務處訂於115年11月13日（星期五）辦理「職涯攜手，一鹿相伴」桃園在地現場徵才活動，鼓勵待業民眾或畢業生踴躍參加，請查照。
+					
+				
+        
+        	林口產業園區服務中心
+        
+			
+				
+					2026-11-02
+				
+				
+就業資訊				
+				
+				
+					
+						【轉知】為促進本市待業民眾求職就業及提高活動效益，桃園市政府就業職訓服務處訂於115年11月13日（星期五）辦理「職涯攜手，一鹿相伴」桃園在地現場徵才活動，鼓勵待業民眾或畢業生踴躍參加，請查照。
+					
+				
+        
+        	觀音產業園區服務中心
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=99
+- https://www.bip.gov.tw/iphw/tpb/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=80
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=20
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/policy.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=download
+- https://www.bip.gov.tw/iphw/tpb/factory.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=70
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=0
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109263
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109262
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109261
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109260
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109258
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109257
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109256
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109214
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109255
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109254
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=1
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=2
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=3
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=4
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=5
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=6

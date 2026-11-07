@@ -1,0 +1,36 @@
+# 公佈欄 | 經濟部觀音產業園區服務中心
+
+- 原始網址：https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=108131
+- 網站：www.bip.gov.tw
+- 關鍵字：觀音
+
+2026/09/03
+一、依據經濟部產業園區管理局115年9月3日經園環安字第1150019536號函辦理。（原函影附）
+查勞動基準法（下稱勞基法）第35條規定：「勞工繼續工作4小時，至少應有30分鐘之休息。但實行輪班制或其工作有連續性或緊急性者，雇主得在工作時間內，另行調配其休息時間。」依前開規定，除符合但書規定之情形外，勞工繼續工作至多4小時，雇主即應給予其連續30分鐘之休息。所稱「休息時間」係指勞工得自雇主之指揮、監督脫離，自由利用之時間，前開休息時間因不受雇主支配，得不包括於正常工作時間內，可不給薪。爰雇主應依上開規定給予勞工休息時間，惟雇主於約定休息時間內如事實上未予勞工休息，該時段仍屬工作時間，應依法給付工資。勞基法第84條之1之工作者（如：保全業之保全人員即警衛人員），亦有上開規定之適用。
+二、次依行政院公共工程委員會115年8月13日工程企字第1150017685號函略以，訂購機關及訂約廠商於履約過程，均應依契約約定辦理，並符合勞基法等相關法令。復依臺灣銀行採購部115年7月24日採購交二字第11500051181號函略以，保全人員（即警衛人員）休息時間計費扣減一節，仍須視該休息時間是否確實為保全人員（即警衛人員）可自由利用之時間，倘休息時間仍受訂購機關指揮、監督而留守值勤，因非保全人員（即警衛人員）可自由利用時間，訂約廠商應計收服務費。
+基上，倘保全人員（即警衛人員）之休息時間仍受指揮、監督，事實上未予休息，該時段仍屬工作時間，應依法給付工資。爰依臺灣銀行股份有限公司共同供應契約採購「警衛勤務」之訂購機關及訂約廠商應依上開說明之契約約定辦理，並應符合勞基法等相關法令規定，以保障保全人員（即警衛人員）之勞動權益。
+相關資料:
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/kuangin/
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=99
+- https://www.bip.gov.tw/iphw/kuangin/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=80
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=20
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/activity.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/policy.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=10
+- https://www.bip.gov.tw/iphw/kuangin/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=download
+- https://www.bip.gov.tw/iphw/kuangin/factory.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=06
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=07
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=70
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=0
+- https://www.bip.gov.tw/iphw/downLoad?index=news&id=108131&f=0
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

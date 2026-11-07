@@ -1,0 +1,53 @@
+# 經濟部產業園區管理局- 外籍商務人士快速查驗通關
+
+- 原始網址：https://www.bip.gov.tw/page.aspx?pageid=99c48a05021e8c96
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+申請外籍商務人士快速查驗通關
+業務說明：外籍商務人士快速查驗通關申請作業。
+檢具文件：1.外籍商務人士快速查驗通關申請書
+2.為僑外投資事業負責人或主管(請敘明僑外投資金額並檢附投資審定函及外人聘僱核准函影本)
+3.本部產業發展署、技術處或相關機關核准函影本
+4.所任職公司為進出口績優廠商(請說明得獎記錄或進出口實績並檢附證明文件)
+5.所任職公司曾在台進行重大投資案或參與重大經濟建設工程(請檢附相關證明文件影本)
+6.所任職公司營業額達一定規模(請說明近三年營業額並檢附營利事業所得稅結算申報書影本)
+7.所任職公司僱用本國員工達一定人數(請檢附勞保投保資料並說明本國與外國員工比例)
+8.所任職事業對我國採購達一定金額(請說明近三年採購額並檢附相關文件)
+9.護照影印本
+10.外僑居留證影印本
+11.依其他相關規定應檢繳之文件(請具體說明並檢附相關證明)
+法令依據：外籍商務人士快速查驗通關作業要點
+辦理時限：3天
+
+## 相關連結
+- https://www.bip.gov.tw/sitemap.aspx
+- https://www.bip.gov.tw/index.aspx
+- https://www.bip.gov.tw/qa.aspx?pageid=075874dc882a5bfd
+- https://www.bip.gov.tw/formemail.aspx?tid=45da8e73a81d495d&pageid=0a4848283dfe9c40
+- https://www.bip.gov.tw/english/index.aspx
+- https://www.bip.gov.tw/pagedownloadfile.aspx?fid=3416ee2e02c61003
+- https://www.bip.gov.tw/pagelist.aspx?pageid=d029508289e436b7&nowid=1161169820bf2ac4
+- https://www.bip.gov.tw/friendlink.aspx?pageid=3459e2617205287e
+- https://www.bip.gov.tw/list.aspx?pageid=5aa966ecd020763c
+- https://www.bip.gov.tw/list.aspx?pageid=35c6d56cf2bc1f47
+- https://www.bip.gov.tw/list.aspx?pageid=9aef2da48d1c26b7
+- https://www.bip.gov.tw/list.aspx?pageid=fb7b56f7a69ce4bc
+- https://www.bip.gov.tw/lawlist.aspx?pageid=1f07e8862ba550cf
+- https://www.bip.gov.tw/photos.aspx?pageid=327e35461197b44d
+- https://www.bip.gov.tw/list.aspx?pageid=7b98079d47d2133b
+- https://www.bip.gov.tw/parkmanufacturerexport.aspx?pageid=5e01715488ed70f0
+- https://www.bip.gov.tw/pagelist.aspx?pageid=36fe40e3c355f116&nowid=36fe40e3c355f116
+- https://www.bip.gov.tw/pagelist.aspx?pageid=f0435aa07e86514e&nowid=bc121365e7b1593d
+- https://www.bip.gov.tw/pagelist.aspx?pageid=9e411e75899935ba&nowid=5a0eb18b87124450
+- https://www.bip.gov.tw/list.aspx?pageid=3c8e85eb9ed6d47b
+- https://www.bip.gov.tw/formdownload.aspx?pageid=ba9bc8e2b5bc5183
+- https://www.bip.gov.tw/pagelist.aspx?pageid=80736c3f53d96f0c&nowid=80736c3f53d96f0c
+- https://www.bip.gov.tw/pagelist.aspx?pageid=2d731b07f768cd64&nowid=f6aa1694bdf640d8
+- https://www.bip.gov.tw/pagelist.aspx?pageid=079f1fa027a4a3e7&nowid=54b18c71dbdb1a0c
+- https://www.bip.gov.tw/pagelist.aspx?pageid=ee50d45d1c23f8fa&nowid=4fe70f0e92a3402e
+- https://www.bip.gov.tw/formdownload.aspx?pageid=96db24ec1b9e3711
+- https://www.bip.gov.tw/formdownload.aspx?pageid=17ea6b51236653d1
+- https://www.bip.gov.tw/formdownload.aspx?pageid=cd3a207628fcff2c
+- https://www.bip.gov.tw/formdownload.aspx?pageid=065c2dca7c1dcd48
+- https://www.bip.gov.tw/links.aspx?pageid=71af3fadbed2da2c

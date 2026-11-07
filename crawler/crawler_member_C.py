@@ -297,24 +297,49 @@ def prompt_member(args: argparse.Namespace) -> str:
         print("請輸入 A、B、C 或 D。")
 
 
+CANONICAL_ID_RE = re.compile(r"^page_\d{3}(?:_ext_\d{2,})?$")
+
+
+def family_root_id(record_id: str) -> str:
+    """Return the canonical seed family for a seed or extension ID."""
+    return record_id.split("_ext_", 1)[0]
+
+
+def normalize_requested_id(record_id: str) -> str:
+    if not CANONICAL_ID_RE.fullmatch(record_id):
+        raise ValueError("來源編號必須使用 page_<三位數> 或 page_<三位數>_ext_<序號>")
+    return record_id
+
+
 def next_id(out: Path, member: str) -> str:
-    prefix = f"{member}-" if member != "UNASSIGNED" else "page_"
+    """Allocate a canonical root ID; member prefixes are intentionally ignored."""
+    del member
     largest = 0
     index_file = out / "index.jsonl"
     if index_file.exists():
         for line in index_file.read_text(encoding="utf-8").splitlines():
             try:
-                value = json.loads(line).get("id", "")
+                value = str(json.loads(line).get("id", ""))
             except json.JSONDecodeError:
                 continue
-            if value.startswith(prefix) and value[len(prefix):].isdigit():
-                largest = max(largest, int(value[len(prefix):]))
-    return f"{prefix}{largest + 1:03d}"
+            match = re.fullmatch(r"page_(\d{3})", value)
+            if match:
+                largest = max(largest, int(match.group(1)))
+    return f"page_{largest + 1:03d}"
+
+
+def next_extension_id(parent_id: str, allocated_ids: set[str]) -> str:
+    """Allocate the next flat extension ID in the parent's seed family."""
+    root_id = family_root_id(parent_id)
+    sequence = 1
+    while f"{root_id}_ext_{sequence:02d}" in allocated_ids:
+        sequence += 1
+    return f"{root_id}_ext_{sequence:02d}"
 
 
 def prompt_record(index: int, args: argparse.Namespace, out: Path) -> dict[str, Any] | None:
     print(f"\n--- 新增第 {index} 筆來源 ---")
-    record_id = args.id if index == 1 and args.id else next_id(out, args.assigned_member)
+    record_id = normalize_requested_id(args.id) if index == 1 and args.id else next_id(out, args.assigned_member)
     print(f"編號：{record_id}（可用 quit 結束）")
     source_url = prompt_value("網址", required=True)
     if source_url.lower() == "quit":
@@ -331,7 +356,7 @@ def input_rows(args: argparse.Namespace, out: Path) -> list[dict[str, Any]]:
     if args.url:
         source_url = canonical_url(args.url)
         return [{
-            "id": args.id or next_id(out, args.assigned_member),
+            "id": normalize_requested_id(args.id) if args.id else next_id(out, args.assigned_member),
             "type": args.type or ("youtube" if youtube_id(source_url) else "web"),
             "source_url": source_url,
             "source_kind": args.source_kind,
@@ -418,8 +443,6 @@ def main() -> int:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     member = prompt_member(args)
     out = args.output
-    if out == Path("output"):
-        out = out / member
     for folder in (out, out / "articles", out / "images", out / "videos"):
         folder.mkdir(parents=True, exist_ok=True)
         
@@ -432,9 +455,16 @@ def main() -> int:
         print("沒有輸入來源，程式結束。")
         return 0
 
-    # 使用 Queue (BFS) 進行多層遞迴爬取
+    # 使用 Queue (BFS) 進行多層遞迴爬取；所有新 ID 都在同一個
+    # page_<seed>_ext_<sequence> 命名空間中配置，避免重跑時碰撞。
+    allocated_ids = {
+        str(record.get("id"))
+        for record in load_index(out / "index.jsonl")
+        if record.get("id")
+    }
     queue = deque()
     for row in initial_rows:
+        allocated_ids.add(row["id"])
         queue.append({
             "id": row["id"],
             "type": row["type"],
@@ -449,7 +479,6 @@ def main() -> int:
     visited_urls = set()
     records = []
     seen_hashes = {}
-    sub_counter = 1
 
     while queue:
         current = queue.popleft()
@@ -478,8 +507,8 @@ def main() -> int:
             links = record.get("links", [])
             for link in links:
                 if link not in visited_urls:
-                    child_id = f"{current['id']}_sub{sub_counter:03d}"
-                    sub_counter += 1
+                    child_id = next_extension_id(current["id"], allocated_ids)
+                    allocated_ids.add(child_id)
                     queue.append({
                         "id": child_id,
                         "type": "web",

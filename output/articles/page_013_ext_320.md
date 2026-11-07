@@ -1,0 +1,85 @@
+# 活動訊息 | 經濟部產業園區管理局臺北分局
+
+- 原始網址：https://www.bip.gov.tw/iphw/tpb/activity.do?method=list&p=2
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+活動訊息
+        
+        	發布單位
+        
+				
+					類別
+				
+				
+					標題
+				
+				
+					活動期間
+				
+				
+					報名方式
+				
+			
+        
+        	大武崙(兼瑞芳)產業園區服務中心
+        
+				
+其它						
+				
+				
+					
+						【轉知】中華民國工業區廠商聯合總會訂於115年12月12日（六）上午8時至下午1時30分假鹿港彰濱產業園區舉辦「第二屆全國產業園區為地球減碳快樂跑～AI 智慧向前行，產業發展一定贏」路跑暨市集園遊會，敬請踴躍報名參加。
+					
+				
+				
+					2026-09-22 ~ 2026-12-11
+				
+				
+					
+				
+				
+        
+        	大武崙(兼瑞芳)產業園區服務中心
+        
+				
+其它						
+				
+				
+					
+						函轉園管局檢送「壘上榮耀路‧全壘爭霸戰」115年慢速壘球賽活動簡章及海報各1份，請所轄事業單位踴躍組隊報名參加，請查照。
+					
+				
+				
+					2026-09-01 ~ 2026-11-07
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=99
+- https://www.bip.gov.tw/iphw/tpb/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=80
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=20
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/policy.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=download
+- https://www.bip.gov.tw/iphw/tpb/factory.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=70
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=0
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29863
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29857
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29853
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29840
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29835
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29826
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29822
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29813
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29804
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29758
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=list&p=1
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=list&p=3
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

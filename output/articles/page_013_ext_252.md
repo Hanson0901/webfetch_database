@@ -1,0 +1,42 @@
+# 農業易遊網-臺三線尋香趣
+
+- 原始網址：https://ezgo.ardswc.gov.tw/RomanticAvenue
+- 網站：農業易遊網-臺三線尋香趣
+- 關鍵字：待人工補充
+
+農情臺三線‧跟著季節慢漫遊
+
+32 條路線，帶領遊客走進農場田園，邂逅內山花香、果香和茶香
+
+嬉春樂
+
+氣溫逐漸回暖，枝頭冒出翠綠嫩芽，是否你也感受到春天的氣息？快快脫掉厚重冬衣，追隨花朵、水果與茶香深入在地，來趟「自然系」網美打卡小旅行，玩出不一樣的季節之旅！
+
+嬉春樂
+
+玩一夏
+
+豔陽高照的夏天，正是出遊的好時節，特別是暑假漫漫，不妨安排一趟充滿樂趣與互動的親子遊，與孩兒攜手來農場、果園和茶園，體驗各項寓教於樂的活動，在玩樂中貼近在地。
+
+玩一夏
+
+秋慢遊
+
+秋高氣爽的日子裡，陽光中透點舒適的涼意，楓葉轉紅、柚香迷人，最適合樂齡老伴、好友相約出門走走，採果、看花、吃茶、聊過往，不急不徐賞玩臺三線豐饒之地。
+
+秋慢遊
+
+冬巡禮
+
+隆冬時節正是闔家團圓的日子，冷風呼呼的吹，仍吹不散全家想要一起出遊的心。只要多加留心，就能看到紅豔豔櫻花盛開，迎接一家人上山賞花的笑靨。
+
+冬巡禮
+
+相關連結
+
+## 相關連結
+- https://ezgo.ardswc.gov.tw/RomanticAvenue/Home/Spring
+- https://ezgo.ardswc.gov.tw/RomanticAvenue/Home/Summer
+- https://ezgo.ardswc.gov.tw/RomanticAvenue/Home/Autumn
+- https://ezgo.ardswc.gov.tw/RomanticAvenue/Home/Winter
+- https://ezgo.ardswc.gov.tw/

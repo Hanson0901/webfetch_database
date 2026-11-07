@@ -1,0 +1,125 @@
+# 公佈欄 | 經濟部產業園區管理局臺北分局
+
+- 原始網址：https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=5
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+公佈欄
+				
+					發佈日期
+				
+				
+					類別
+				
+				
+					標題
+				
+        
+        	發佈單位
+        
+			
+				
+					2026-11-03
+				
+				
+訊息佈告				
+				
+				
+					
+						(轉知)行政院公共工程委員會訂於115年11月11日（星期三）、11月23日（星期一）及11月30日（星期一）分別於北、南、中部辦理「公共工程植生綠化作業原則指引」交流會，請踴躍報名，請查照。
+					
+				
+        
+        	大園產業園區服務中心
+        
+			
+				
+					2026-11-03
+				
+				
+訊息佈告				
+				
+				
+					
+						因應115年地方公職人員選舉，為維護選舉之公平性，並積極查察賄選、暴力、選舉賭盤、假訊息及境外勢力介選等妨害選舉之不法行為，檢送「2026反賄選愛臺灣公益宣導影片─出遊篇」（如附件），請惠予宣導，請查照。
+					
+				
+        
+        	大園產業園區服務中心
+        
+			
+				
+					2026-11-03
+				
+				
+訊息佈告				
+				
+				
+					
+						(轉知)我國產製之鋼鐵產品輸往歐盟採行管理措施（輸出規定代號為132），業經經濟部於中華民國115年10月28日以經貿字第11550201340號公告修正，檢送前揭公告影本（含附件）1份，敬請協助向所轄園區廠商公告，請查照。
+					
+				
+        
+        	大園產業園區服務中心
+        
+			
+				
+					2026-11-03
+				
+				
+公文函				
+				
+				
+					
+						因應115年地方公職人員選舉，為維護選舉之公平性，並積極查察賄選、暴力、選舉賭盤、假訊息及境外勢力介選等妨害選舉之不法行為，檢送「2026反賄選愛臺灣公益宣導影片─出遊篇」（如附件），請查照。
+					
+				
+        
+        	大武崙(兼瑞芳)產業園區服務中心
+        
+			
+				
+					2026-11-03
+				
+				
+訊息佈告				
+				
+				
+					
+						(轉知)勞動部職業安全衛生署訂於115年11月10日（星期二）下午2時假張榮發基金會國際會議中心1001會議室辦理「2026產業安全領航高峰論壇」，敬邀貴單位派員出席，請查照。
+					
+				
+        
+        	林口產業園區服務中心
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=99
+- https://www.bip.gov.tw/iphw/tpb/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=80
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=20
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/policy.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=download
+- https://www.bip.gov.tw/iphw/tpb/factory.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=70
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=0
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109308
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109307
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109306
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109305
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109304
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109303
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109302
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109300
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109298
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109297
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=1
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=2
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=3
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=4
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=6
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list&page=7

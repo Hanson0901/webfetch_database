@@ -1,0 +1,215 @@
+# 公佈欄 | 經濟部觀音產業園區服務中心
+
+- 原始網址：https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list&page=11
+- 網站：www.bip.gov.tw
+- 關鍵字：觀音, 桃園
+
+:::
+
+目前位置：
+
+首頁
+
+>
+
+公佈欄
+
+公佈欄
+
+發佈日期
+
+類別
+
+標題
+
+2026-04-17
+
+訊息佈告
+
+轉知-「性別平等工作法施行細則」第4條之2、第4條之3發布令影本（含法規命令條文）
+
+2026-04-16
+
+訊息佈告
+
+轉知：「雇主申請招募第二類外國人文件效期、申請程序及其他經中央主管機關規定之文件」第4點，發布令影本及修正規定各1份。
+
+2026-04-15
+
+訊息佈告
+
+轉知-勞動部重申性別平等工作法性騷擾防治相關規定，雇主應依法採取立即有效之糾正補救措施，請查照。
+
+2026-04-09
+
+訊息佈告
+
+【轉知】修正「用戶用電設備檢驗辦法」第8條、第8條之1、第22條
+
+2026-04-07
+
+訊息佈告
+
+【轉知】修正草案「耗水費徵收辦法」
+
+2026-04-02
+
+訊息佈告
+
+轉知-勞動部115年3月25日勞動福3字第1150152749號令修正發布「勞工退休金條例施行細則」部分條文，請轉知所屬事業。
+
+2026-04-01
+
+訊息佈告
+
+轉知-勞動部認可「辦理勞工體格及健康檢查醫療機構」名單1份，請查照。
+
+2026-03-31
+
+訊息佈告
+
+【轉知】因應枯旱期，請各廠商繼續優先使用再生水、海淡水並落實節水7%
+
+2026-03-30
+
+訊息佈告
+
+(轉知)行政院出版之「轉型正義相關法規及參考資料彙編電子書」。
+
+2026-03-27
+
+訊息佈告
+
+轉知-衛生福利部國民健康署「115年績優健康職場與優良推動人員評選活動」，請事業單位踴躍報名參加
+
+共 154項資料
+
+前 10 頁
+
+11
+
+|
+
+12
+
+|
+
+13
+
+|
+
+14
+
+|
+
+15
+
+|
+
+16
+
+[友善列印]
+
+回首頁
+
+回頁首
+
+:::
+
+經濟部觀音產業園區服務中心
+
+最新消息
+
+公佈欄
+
+活動訊息
+
+政令宣導
+
+園區簡介
+
+設立緣起與開發經過
+
+公共設施
+
+土地配置與廠商情形
+
+地理位置與交通狀況
+
+入區相關規定
+
+為民服務
+
+法令規章
+
+表單/文件下載
+
+廠商名錄
+
+資訊專區
+
+污水處理
+
+焚化爐資訊
+
+求職求才
+
+網路資源
+
+服務中心簡介
+
+組織架構
+
+業務職掌
+
+電話：(03)483-0400
+
+聯絡信箱：
+
+z111box@bip.gov.tw
+
+地址：桃園市觀音區工業五路3號
+
+本網站支援Edge、Firefox及Chrome，最佳瀏覽解析度為1280x800以上
+
+更新日期：2023/09/26
+
+政府網站資料宣告
+
+隱私權政策
+
+網站安全政策
+
+通過AA無障礙網頁檢測
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=0
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=103246
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=103244
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=103177
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=103319
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=103317
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=102800
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=102718
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=102709
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=102599
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=102511
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list&page=10
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list&page=12
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list&page=13
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list&page=14
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list&page=15
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list&page=16
+- https://www.bip.gov.tw/iphw/kuangin/
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/activity.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/policy.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=10
+- https://www.bip.gov.tw/iphw/kuangin/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=download
+- https://www.bip.gov.tw/iphw/kuangin/factory.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=06
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=07
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=70
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=20
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f

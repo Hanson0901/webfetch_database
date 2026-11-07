@@ -1,0 +1,34 @@
+# 首頁 | 經濟部大園產業園區服務中心
+
+- 原始網址：https://www.bip.gov.tw/iphw/dayuan/
+- 網站：www.bip.gov.tw
+- 關鍵字：桃園
+
+為創造一個優良投資環境，促進桃園市境內工業的發展提高國民就業率，於是台灣省建設廳於是台灣省建設廳劃開發一綜合性產業園區。
+開發時間，先後分成二期
+總面積：共計204.38公頃。其中除了公共用地佔25.5公頃，社區5.5公頃之外，設廠面積一共173.38公頃。
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/dayuan/index.do?id=99
+- https://www.bip.gov.tw/iphw/dayuan/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/dayuan/index.do?id=80
+- https://www.bip.gov.tw/iphw/dayuan/index.do?id=20
+- https://www.bip.gov.tw/iphw/dayuan/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/dayuan/activity.do?method=list
+- https://www.bip.gov.tw/iphw/dayuan/policy.do?method=list
+- https://www.bip.gov.tw/iphw/dayuan/index.do?id=10
+- https://www.bip.gov.tw/iphw/dayuan/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/dayuan/index.do?id=download
+- https://www.bip.gov.tw/iphw/dayuan/factory.do?method=list
+- https://www.bip.gov.tw/iphw/dayuan/index.do?id=06
+- https://www.bip.gov.tw/iphw/dayuan/index.do?id=70
+- https://www.bip.gov.tw/iphw/dayuan/entreg.do?method=goContent&sn=104920
+- https://www.bip.gov.tw/iphw/dayuan/bulletin.do?method=goContent&sn=109341
+- https://www.bip.gov.tw/iphw/dayuan/bulletin.do?method=goContent&sn=109313
+- https://www.bip.gov.tw/iphw/dayuan/policy.do?method=goContent&sn=108939
+- https://www.bip.gov.tw/iphw/dayuan/policy.do?method=goContent&sn=100576
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

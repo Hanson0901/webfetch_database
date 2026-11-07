@@ -1,0 +1,55 @@
+# 經濟部產業園區管理局- 園區簡介
+
+- 原始網址：https://www.bip.gov.tw/page.aspx?pageid=79285697a9c68b88
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+科技產業園區的優勢與利基
+區位優勢
+台灣位於亞太地區之地理核心，而科技產業園區所位處之高雄港及台中港與亞太地區各主要港口間平均航程距離最短，加以毗鄰機場，對於發展跨國運籌管理中心極具優勢。
+租稅優惠
+全區為免稅區，於科技產業園區投資設廠可享受的優惠包括：
+1.關稅：區內事業自國外輸入之機器設備、原料、燃料、物料、半製品、樣品及供貿易、倉儲業轉運用成品均內入免稅範圍。
+2.貨物稅：區外廠商貨物稅係採出口退稅方式，科技產業園區之事業則直接免徵貨物稅。
+3.契稅：取得科技產業園區內新建之標準廠房或自園管局依法取得建築物之契稅免徵。
+4.營利事業所得稅：符合科技產業園區設置管理條例第十四條規定從事轉運業務者，得按其轉運業務收入百分之十為營利事業所得額，課徵營利事業所得稅。
+5.營業稅：區內事業符合科技產業園區設置管理條例第21條規定者，得免徵營業稅。
+6.房屋稅：自用供生產之廠房部分，其營業房屋稅減半徵收，即稅率為百分之一點五。
+7.投資於研究發展之支出，可申請抵減當年度營利事業所得稅。
+8.為鼓勵公司運用全球資源，進行國際營運布局，得在中華民國境內申請設立達一定規模且具重大經濟效益之營運總部。
+手續簡便
+產業園區管理局受理各項行政程序（如申請投資、設立登記及輸出入等）均能簡便、簡化及放寬限制，以協助區內廠商掌握商機。如自主的倉儲運輸、便利的通關措施及帳冊管理，皆在使業者於貨品進出關時更為迅速便捷，創造無障礙之通關環境，以提昇區內廠商全球競爭能力。
+法規完善
+法規架構完善，是有效率推動業務的原動力，科技產業園區係依據「科技產業園區設置管理條例」特別法設置的經濟特區，母法及子法架構完善且公開、透明。園管局亦適時檢討鬆綁相關法規，俾塑造高品質、高效率的投資環境。
+
+## 相關連結
+- https://www.bip.gov.tw/sitemap.aspx
+- https://www.bip.gov.tw/index.aspx
+- https://www.bip.gov.tw/qa.aspx?pageid=075874dc882a5bfd
+- https://www.bip.gov.tw/formemail.aspx?tid=45da8e73a81d495d&pageid=0a4848283dfe9c40
+- https://www.bip.gov.tw/english/index.aspx
+- https://www.bip.gov.tw/pagedownloadfile.aspx?fid=3416ee2e02c61003
+- https://www.bip.gov.tw/pagelist.aspx?pageid=d029508289e436b7&nowid=1161169820bf2ac4
+- https://www.bip.gov.tw/friendlink.aspx?pageid=3459e2617205287e
+- https://www.bip.gov.tw/list.aspx?pageid=5aa966ecd020763c
+- https://www.bip.gov.tw/list.aspx?pageid=35c6d56cf2bc1f47
+- https://www.bip.gov.tw/list.aspx?pageid=9aef2da48d1c26b7
+- https://www.bip.gov.tw/list.aspx?pageid=fb7b56f7a69ce4bc
+- https://www.bip.gov.tw/lawlist.aspx?pageid=1f07e8862ba550cf
+- https://www.bip.gov.tw/photos.aspx?pageid=327e35461197b44d
+- https://www.bip.gov.tw/list.aspx?pageid=7b98079d47d2133b
+- https://www.bip.gov.tw/parkmanufacturerexport.aspx?pageid=5e01715488ed70f0
+- https://www.bip.gov.tw/pagelist.aspx?pageid=36fe40e3c355f116&nowid=36fe40e3c355f116
+- https://www.bip.gov.tw/pagelist.aspx?pageid=f0435aa07e86514e&nowid=bc121365e7b1593d
+- https://www.bip.gov.tw/pagelist.aspx?pageid=9e411e75899935ba&nowid=5a0eb18b87124450
+- https://www.bip.gov.tw/list.aspx?pageid=3c8e85eb9ed6d47b
+- https://www.bip.gov.tw/formdownload.aspx?pageid=ba9bc8e2b5bc5183
+- https://www.bip.gov.tw/pagelist.aspx?pageid=80736c3f53d96f0c&nowid=80736c3f53d96f0c
+- https://www.bip.gov.tw/pagelist.aspx?pageid=2d731b07f768cd64&nowid=f6aa1694bdf640d8
+- https://www.bip.gov.tw/pagelist.aspx?pageid=079f1fa027a4a3e7&nowid=54b18c71dbdb1a0c
+- https://www.bip.gov.tw/pagelist.aspx?pageid=ee50d45d1c23f8fa&nowid=4fe70f0e92a3402e
+- https://www.bip.gov.tw/formdownload.aspx?pageid=96db24ec1b9e3711
+- https://www.bip.gov.tw/formdownload.aspx?pageid=17ea6b51236653d1
+- https://www.bip.gov.tw/formdownload.aspx?pageid=cd3a207628fcff2c
+- https://www.bip.gov.tw/formdownload.aspx?pageid=065c2dca7c1dcd48
+- https://www.bip.gov.tw/links.aspx?pageid=71af3fadbed2da2c
