@@ -1,0 +1,51 @@
+# 志工園地
+
+- 原始網址：https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13775
+- 網站：桃園市觀音區戶政事務所
+- 關鍵字：待人工補充
+
+- 日期：113-01-10
+志工簡介
+本所志工服務隊業於93年2月15日成立，目前成員人數有10人。
+本所為強化服務效能，歡迎熱心服務之鄉親踴躍報名參加，誠摯歡迎您加入本所志工行列。
+服務項目
+1.引導民眾抽取號碼牌至各受理櫃檯。
+2.協助諮詢有關戶籍登記應備文件。
+3.協助提供老花眼鏡、填寫各項申請書表、老弱及行動不便者，申辦各項戶籍登記。
+申訴管道
+志工可親自向受理人申訴或透過電話、E-mail等各方式進行申訴。
+如有任何建言，請洽本所志工承辦人康小姐。
+※ 電話：03-4732050分機208
+相關連結
+
+## 相關連結
+- https://www.guanyin-hro.tycg.gov.tw/Advanced_Search.aspx?q=書表下載
+- https://www.guanyin-hro.tycg.gov.tw/Advanced_Search.aspx?q=門牌查詢
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13766
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13767
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13768
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13769
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13770
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13771
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13772
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13773
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13774
+- https://www.guanyin-hro.tycg.gov.tw/News_Photo.aspx?n=17201&sms=18535
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13776
+- https://www.guanyin-hro.tycg.gov.tw/News.aspx?n=13777&sms=15793
+- https://www.guanyin-hro.tycg.gov.tw/News_Photo.aspx?n=18346&sms=18892
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=27095
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13779
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13780
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13786
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13793
+- https://www.guanyin-hro.tycg.gov.tw/News_Content.aspx?n=13777&s=1098928
+- https://www.guanyin-hro.tycg.gov.tw/cl.aspx?n=13808
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=20219
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=25023
+- https://www.guanyin-hro.tycg.gov.tw/News_Link.aspx?n=13809&sms=15805
+- https://www.guanyin-hro.tycg.gov.tw/ENews.aspx?n=13811&sms=17539
+- https://www.guanyin-hro.tycg.gov.tw/cp.aspx?n=13813
+- https://www.guanyin-hro.tycg.gov.tw/News_Link.aspx?n=13814&sms=15807
+- http://household.tycg.gov.tw/index.php
+- https://www.guanyin-hro.tycg.gov.tw/News.aspx?n=13817&sms=15808

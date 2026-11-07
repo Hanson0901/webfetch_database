@@ -1,0 +1,13 @@
+# 觀音甘泉寺
+
+- 原始網址：https://www.ganquan-temple.org.tw/news/活動花絮
+- 網站：www.ganquan-temple.org.tw
+- 關鍵字：觀音, 甘泉寺
+
+普渡法會
+
+2026-01-26
+
+## 相關連結
+- https://www.ganquan-temple.org.tw/
+- https://www.ganquan-temple.org.tw/news

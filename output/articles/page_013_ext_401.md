@@ -1,0 +1,38 @@
+# 公佈欄 | 經濟部觀音產業園區服務中心
+
+- 原始網址：https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=107983
+- 網站：www.bip.gov.tw
+- 關鍵字：觀音
+
+2026/09/07
+依據本分局政風室案陳經濟部產業園區管理局政風室115年9月4日經園總政室字第1150400241號函辦理。
+為提昇國人對國家安全議題之重視，強化全民國防與安全防衛意識，法務部調查局特以寓教於樂方式舉辦「餘音與光影：凝視島嶼的脈動」國家安全線上影展，精選9部涵蓋地緣政治、資安防護、言論自由、社會韌性等國家安全相關議題之優質影音作品，提供民眾免費線上觀影。
+本活動相關資訊如下：
+影展期間：115年8月19日（星期三）10時起，至12月20日（星期日）24時止。
+影展網址：https://mjib.catchplay.com。
+活動內容：影展期間將於專屬網站提供9部電影免費線上觀影，機關學校或團體可申請實體公播；另於9月下旬起，本活動將於線上網站同時進行「脈動解碼」每月有獎徵答活動，及「寫給自由島嶼的短箴」短文徵文比賽等，參加即有機會獲得精美獎品。
+相關資料:
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/kuangin/
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=99
+- https://www.bip.gov.tw/iphw/kuangin/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=80
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=20
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/activity.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/policy.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=10
+- https://www.bip.gov.tw/iphw/kuangin/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=download
+- https://www.bip.gov.tw/iphw/kuangin/factory.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=06
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=07
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=70
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=0
+- https://www.bip.gov.tw/iphw/downLoad?index=news&id=107983&f=0
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

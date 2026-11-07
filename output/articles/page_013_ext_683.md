@@ -1,0 +1,72 @@
+# 枕頭山農莊－農業易遊網
+
+- 原始網址：https://ezgo.ardswc.gov.tw/zh-tw/spot/4057/
+- 網站：農業易遊網
+- 關鍵字：桃園
+
+體驗活動
+農事體驗/食農教育課程
+營隊活動/親子體驗活動
+採果體驗
+建議遊程
+1-3月賞櫻採果遊程 預約制 費用依實際內容調整
+4-6月賞繡球花/賞螢/水蜜桃/採桂竹筍體驗 遊程 預約制 費用依實際內容調整
+7-9月 愛玉生態導覽/洗愛玉體驗 遊程 預約制 費用依實際內容調整
+10-12 月落神花加工體驗活動 /柑橘類水果採摘體驗/生態導覧 遊程 預約制 費用依實際內容調整
+伴手禮與農特產
+枕頭山農莊預約制：
+1. 自製手工養生麵包
+2. 柑橘/砂糖橘
+3. 馬告籽
+農莊相關活動的影片連結
+枕頭山農莊-公關大使杭特(hunter)
+蔬菜採摘體驗課程
+洗愛玉體驗課程
+麵包DIY體驗課程
+採桂竹筍體驗
+天文觀星課程
+餐飲介紹
+枕頭山農莊採取預約制
+1.農莊自製手工麵包
+2.農家菜
+3.農事體驗活動
+自製養生麵包
+交通方式
+【自行開車】
+1、國道一號：由桃園交流道下，接台4線轉台7、7乙線至復興鄉，即可到達三民里再往復興台7線12.6公里處依觀旅局指示牌JTM枕頭山農莊即可到達本農莊。
+2、國道三號：由三峽交流道下， 接台7乙線至復興鄉，再往復興台7線12.4公里處依觀旅局指示牌JTM枕頭山農莊(約行駛760公尺)即可到達本農莊。
+【大眾運輸】
+1、客運：由桃園搭乘桃園客運往大溪方向之班車至大溪站，轉成桃園客運往復興方向之班車至三民蝙蝠洞站即可到達三民里枕頭山口,依依觀旅局指示牌JTM枕頭山農莊(約步行760公尺)。
+公車: 502-桃園-小烏來-台灣好行小烏來景點接駁,僅假日行駛，桃園站發車至大溪老茶廠站下車；5090/5091/5093/5094/5104/5104A/5105/5106/5107/5109
+
+## 相關連結
+- https://ezgo.ardswc.gov.tw/zh-tw/
+- https://ezgo.ardswc.gov.tw/zh-tw/hot-topic/
+- https://ezgo.ardswc.gov.tw/zh-tw/events/
+- https://ezgo.ardswc.gov.tw/zh-tw/epapers/
+- https://ezgo.ardswc.gov.tw/zh-tw/social-medias/
+- https://ezgo.ardswc.gov.tw/zh-tw/votes/
+- https://ezgo.ardswc.gov.tw/zh-tw/seasonal-tours/
+- https://ezgo.ardswc.gov.tw/zh-tw/selected-tours/
+- https://ezgo.ardswc.gov.tw/zh-tw/selected-columns/
+- https://ezgo.ardswc.gov.tw/zh-tw/tags/
+- https://ezgo.ardswc.gov.tw/zh-tw/themes/
+- https://ezgo.ardswc.gov.tw/zh-tw/areas/
+- https://ezgo.ardswc.gov.tw/zh-tw/leisure-areas/
+- https://ezgo.ardswc.gov.tw/zh-tw/farms/
+- https://ezgo.ardswc.gov.tw/zh-tw/shops/
+- https://ezgo.ardswc.gov.tw/zh-tw/tianmamas/
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=32
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=34
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=35
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=36
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=306
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=81
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=76
+- https://ezgo.ardswc.gov.tw/zh-tw/map/
+- https://ezgo.ardswc.gov.tw/zh-tw/immersive/
+- https://ezgo.ardswc.gov.tw/zh-tw/gourment/tianmama/
+- https://ezgo.ardswc.gov.tw/zh-tw/dishes/
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=74
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=83,84

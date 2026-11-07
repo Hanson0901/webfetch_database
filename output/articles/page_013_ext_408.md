@@ -1,0 +1,32 @@
+# 公佈欄 | 經濟部觀音產業園區服務中心
+
+- 原始網址：https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=107462
+- 網站：www.bip.gov.tw
+- 關鍵字：觀音
+
+2026/08/19
+1.依據經濟部產業園區管理局115年8月17日經園政字第1150018321號函轉經濟部115年8月14日經政字第11500698060號函轉法務部114年12月22日法保決字第11405516520號函、同年月日法保決字第11405516530號函及115年8月12日法保決字第11505502620號書函辦理。
+2.旨揭影片片名「拒絕毒品 擁抱未來」請至「法務部全球資訊網（https://www.moj.gov.tw/）首頁/Youtube影音下載；電子圖卡請至「反毒大本營」（https://reurl.cc/mzl7W9）首頁/反毒知識宣導/文宣品/下載運用。
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/kuangin/
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=99
+- https://www.bip.gov.tw/iphw/kuangin/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=80
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=20
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/activity.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/policy.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=10
+- https://www.bip.gov.tw/iphw/kuangin/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=download
+- https://www.bip.gov.tw/iphw/kuangin/factory.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=06
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=07
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=70
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=0
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

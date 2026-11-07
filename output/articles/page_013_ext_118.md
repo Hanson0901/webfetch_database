@@ -1,0 +1,32 @@
+# 入區相關規定 | 經濟部產業園區管理局臺北分局
+
+- 原始網址：https://www.bip.gov.tw/iphw/tpb/entreg.do?method=goContent&sn=93036
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+2026/06/07
+一、光華產業園區（光華樂活創意園區）之產業用地區分為產業用地(一)，且依該用地類別僅提供予特定行業或產業使用，非任何行業別均得進駐、使用產業用地。基此，為讓進駐廠商清楚瞭解本園區之產業用地用途使用限制，爰公告提供本園區之容許引進產業類別相關限制資訊(相關文件資料如下附件連結下載)，以供廠商查詢。
+二、請廠商進駐前，如有疑問，可向本服務中心洽詢園區之容許引進產業類別，以進一步瞭解園區之產業及配置等概況，確切掌握園園區相關資訊。
+三、如有疑問可撥打美崙(兼和平及光華)產業園區服務中心電話:(03)8222030分機8306(蔡先生)
+相關資料:
+相關網址: 產業園區各種用地用途及使用規範辦法
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=99
+- https://www.bip.gov.tw/iphw/tpb/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=80
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=20
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/policy.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=download
+- https://www.bip.gov.tw/iphw/tpb/factory.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=70
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=0
+- https://www.bip.gov.tw/iphw/downLoad?index=news&id=93036&f=0
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

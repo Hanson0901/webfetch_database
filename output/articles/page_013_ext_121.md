@@ -1,0 +1,39 @@
+# 活動訊息 | 經濟部產業園區管理局臺北分局
+
+- 原始網址：https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29864
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+(函轉)國軍退除役官兵輔導委員會辦理產學合作學校及企業徵求案，歡迎各位廠商踴躍報名參加。
+活動時間
+  			
+  				2026/11/30 ~ 2026/11/30
+				
+       
+聯絡電話
+				02-27571653
+      
+活動內容
+一、旨揭計畫係為協助退除役官兵就學及就業，透過產學合作方式提升其學歷並培養企業專業技術人才，由合作學校依開辦科系尋求企業共同辦理。
+二、有意願參與本計畫之企業及學校，請於115年11月30日（星期一）前逕洽國軍退除役官兵輔導委員會就學就業處李福來專員，電話：02-27571653，電子郵件：vac054124@mail.vac.gov.tw。
+報名方式
+自由參加
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=99
+- https://www.bip.gov.tw/iphw/tpb/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=80
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=20
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/policy.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=download
+- https://www.bip.gov.tw/iphw/tpb/factory.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=70
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=0
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

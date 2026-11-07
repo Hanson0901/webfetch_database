@@ -1,0 +1,50 @@
+# Bureau of Industrial Parks, Ministry of Economic Affairs- Taichung Software Park
+
+- 原始網址：https://www.bip.gov.tw/english/page.aspx?pageid=fdcd18e6f4ff0b1c
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+•1.Intellgent Base of Application, Service, and Innovation in Central Taiwan.
+The TSP is developed technology park located in Dali District, Taichung City.
+TSP was modeled after Kaohsiung Software Park in Kaohsiung, and focus on digital contents, information industry, culture and creativity, E-commerce and cloud.
+162 such enterprises, including Digiwin Software, Wanin international, Maxwin Technology, SHINTI, Jean Cultural & Creative, account for 58% of all enterprises in this park.
+TSP is expected to develop into an intellgent base of application, service, and innovation in central Taiwan.
+•2.Basic information of Taichung Software Park
+(1)Establishment: Taichung Software Park was established in 2013.
+(2)Area: The total area is 4.96 hectares, of which 4.14 hectares are for rent. Currently the rental area is 4.14 hectares (Occupancy is now100%).
+(3)Overview of in-zone companies：
+A.Number of approved investment companies:a total of 93(not including 66 business liaison offices).
+B.Major industries: The cumulative investment proportion in digital contents、information industry、culture and creativity、E-commerce and cloud industries accounting for 45% of the total investment. 
+•C.Iconic companies:Digiwin Software、Wanin international,and Maxwin Technology.
+
+## 相關連結
+- https://www.bip.gov.tw/english/sitemap.aspx
+- https://www.bip.gov.tw/english/index.aspx
+- https://www.bip.gov.tw/english/page.aspx?pageid=53960b98a33f336b
+- https://www.bip.gov.tw/english/page.aspx?pageid=2672909c0aae9b3a
+- https://www.bip.gov.tw/english/page.aspx?pageid=f2b8a0da03fad78f
+- https://www.bip.gov.tw/english/page.aspx?pageid=b7c9e14939b35bb0
+- https://www.bip.gov.tw/english/page.aspx?pageid=0aafc9f8551d6164
+- https://www.bip.gov.tw/english/page.aspx?pageid=cd27f1cf3682e924
+- https://www.bip.gov.tw/english/page.aspx?pageid=6145b2396e058a86
+- https://www.bip.gov.tw/english/page.aspx?pageid=377b9fdaca6edc82
+- https://www.bip.gov.tw/english/list.aspx?pageid=32b13bb28f1cda3f
+- https://www.bip.gov.tw/english/formdownload.aspx?pageid=bb4b6204eec4862f
+- https://www.bip.gov.tw/english/list.aspx?pageid=b9b6ff993c09d56c
+- https://www.bip.gov.tw/english/page.aspx?pageid=20eba8186eabcf1d
+- https://www.bip.gov.tw/english/page.aspx?pageid=1027c7f4aa49e7fa
+- https://www.bip.gov.tw/formdownload.aspx?pageid=c37c966dfd6a4fcc
+- https://www.bip.gov.tw/english/pagelist.aspx?pageid=6d8e69ce251614f5&nowid=6d8e69ce251614f5
+- https://www.bip.gov.tw/english/pagelist.aspx?pageid=9edd6bfd715f7016&nowid=9edd6bfd715f7016
+- https://www.bip.gov.tw/pagedownloadfile.aspx?fid=847960179467f881
+- https://www.bip.gov.tw/pagedownloadfile.aspx?fid=dbdad238f7d70afb
+- https://www.bip.gov.tw/pagedownloadfile.aspx?fid=4f6174aa78fc14a2
+- https://www.bip.gov.tw/english/page.aspx?pageid=3771ff332e5752f5
+- https://www.bip.gov.tw/english/page.aspx?pageid=e91b6cf8b56f1759
+- https://www.bip.gov.tw/english/page.aspx?pageid=eba5b9355f27d615
+- https://www.bip.gov.tw/english/page.aspx?pageid=a1baf71cb1bd04db
+- https://www.bip.gov.tw/english/page.aspx?pageid=28a47107474f13db
+- https://www.bip.gov.tw/english/page.aspx?pageid=ce7b2de9e958965c
+- https://www.bip.gov.tw/english/page.aspx?pageid=a268c7851e93eb40
+- https://www.bip.gov.tw/english/page.aspx?pageid=2662c6ec24b5ce3a
+- https://www.bip.gov.tw/english/searchall.aspx

@@ -1,0 +1,30 @@
+# 首頁 | 經濟部產業園區管理局臺北分局
+
+- 原始網址：https://www.bip.gov.tw/iphw/tpb/
+- 網站：www.bip.gov.tw
+- 關鍵字：桃園
+
+經濟部產業園區管理局臺北分局(簡稱臺北分局)，依據經濟部組織法修正案於112年5月16日於立法院三讀通過，經濟部暨所屬機關於9月26日正式揭牌，「經濟部加工出口區管理處」改制為「經濟部產業園區管理局」，下轄臺北分局、臺中分局、臺南分局及高屏分局等4個分局，服務範圍擴及13個科技產業園區(原加工出口區)及67個產業園區(原工業區)約3.3萬公頃，涵蓋全國逾75%產業用地，臺北分局辦公位置設於南港軟體園區，轄內共計20個產業園區及15個行政管理中心，從新竹以北至花蓮，分別為新竹縣、桃園市、新北市、臺北市、基隆市、宜蘭縣、花蓮縣。服務園區內6000多家廠商，並負責園區之招商、產業合作、公共設施使用管理及污水處理等業務。
+
+## 相關連結
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=99
+- https://www.bip.gov.tw/iphw/tpb/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=80
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=20
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/policy.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=download
+- https://www.bip.gov.tw/iphw/tpb/factory.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=70
+- https://www.bip.gov.tw/iphw/tpb/entreg.do?method=goContent&sn=107682
+- https://www.bip.gov.tw/iphw/tpb/entreg.do?method=goContent&sn=93036
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109377
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=goContent&sn=109376
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29864
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=goContent&sn=29790
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

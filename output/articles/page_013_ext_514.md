@@ -1,0 +1,46 @@
+# 經濟部產業園區管理局- AI賦能產業園區 經濟部攜手六都推動智慧治理新升級
+
+- 原始網址：https://www.bip.gov.tw/info.aspx?pageid=5aa966ecd020763c&cid=59a1b051b83652b0
+- 網站：www.bip.gov.tw
+- 關鍵字：桃園
+
+經濟部產業園區管理局昨（28）日舉辦「2026產業園區發展政策高峰論壇」，以「智慧治理與產業園區之轉型與發展」為主題，邀集國科會、六都及產官學界代表齊聚交流，聚焦AI應用、智慧治理、低碳轉型及產業群聚發展，凝聚中央與地方推動產業園區升級共識。透過跨域資源整合與經驗交流，進一步強化產業鏈結與園區競爭力，為臺灣產業升級、供應鏈韌性及國際布局注入新動能。
+經濟部龔明鑫部長表示，從早期加工出口區、工業區到科學園區，臺灣產業園區隨時代需求持續轉型，始終是經濟發展的重要支柱。面對新需求，應持續提升園區管理與服務品質，導入 AI 等新技術，強化產業群聚及行政效能。同時，臺灣產業園區的群聚發展與高效率已受到國際關注，包括半導體產業發展的知識、對民主自由價值的堅持與韌性，以及園區群聚模式。未來產業群聚可從單一園區的「區內群聚」，進一步走向園區間的「跨區群聚」，並隨臺灣企業海外布局發展「跨境群聚」，串聯國內外材料、設備及供應鏈能量，並與電電公會簽署MOU，共同推動海外產業聚落發展。透過國際合作分享臺灣在園區管理、行政效率及產業群聚上的經驗，將臺灣園區經驗推向全球，打造國際典範。
+園管局表示，本次論壇特別邀集六都市政府代表分享地方治理實務經驗，展現AI算力、數位雙生及低碳轉型如何深植於產業空間、公共設施管理與城市發展。傳統產業仍是臺灣就業與經濟發展的重要支柱，面對 AI 浪潮，應把握技術革新契機，讓AI成為傳統產業升級的助力，提升產業園區整體競爭力。期許未來建立常態化中央地方協作平臺，針對園區發展議題進行交流，協助企業升級轉型與發展，打造具韌性、創新力與永續性的產業生態系。
+本次「2026產業園區發展政策高峰論壇」由經濟部龔明鑫部長致詞揭開序幕，何晉滄次長主持，園管局楊志清局長、國家科學及技術委員會蘇振綱副主委、數位轉型學院詹文男院長、資拓宏宇國際股份有限公司蕭偉政副總、新北市政府劉和然副市長、臺北市政府張溫德副市長、桃園市政府王明鉅副市長、臺中市政府黃崇典秘書長、臺南市政府趙卿惠副市長、高雄市政府林欽榮副市長、中華民國工業區廠商聯合總會吳聰明常務理事等產官學研代表共同與談分享。
+發言人：經濟部產業園區管理局　劉副局長
+聯絡電話：（07）3613349、0911363680
+業務聯絡人：經濟部產業園區管理局園區發展組 張組長
+聯絡電話：（07）3611212 分機 101
+
+## 相關連結
+- https://www.bip.gov.tw/sitemap.aspx
+- https://www.bip.gov.tw/index.aspx
+- https://www.bip.gov.tw/qa.aspx?pageid=075874dc882a5bfd
+- https://www.bip.gov.tw/formemail.aspx?tid=45da8e73a81d495d&pageid=0a4848283dfe9c40
+- https://www.bip.gov.tw/english/index.aspx
+- https://www.bip.gov.tw/pagedownloadfile.aspx?fid=3416ee2e02c61003
+- https://www.bip.gov.tw/pagelist.aspx?pageid=d029508289e436b7&nowid=1161169820bf2ac4
+- https://www.bip.gov.tw/friendlink.aspx?pageid=3459e2617205287e
+- https://www.bip.gov.tw/list.aspx?pageid=5aa966ecd020763c
+- https://www.bip.gov.tw/list.aspx?pageid=35c6d56cf2bc1f47
+- https://www.bip.gov.tw/list.aspx?pageid=9aef2da48d1c26b7
+- https://www.bip.gov.tw/list.aspx?pageid=fb7b56f7a69ce4bc
+- https://www.bip.gov.tw/lawlist.aspx?pageid=1f07e8862ba550cf
+- https://www.bip.gov.tw/photos.aspx?pageid=327e35461197b44d
+- https://www.bip.gov.tw/list.aspx?pageid=7b98079d47d2133b
+- https://www.bip.gov.tw/parkmanufacturerexport.aspx?pageid=5e01715488ed70f0
+- https://www.bip.gov.tw/pagelist.aspx?pageid=36fe40e3c355f116&nowid=36fe40e3c355f116
+- https://www.bip.gov.tw/pagelist.aspx?pageid=f0435aa07e86514e&nowid=bc121365e7b1593d
+- https://www.bip.gov.tw/pagelist.aspx?pageid=9e411e75899935ba&nowid=5a0eb18b87124450
+- https://www.bip.gov.tw/list.aspx?pageid=3c8e85eb9ed6d47b
+- https://www.bip.gov.tw/formdownload.aspx?pageid=ba9bc8e2b5bc5183
+- https://www.bip.gov.tw/pagelist.aspx?pageid=80736c3f53d96f0c&nowid=80736c3f53d96f0c
+- https://www.bip.gov.tw/pagelist.aspx?pageid=2d731b07f768cd64&nowid=f6aa1694bdf640d8
+- https://www.bip.gov.tw/pagelist.aspx?pageid=079f1fa027a4a3e7&nowid=54b18c71dbdb1a0c
+- https://www.bip.gov.tw/pagelist.aspx?pageid=ee50d45d1c23f8fa&nowid=4fe70f0e92a3402e
+- https://www.bip.gov.tw/formdownload.aspx?pageid=96db24ec1b9e3711
+- https://www.bip.gov.tw/formdownload.aspx?pageid=17ea6b51236653d1
+- https://www.bip.gov.tw/formdownload.aspx?pageid=cd3a207628fcff2c
+- https://www.bip.gov.tw/formdownload.aspx?pageid=065c2dca7c1dcd48
+- https://www.bip.gov.tw/links.aspx?pageid=71af3fadbed2da2c
