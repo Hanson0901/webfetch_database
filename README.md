@@ -73,6 +73,24 @@ page_033,web,https://example.org/new-source,extra,,0,C,由關鍵字「觀音 白
 
 工作內容：整理維基與文化資料、找出歷史地理敘述、處理相關內部文章，並完成至少 3 筆官方或正式出版品交叉查核。建議關鍵字包括「觀音區歷史沿革」、「石觀音」、「觀音區河川」、「大潭發電廠」。
 
+#### A 組完成紀錄（分支 `member-A`）
+
+已依作業要求完成 A 組 7 個來源與 13 個一層延伸頁，共 20 頁，全部 success。重點如下：
+
+- 程式：`crawler/crawler_member_A.py`（只用標準函式庫 + lxml + Pillow，不需要 `pip install`；SPA 頁面可選用本機 headless Chrome 渲染）。
+- 執行：
+  ```bash
+  python3 crawler/crawler_member_A.py --delay 1.2
+  # 只跑部分來源： --only page_010,page_020 ；關閉渲染： --no-render
+  ```
+- 產出：`output/index.jsonl`（20 筆結構化資料）、`output/articles/*.md`、`output/images/*.jpg`（51 張）、
+  `output/crawl_report.csv`、`output/duplicates.json`、`output/records/*.json`、`output/raw/*.html`。
+- 對照截圖：`report/screenshots/*_compare.jpg`（維基／國家文化記憶庫／政府機關／前端渲染 SPA 四種站型，原始 vs 清理後），
+  由 `tools/make_screenshots.py` 產生。
+- 完整說明：`report/report.md`（任務 1–6 對照、清理策略、圖片規則、影片說明、查證表、範圍警示）。
+- 延伸頁去重：page_016 的第 2 個延伸候選與 page_001_ext_02 同址，程式自動跳過，因此延伸頁為 13 頁。
+- ⚠️ 範圍警示：`page_015`「觀音坑溪」經查為**新北市五股區**水系，非桃園觀音區；報告已加註，不列入觀音區地方知識。
+
 ### B：YouTube、字幕與代表性畫面
 
 主要來源：`page_005`、`page_011`、`page_018`、`page_019`、`page_026`、`page_027`、`page_030`。

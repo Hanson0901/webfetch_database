@@ -1,0 +1,1693 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW" class="mode-two-column cssanimations desktop" style="height: 100%;"><head><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style><script>document.querySelector("html").setAttribute('class','mode-two-column');if(localStorage.getItem('card-list-mode')==='mode-tile'){document.querySelector("html").classList.remove('mode-two-column');}</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"><meta name="format-detection" content="telephone=no"><title>甘泉寺 | 桃園觀光導覽網</title><link href="/Content/css/all.css" rel="stylesheet"><link rel="stylesheet" href="/content/css/photoswipe.css"><link href="/Content/css/page-web-2022.css" rel="stylesheet"><link rel="stylesheet" href="/content/css/flickity.css"><meta name="keyword" content="桃園觀光行銷局, 桃園觀光, 觀光桃園, 桃園縣政府, 大溪, 慈湖, 蔣公, 風光, 角板山, 燈會"><meta name="subject" content="甘泉寺"><meta name="language" content="zh-tw"><meta name="owner" content="桃園市政府"><meta name="coverage" content="Worldwide"><meta name="distribution" content="Global"><meta name="rating" content="General"><meta property="og:title" content="甘泉寺"><meta property="og:type" content="place"><meta property="og:site_name" content="桃園觀光導覽網"><meta property="og:description" content="位於桃園市觀音區的甘泉寺，不僅是當地最具傳奇色彩的信仰中心之一，更是結合儒、釋、道三教信仰的宗教建築奇蹟。這座歷經百年修繕而成的宏偉廟宇，以其瑰麗的建築風格與豐富的文化內涵，吸引著信徒與旅人。建廟起源與甘泉井的神蹟甘泉寺前身為福龍寺，起源於清乾隆年間（1780年），一名農夫拾得酷似觀音菩薩的石塊，並在地供奉為「石觀音」。後因泉水湧現治癒百病的神蹟，寺名遂改為甘泉寺，旁邊的甘泉井則至今清..."><meta property="og:url" content="https://travel.tycg.gov.tw/zh-tw/travel/attraction/292"><meta property="og:locale" content="zh_tw"><meta property="og:image" content="https://travel.tycg.gov.tw/content/images/attractions/111538/1024x768_attractions-image-vycy4rfaieymidkotojfpq.jpg"><meta property="og:image" content="https://travel.tycg.gov.tw/content/images/attractions/111539/1024x768_attractions-image-tmh0cb7blukvim4vsxeyrg.jpg"><meta property="og:image" content="https://travel.tycg.gov.tw/content/images/attractions/111540/1024x768_attractions-image-nfhrrirhweahse47cnawfa.jpg"><meta property="og:image" content="https://travel.tycg.gov.tw/content/images/attractions/111541/1024x768_attractions-image-v89n4lvdskck-mjmqujdxq.jpg"><meta property="og:image" content="https://travel.tycg.gov.tw/content/images/attractions/111542/1024x768_attractions-image-3bfzhybyneo1oltnllcgea.jpg"><meta property="og:image" content="https://travel.tycg.gov.tw/content/images/attractions/111543/1024x768_attractions-image-lutkqhsaiu6olsjj9dcapg.jpg"><meta property="og:image" content="https://travel.tycg.gov.tw/content/images/attractions/111544/1024x768_attractions-image-3gv1rgji_ukipr5s-loala.jpg"><meta property="og:image" content="https://travel.tycg.gov.tw/content/images/attractions/111545/1024x768_attractions-image-3n41qxsgbue5rw1zflgkdg.jpg"><meta property="og:image" content="https://travel.tycg.gov.tw/content/images/attractions/111537/1024x768_attractions-image-sjvkrmgfauw7v2sqvbapsg.jpg"><meta property="place:location:latitude" content="25.03709"><meta property="place:location:longitude" content="121.08164"><meta name="twitter:card" content="https://travel.tycg.gov.tw/content/images/attractions/111538/1024x768_attractions-image-vycy4rfaieymidkotojfpq.jpg"><meta name="twitter:site" content="桃園觀光導覽網"><meta name="twitter:creator" content="桃園觀光導覽網"><meta name="twitter:title" content="甘泉寺"><meta name="twitter:description" content="位於桃園市觀音區的甘泉寺，不僅是當地最具傳奇色彩的信仰中心之一，更是結合儒、釋、道三教信仰的宗教建築奇蹟。這座歷經百年修繕而成的宏偉廟宇，以其瑰麗的建築風格與豐富的文化內涵，吸引著信徒與旅人。建廟起源與甘泉井的神蹟甘泉寺前身為福龍寺，起源於清乾隆年間（1780年），一名農夫拾得酷似觀音菩薩的石塊，並在地供奉為「石觀音」。後因泉水湧現治癒百病的神蹟，寺名遂改為甘泉寺，旁邊的甘泉井則至今清..."><meta name="twitter:image:src" content="https://travel.tycg.gov.tw/content/images/attractions/111538/480x360_attractions-image-vycy4rfaieymidkotojfpq.jpg"><link rel="apple-touch-icon" sizes="57x57" href="/Content/favicons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/Content/favicons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/Content/favicons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/Content/favicons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/Content/favicons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/Content/favicons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/Content/favicons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/Content/favicons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/Content/favicons/apple-touch-icon-180x180.png"><link rel="icon" type="image/png" href="/Content/favicons/favicon-32x32.png" sizes="32x32"><link rel="icon" type="image/png" href="/Content/favicons/android-chrome-192x192.png" sizes="192x192"><link rel="icon" type="image/png" href="/Content/favicons/favicon-96x96.png" sizes="96x96"><link rel="icon" type="image/png" href="/Content/favicons/favicon-16x16.png" sizes="16x16"><link rel="manifest" href="/Content/favicons/manifest.json"><meta name="msapplication-TileColor" content="#603cba"><meta name="msapplication-TileImage" content="/Content/favicons/mstile-144x144.png"><meta name="theme-color" content="#ffffff"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Place","name":"甘泉寺","address":{"@type":"PostalAddress","addressLocality":"觀音區","addressRegion":"桃園市","postalCode":"328","streetAddress":"甘泉街一號"},"geo":{"@type":"GeoCoordinates","latitude":"25.03709","longitude":"121.08164"},"url":"https://travel.tycg.gov.tw/zh-tw/travel/attraction/292","description":"位於桃園市觀音區的甘泉寺，不僅是當地最具傳奇色彩的信仰中心之一，更是結合儒、釋、道三教信仰的宗教建築奇蹟。這座歷經百年修繕而成的宏偉廟宇，以其瑰麗的建築風格與豐富的文化內涵，吸引著信徒與旅人。建廟起源與甘泉井的神蹟甘泉寺前身為福龍寺，起源於清乾隆年間（1780年），一名農夫拾得酷似觀音菩薩的石塊，並在地供奉為「石觀音」。後因泉水湧現治癒百病的神蹟，寺名遂改為甘泉寺，旁邊的甘泉井則至今清...","image":["https://travel.tycg.gov.tw/content/images/attractions/111538/1024x768_attractions-image-vycy4rfaieymidkotojfpq.jpg","https://travel.tycg.gov.tw/content/images/attractions/111539/1024x768_attractions-image-tmh0cb7blukvim4vsxeyrg.jpg","https://travel.tycg.gov.tw/content/images/attractions/111540/1024x768_attractions-image-nfhrrirhweahse47cnawfa.jpg","https://travel.tycg.gov.tw/content/images/attractions/111541/1024x768_attractions-image-v89n4lvdskck-mjmqujdxq.jpg","https://travel.tycg.gov.tw/content/images/attractions/111542/1024x768_attractions-image-3bfzhybyneo1oltnllcgea.jpg","https://travel.tycg.gov.tw/content/images/attractions/111543/1024x768_attractions-image-lutkqhsaiu6olsjj9dcapg.jpg","https://travel.tycg.gov.tw/content/images/attractions/111544/1024x768_attractions-image-3gv1rgji_ukipr5s-loala.jpg","https://travel.tycg.gov.tw/content/images/attractions/111545/1024x768_attractions-image-3n41qxsgbue5rw1zflgkdg.jpg","https://travel.tycg.gov.tw/content/images/attractions/111537/1024x768_attractions-image-sjvkrmgfauw7v2sqvbapsg.jpg"]}</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6D6V9VE8R7"></script><script>var LANG_MAP={"zh-tw":"tw","zh-cn":"cn",en:"en",ja:"ja",ko:"ko",id:"id",th:"th",vi:"vn",}
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-6D6V9VE8R7',{cookie_flags:'secure;samesite=lax'});dataLayer.push({'lang':LANG_MAP["zh-tw"]||'tw'})</script><style>*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: currentColor; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+    /* :root {
+		--tw-primary: 0, 121, 150;
+		--tw-secondary: 179, 20, 19;
+		--tw-orange: 219, 124, 74;
+		.new-2024 {
+			--tw-primary: 30, 86, 94;
+			--tw-orange: 234, 112, 26;
+		}
+	} */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.pointer-events-none {
+  pointer-events: none;
+}
+.pointer-events-auto {
+  pointer-events: auto;
+}
+.\!visible {
+  visibility: visible !important;
+}
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.sticky {
+  position: sticky;
+}
+.inset-0 {
+  inset: 0px;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.bottom-\[10\%\] {
+  bottom: 10%;
+}
+.bottom-\[40px\] {
+  bottom: 40px;
+}
+.bottom-\[88px\] {
+  bottom: 88px;
+}
+.left-0 {
+  left: 0px;
+}
+.right-0 {
+  right: 0px;
+}
+.right-\[-23px\] {
+  right: -23px;
+}
+.right-\[20px\] {
+  right: 20px;
+}
+.right-full {
+  right: 100%;
+}
+.top-0 {
+  top: 0px;
+}
+.top-4 {
+  top: 1rem;
+}
+.top-\[-23px\] {
+  top: -23px;
+}
+.top-\[10\%\] {
+  top: 10%;
+}
+.top-\[20px\] {
+  top: 20px;
+}
+.z-0 {
+  z-index: 0;
+}
+.z-10 {
+  z-index: 10;
+}
+.z-40 {
+  z-index: 40;
+}
+.z-\[2000\] {
+  z-index: 2000;
+}
+.z-\[3000\] {
+  z-index: 3000;
+}
+.z-\[9999\] {
+  z-index: 9999;
+}
+.m-\[12px\] {
+  margin: 12px;
+}
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+.mb-\[56px\] {
+  margin-bottom: 56px;
+}
+.mb-\[60px\] {
+  margin-bottom: 60px;
+}
+.ml-\[2px\] {
+  margin-left: 2px;
+}
+.ml-\[calc\(50\%-50vw\)\] {
+  margin-left: calc(50% - 50vw);
+}
+.mr-\[4px\] {
+  margin-right: 4px;
+}
+.mt-\[-56px\] {
+  margin-top: -56px;
+}
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+.mt-\[4px\] {
+  margin-top: 4px;
+}
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.grid {
+  display: grid;
+}
+.hidden {
+  display: none;
+}
+.aspect-\[3\/4\] {
+  aspect-ratio: 3/4;
+}
+.aspect-\[4\/3\] {
+  aspect-ratio: 4/3;
+}
+.size-10 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.\!h-\[100\%\] {
+  height: 100% !important;
+}
+.\!h-\[96px\] {
+  height: 96px !important;
+}
+.h-\[100\%\] {
+  height: 100%;
+}
+.h-\[100px\] {
+  height: 100px;
+}
+.h-\[100vh\] {
+  height: 100vh;
+}
+.h-\[10px\] {
+  height: 10px;
+}
+.h-\[16px\] {
+  height: 16px;
+}
+.h-\[180px\] {
+  height: 180px;
+}
+.h-\[18px\] {
+  height: 18px;
+}
+.h-\[20px\] {
+  height: 20px;
+}
+.h-\[30px\] {
+  height: 30px;
+}
+.h-\[320px\] {
+  height: 320px;
+}
+.h-\[3px\] {
+  height: 3px;
+}
+.h-\[40px\] {
+  height: 40px;
+}
+.h-\[65px\] {
+  height: 65px;
+}
+.max-h-\[80\%\] {
+  max-height: 80%;
+}
+.min-h-\[100vh\] {
+  min-height: 100vh;
+}
+.min-h-\[160px\] {
+  min-height: 160px;
+}
+.min-h-\[32px\] {
+  min-height: 32px;
+}
+.min-h-\[64px\] {
+  min-height: 64px;
+}
+.min-h-\[calc\(100vh-80px\)\] {
+  min-height: calc(100vh - 80px);
+}
+.w-\[100\%\] {
+  width: 100%;
+}
+.w-\[100px\] {
+  width: 100px;
+}
+.w-\[100vw\] {
+  width: 100vw;
+}
+.w-\[10px\] {
+  width: 10px;
+}
+.w-\[133px\] {
+  width: 133px;
+}
+.w-\[16px\] {
+  width: 16px;
+}
+.w-\[200px\] {
+  width: 200px;
+}
+.w-\[20px\] {
+  width: 20px;
+}
+.w-\[232px\] {
+  width: 232px;
+}
+.w-\[30px\] {
+  width: 30px;
+}
+.w-\[320px\] {
+  width: 320px;
+}
+.w-\[330px\] {
+  width: 330px;
+}
+.w-\[360px\] {
+  width: 360px;
+}
+.w-\[400px\] {
+  width: 400px;
+}
+.w-\[40px\] {
+  width: 40px;
+}
+.w-\[435px\] {
+  width: 435px;
+}
+.w-\[65px\] {
+  width: 65px;
+}
+.w-\[680px\] {
+  width: 680px;
+}
+.w-\[700px\] {
+  width: 700px;
+}
+.min-w-0 {
+  min-width: 0px;
+}
+.min-w-\[200px\] {
+  min-width: 200px;
+}
+.min-w-\[56px\] {
+  min-width: 56px;
+}
+.max-w-\[100\%\] {
+  max-width: 100%;
+}
+.max-w-\[1200px\] {
+  max-width: 1200px;
+}
+.max-w-\[135\%\] {
+  max-width: 135%;
+}
+.max-w-\[1440px\] {
+  max-width: 1440px;
+}
+.max-w-\[1565px\] {
+  max-width: 1565px;
+}
+.max-w-\[1600px\] {
+  max-width: 1600px;
+}
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+.max-w-\[900px\] {
+  max-width: 900px;
+}
+.flex-grow-0 {
+  flex-grow: 0;
+}
+.-translate-y-full {
+  --tw-translate-y: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.translate-y-\[100\%\] {
+  --tw-translate-y: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.rotate-45 {
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.rotate-90 {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.resize {
+  resize: both;
+}
+.list-none {
+  list-style-type: none;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-center {
+  align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.gap-1 {
+  gap: 0.25rem;
+}
+.gap-10 {
+  gap: 2.5rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+.gap-8 {
+  gap: 2rem;
+}
+.gap-\[12px\] {
+  gap: 12px;
+}
+.gap-\[16px\] {
+  gap: 16px;
+}
+.gap-\[27px\] {
+  gap: 27px;
+}
+.gap-\[4px\] {
+  gap: 4px;
+}
+.gap-\[8px\] {
+  gap: 8px;
+}
+.gap-x-\[12px\] {
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+.-space-x-\[6px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(-6px * var(--tw-space-x-reverse));
+  margin-left: calc(-6px * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+.space-y-\[8px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(8px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(8px * var(--tw-space-y-reverse));
+}
+.self-stretch {
+  align-self: stretch;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+.text-nowrap {
+  text-wrap: nowrap;
+}
+.rounded-\[16px\] {
+  border-radius: 16px;
+}
+.rounded-\[24px\] {
+  border-radius: 24px;
+}
+.rounded-\[400px\] {
+  border-radius: 400px;
+}
+.rounded-\[50px\] {
+  border-radius: 50px;
+}
+.rounded-\[8px\] {
+  border-radius: 8px;
+}
+.rounded-b-\[8px\] {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.rounded-l-\[400px\] {
+  border-top-left-radius: 400px;
+  border-bottom-left-radius: 400px;
+}
+.rounded-r-\[400px\] {
+  border-top-right-radius: 400px;
+  border-bottom-right-radius: 400px;
+}
+.rounded-t-\[16px\] {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.rounded-tr-\[0\] {
+  border-top-right-radius: 0;
+}
+.border {
+  border-width: 1px;
+}
+.border-0 {
+  border-width: 0px;
+}
+.border-\[5px\] {
+  border-width: 5px;
+}
+.border-l-\[4px\] {
+  border-left-width: 4px;
+}
+.border-r {
+  border-right-width: 1px;
+}
+.border-solid {
+  border-style: solid;
+}
+.border-\[\#ccc\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(204 204 204 / var(--tw-border-opacity, 1));
+}
+.border-\[\#d7d7d7\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(215 215 215 / var(--tw-border-opacity, 1));
+}
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: rgba(var(--tw-primary) , var(--tw-border-opacity, 1));
+}
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
+}
+.bg-\[\#666\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(102 102 102 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#DC0175\]\/10 {
+  background-color: rgb(220 1 117 / 0.1);
+}
+.bg-\[\#F7F7F7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#ccc\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(204 204 204 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#f0f0f0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 240 240 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#f7f7f7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#fff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-\[rgba\(247\2c 247\2c 247\)\] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(247, 247, 247, var(--tw-bg-opacity, 1));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+.bg-black\/30 {
+  background-color: rgb(0 0 0 / 0.3);
+}
+.bg-black\/35 {
+  background-color: rgb(0 0 0 / 0.35);
+}
+.bg-black\/50 {
+  background-color: rgb(0 0 0 / 0.5);
+}
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--tw-primary) , var(--tw-bg-opacity, 1));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-white\/50 {
+  background-color: rgb(255 255 255 / 0.5);
+}
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+.bg-none {
+  background-image: none;
+}
+.from-\[\#f6deeb\] {
+  --tw-gradient-from: #f6deeb var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(246 222 235 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-\[\#fc5e8a\] {
+  --tw-gradient-from: #fc5e8a var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(252 94 138 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-\[rgba\(0\2c 0\2c 0\2c 0\)\] {
+  --tw-gradient-from: rgba(0,0,0,0) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgba(0, 0, 0, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.via-\[rgba\(0\2c 0\2c 0\2c 0\)\] {
+  --tw-gradient-to: rgba(0, 0, 0, 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), rgba(0,0,0,0) var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+.via-60\% {
+  --tw-gradient-via-position: 60%;
+}
+.to-\[\#dc0175\] {
+  --tw-gradient-to: #dc0175 var(--tw-gradient-to-position);
+}
+.to-\[\#f8c1de\] {
+  --tw-gradient-to: #f8c1de var(--tw-gradient-to-position);
+}
+.to-\[rgba\(0\2c 0\2c 0\2c 0\.6\)\] {
+  --tw-gradient-to: rgba(0,0,0,0.6) var(--tw-gradient-to-position);
+}
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+.p-\[16px\] {
+  padding: 16px;
+}
+.p-\[32px\] {
+  padding: 32px;
+}
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.px-\[12px\] {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.px-\[16px\] {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.py-\[24px\] {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.py-\[4px\] {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.pb-\[136px\] {
+  padding-bottom: 136px;
+}
+.pb-\[24px\] {
+  padding-bottom: 24px;
+}
+.pt-\[20px\] {
+  padding-top: 20px;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-\[14px\] {
+  font-size: 14px;
+}
+.text-\[15px\] {
+  font-size: 15px;
+}
+.text-\[46px\] {
+  font-size: 46px;
+}
+.font-bold {
+  font-weight: 700;
+}
+.leading-6 {
+  line-height: 1.5rem;
+}
+.text-\[\#000\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+.text-\[\#0F86D5\] {
+  --tw-text-opacity: 1;
+  color: rgb(15 134 213 / var(--tw-text-opacity, 1));
+}
+.text-\[\#2a2a2a\] {
+  --tw-text-opacity: 1;
+  color: rgb(42 42 42 / var(--tw-text-opacity, 1));
+}
+.text-\[\#4D9B1F\] {
+  --tw-text-opacity: 1;
+  color: rgb(77 155 31 / var(--tw-text-opacity, 1));
+}
+.text-\[\#5e5e5e\] {
+  --tw-text-opacity: 1;
+  color: rgb(94 94 94 / var(--tw-text-opacity, 1));
+}
+.text-\[\#666\] {
+  --tw-text-opacity: 1;
+  color: rgb(102 102 102 / var(--tw-text-opacity, 1));
+}
+.text-\[\#7c7c7c\] {
+  --tw-text-opacity: 1;
+  color: rgb(124 124 124 / var(--tw-text-opacity, 1));
+}
+.text-\[\#828282\] {
+  --tw-text-opacity: 1;
+  color: rgb(130 130 130 / var(--tw-text-opacity, 1));
+}
+.text-\[\#979797\] {
+  --tw-text-opacity: 1;
+  color: rgb(151 151 151 / var(--tw-text-opacity, 1));
+}
+.text-\[\#CA6C07\] {
+  --tw-text-opacity: 1;
+  color: rgb(202 108 7 / var(--tw-text-opacity, 1));
+}
+.text-\[\#E13C0A\] {
+  --tw-text-opacity: 1;
+  color: rgb(225 60 10 / var(--tw-text-opacity, 1));
+}
+.text-\[\#e6007a\] {
+  --tw-text-opacity: 1;
+  color: rgb(230 0 122 / var(--tw-text-opacity, 1));
+}
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgba(var(--tw-primary) , var(--tw-text-opacity, 1));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-30 {
+  opacity: 0.3;
+}
+.shadow-\[0_16px_24px_rgba\(0\2c 0\2c 0\2c 0\.24\)\] {
+  --tw-shadow: 0 16px 24px rgba(0,0,0,0.24);
+  --tw-shadow-colored: 0 16px 24px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.drop-shadow-\[0_2px_2px_rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
+  --tw-drop-shadow: drop-shadow(0 2px 2px rgba(0,0,0,0.5));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.drop-shadow-\[0_3px_12px_rgba\(0\2c 0\2c 0\2c 0\.4\)\] {
+  --tw-drop-shadow: drop-shadow(0 3px 12px rgba(0,0,0,0.4));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.drop-shadow-sm {
+  --tw-drop-shadow: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-300 {
+  transition-duration: 300ms;
+}
+.duration-500 {
+  transition-duration: 500ms;
+}
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.before\:pt-\[78\.378378\%\]::before {
+  content: var(--tw-content);
+  padding-top: 78.378378%;
+}
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgba(var(--tw-primary) , var(--tw-text-opacity, 1));
+}
+.hover\:drop-shadow-\[0_0_12px_rgba\(230\2c 0\2c 122\2c \.5\)\]:hover {
+  --tw-drop-shadow: drop-shadow(0 0 12px rgba(230,0,122,.5));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.focus-visible\:text-primary:focus-visible {
+  --tw-text-opacity: 1;
+  color: rgba(var(--tw-primary) , var(--tw-text-opacity, 1));
+}
+.focus-visible\:drop-shadow-\[0_0_12px_rgba\(230\2c 0\2c 122\2c \.5\)\]:focus-visible {
+  --tw-drop-shadow: drop-shadow(0 0 12px rgba(230,0,122,.5));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.focus-visible\:\[filter\:drop-shadow\(0_4px_6px_var\(--route-color\)\)\]:focus-visible {
+  filter: drop-shadow(0 4px 6px var(--route-color));
+}
+.group:focus-within .group-focus-within\:text-\[\#dc0175\] {
+  --tw-text-opacity: 1;
+  color: rgb(220 1 117 / var(--tw-text-opacity, 1));
+}
+.group:hover .group-hover\:bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--tw-primary) , var(--tw-bg-opacity, 1));
+}
+.group:hover .group-hover\:text-\[\#dc0175\] {
+  --tw-text-opacity: 1;
+  color: rgb(220 1 117 / var(--tw-text-opacity, 1));
+}
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+.group:focus-visible .group-focus-visible\:bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--tw-primary) , var(--tw-bg-opacity, 1));
+}
+.group:focus-visible .group-focus-visible\:opacity-100 {
+  opacity: 1;
+}
+@media (min-width: 768px) {
+
+  .md\:sticky {
+    position: sticky;
+  }
+
+  .md\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .md\:bottom-\[24\.8\%\] {
+    bottom: 24.8%;
+  }
+
+  .md\:top-\[136px\] {
+    top: 136px;
+  }
+
+  .md\:top-\[21\.5\%\] {
+    top: 21.5%;
+  }
+
+  .md\:top-auto {
+    top: auto;
+  }
+
+  .md\:mb-\[40px\] {
+    margin-bottom: 40px;
+  }
+
+  .md\:ml-\[24px\] {
+    margin-left: 24px;
+  }
+
+  .md\:aspect-auto {
+    aspect-ratio: auto;
+  }
+
+  .md\:h-\[calc\(100vh-136px\)\] {
+    height: calc(100vh - 136px);
+  }
+
+  .md\:h-\[calc\(100vh-56px\)\] {
+    height: calc(100vh - 56px);
+  }
+
+  .md\:w-\[363px\] {
+    width: 363px;
+  }
+
+  .md\:w-\[50\.26\%\] {
+    width: 50.26%;
+  }
+
+  .md\:max-w-\[640px\] {
+    max-width: 640px;
+  }
+
+  .md\:translate-y-full {
+    --tw-translate-y: 100%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:gap-x-6 {
+    -moz-column-gap: 1.5rem;
+         column-gap: 1.5rem;
+  }
+
+  .md\:gap-y-10 {
+    row-gap: 2.5rem;
+  }
+
+  .md\:self-start {
+    align-self: flex-start;
+  }
+
+  .md\:rounded-\[8px\] {
+    border-radius: 8px;
+  }
+
+  .md\:object-top {
+    -o-object-position: top;
+       object-position: top;
+  }
+
+  .md\:p-\[24px\] {
+    padding: 24px;
+  }
+
+  .md\:px-\[24px\] {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .md\:pb-\[32px\] {
+    padding-bottom: 32px;
+  }
+
+  .md\:pl-\[16px\] {
+    padding-left: 16px;
+  }
+
+  .md\:pr-\[16px\] {
+    padding-right: 16px;
+  }
+
+  .md\:before\:pt-\[45\.833333\%\]::before {
+    content: var(--tw-content);
+    padding-top: 45.833333%;
+  }
+}
+@media (min-width: 1024px) {
+
+  .lg\:h-\[50px\] {
+    height: 50px;
+  }
+
+  .lg\:w-\[50px\] {
+    width: 50px;
+  }
+}
+@media (min-width: 1200px) {
+
+  .xl\:\!visible {
+    visibility: visible !important;
+  }
+
+  .xl\:bottom-\[22\%\] {
+    bottom: 22%;
+  }
+
+  .xl\:top-\[160px\] {
+    top: 160px;
+  }
+
+  .xl\:top-\[22\%\] {
+    top: 22%;
+  }
+
+  .xl\:mt-\[-80px\] {
+    margin-top: -80px;
+  }
+
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .xl\:h-\[160px\] {
+    height: 160px;
+  }
+
+  .xl\:h-\[720px\] {
+    height: 720px;
+  }
+
+  .xl\:h-\[calc\(100vh-160px\)\] {
+    height: calc(100vh - 160px);
+  }
+
+  .xl\:h-\[calc\(100vh-80px\)\] {
+    height: calc(100vh - 80px);
+  }
+
+  .xl\:w-\[213px\] {
+    width: 213px;
+  }
+
+  .xl\:w-\[60\.94\%\] {
+    width: 60.94%;
+  }
+
+  .xl\:max-w-\[295px\] {
+    max-width: 295px;
+  }
+
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .xl\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .xl\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .xl\:gap-\[12px\] {
+    gap: 12px;
+  }
+
+  .xl\:gap-\[16px\] {
+    gap: 16px;
+  }
+
+  .xl\:gap-\[32px\] {
+    gap: 32px;
+  }
+
+  .xl\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+  }
+
+  .xl\:px-\[40px\] {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .xl\:py-\[40px\] {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .xl\:pb-\[230px\] {
+    padding-bottom: 230px;
+  }
+
+  .xl\:pl-\[40px\] {
+    padding-left: 40px;
+  }
+
+  .xl\:pr-\[40px\] {
+    padding-right: 40px;
+  }
+
+  .xl\:hover\:\[filter\:drop-shadow\(0_4px_6px_var\(--route-color\)\)\]:hover {
+    filter: drop-shadow(0 4px 6px var(--route-color));
+  }
+
+  .group:hover .xl\:group-hover\:text-primary {
+    --tw-text-opacity: 1;
+    color: rgba(var(--tw-primary) , var(--tw-text-opacity, 1));
+  }
+}
+@media (min-width: 1600px) {
+
+  .\32xl\:w-\[370px\] {
+    width: 370px;
+  }
+
+  .\32xl\:w-\[410px\] {
+    width: 410px;
+  }
+}
+</style><style></style><style>/**
+ * Swiper 9.4.1
+ * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * https://swiperjs.com
+ *
+ * Copyright 2014-2023 Vladimir Kharlampidi
+ *
+ * Released under the MIT License
+ *
+ * Released on: June 13, 2023
+ */
+
+@font-face{font-family:swiper-icons;src:url("data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA");font-weight:400;font-style:normal}:root{--swiper-theme-color:#007aff}.swiper,swiper-container{margin-left:auto;margin-right:auto;position:relative;overflow:hidden;list-style:none;padding:0;z-index:1;display:block}.swiper-vertical>.swiper-wrapper{flex-direction:column}.swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);box-sizing:content-box}.swiper-android .swiper-slide,.swiper-wrapper{transform:translate3d(0px,0,0)}.swiper-horizontal{touch-action:pan-y}.swiper-vertical{touch-action:pan-x}.swiper-slide,swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight,.swiper-autoheight .swiper-slide{height:auto}.swiper-autoheight .swiper-wrapper{align-items:flex-start;transition-property:transform,height}.swiper-backface-hidden .swiper-slide{transform:translateZ(0);-webkit-backface-visibility:hidden;backface-visibility:hidden}.swiper-3d.swiper-css-mode .swiper-wrapper{perspective:1200px}.swiper-3d .swiper-wrapper{transform-style:preserve-3d}.swiper-3d{perspective:1200px}.swiper-3d .swiper-cube-shadow,.swiper-3d .swiper-slide,.swiper-3d .swiper-slide-shadow,.swiper-3d .swiper-slide-shadow-bottom,.swiper-3d .swiper-slide-shadow-left,.swiper-3d .swiper-slide-shadow-right,.swiper-3d .swiper-slide-shadow-top{transform-style:preserve-3d}.swiper-3d .swiper-slide-shadow,.swiper-3d .swiper-slide-shadow-bottom,.swiper-3d .swiper-slide-shadow-left,.swiper-3d .swiper-slide-shadow-right,.swiper-3d .swiper-slide-shadow-top{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:10}.swiper-3d .swiper-slide-shadow{background:rgba(0,0,0,.15)}.swiper-3d .swiper-slide-shadow-left{background-image:linear-gradient(to left,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-right{background-image:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-top{background-image:linear-gradient(to top,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-bottom{background-image:linear-gradient(to bottom,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-css-mode>.swiper-wrapper{overflow:auto;scrollbar-width:none;-ms-overflow-style:none}.swiper-css-mode>.swiper-wrapper::-webkit-scrollbar{display:none}.swiper-css-mode>.swiper-wrapper>.swiper-slide{scroll-snap-align:start start}.swiper-horizontal.swiper-css-mode>.swiper-wrapper{scroll-snap-type:x mandatory}.swiper-vertical.swiper-css-mode>.swiper-wrapper{scroll-snap-type:y mandatory}.swiper-css-mode.swiper-free-mode>.swiper-wrapper{scroll-snap-type:none}.swiper-css-mode.swiper-free-mode>.swiper-wrapper>.swiper-slide{scroll-snap-align:none}.swiper-centered>.swiper-wrapper::before{content:'';flex-shrink:0;order:9999}.swiper-centered>.swiper-wrapper>.swiper-slide{scroll-snap-align:center center;scroll-snap-stop:always}.swiper-centered.swiper-horizontal>.swiper-wrapper>.swiper-slide:first-child{margin-inline-start:var(--swiper-centered-offset-before)}.swiper-centered.swiper-horizontal>.swiper-wrapper::before{height:100%;min-height:1px;width:var(--swiper-centered-offset-after)}.swiper-centered.swiper-vertical>.swiper-wrapper>.swiper-slide:first-child{margin-block-start:var(--swiper-centered-offset-before)}.swiper-centered.swiper-vertical>.swiper-wrapper::before{width:100%;min-width:1px;height:var(--swiper-centered-offset-after)}.swiper-lazy-preloader{width:42px;height:42px;position:absolute;left:50%;top:50%;margin-left:-21px;margin-top:-21px;z-index:10;transform-origin:50%;box-sizing:border-box;border:4px solid var(--swiper-preloader-color,var(--swiper-theme-color));border-radius:50%;border-top-color:transparent}.swiper-watch-progress .swiper-slide-visible .swiper-lazy-preloader,.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader,swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader{animation:swiper-preloader-spin 1s infinite linear}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}.swiper-lazy-preloader-black{--swiper-preloader-color:#000}@keyframes swiper-preloader-spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.swiper-virtual .swiper-slide{-webkit-backface-visibility:hidden;transform:translateZ(0)}.swiper-virtual.swiper-css-mode .swiper-wrapper::after{content:'';position:absolute;left:0;top:0;pointer-events:none}.swiper-virtual.swiper-css-mode.swiper-horizontal .swiper-wrapper::after{height:1px;width:var(--swiper-virtual-size)}.swiper-virtual.swiper-css-mode.swiper-vertical .swiper-wrapper::after{width:1px;height:var(--swiper-virtual-size)}:root{--swiper-navigation-size:44px}.swiper-button-next,.swiper-button-prev{position:absolute;top:var(--swiper-navigation-top-offset,50%);width:calc(var(--swiper-navigation-size)/ 44 * 27);height:var(--swiper-navigation-size);margin-top:calc(0px - (var(--swiper-navigation-size)/ 2));z-index:10;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--swiper-navigation-color,var(--swiper-theme-color))}.swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled{opacity:.35;cursor:auto;pointer-events:none}.swiper-button-next.swiper-button-hidden,.swiper-button-prev.swiper-button-hidden{opacity:0;cursor:auto;pointer-events:none}.swiper-navigation-disabled .swiper-button-next,.swiper-navigation-disabled .swiper-button-prev{display:none!important}.swiper-button-next:after,.swiper-button-prev:after{font-family:swiper-icons;font-size:var(--swiper-navigation-size);text-transform:none!important;letter-spacing:0;font-variant:initial;line-height:1}.swiper-button-prev,.swiper-rtl .swiper-button-next{left:var(--swiper-navigation-sides-offset,10px);right:auto}.swiper-button-prev:after,.swiper-rtl .swiper-button-next:after{content:'prev'}.swiper-button-next,.swiper-rtl .swiper-button-prev{right:var(--swiper-navigation-sides-offset,10px);left:auto}.swiper-button-next:after,.swiper-rtl .swiper-button-prev:after{content:'next'}.swiper-button-lock{display:none}.swiper-pagination{position:absolute;text-align:center;transition:.3s opacity;transform:translate3d(0,0,0);z-index:10}.swiper-pagination.swiper-pagination-hidden{opacity:0}.swiper-pagination-disabled>.swiper-pagination,.swiper-pagination.swiper-pagination-disabled{display:none!important}.swiper-horizontal>.swiper-pagination-bullets,.swiper-pagination-bullets.swiper-pagination-horizontal,.swiper-pagination-custom,.swiper-pagination-fraction{bottom:var(--swiper-pagination-bottom,8px);top:var(--swiper-pagination-top,auto);left:0;width:100%}.swiper-pagination-bullets-dynamic{overflow:hidden;font-size:0}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transform:scale(.33);position:relative}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active{transform:scale(1)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main{transform:scale(1)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev{transform:scale(.66)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev{transform:scale(.33)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next{transform:scale(.66)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next{transform:scale(.33)}.swiper-pagination-bullet{width:var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,8px));height:var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,8px));display:inline-block;border-radius:var(--swiper-pagination-bullet-border-radius,50%);background:var(--swiper-pagination-bullet-inactive-color,#000);opacity:var(--swiper-pagination-bullet-inactive-opacity, .2)}button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-webkit-appearance:none;appearance:none}.swiper-pagination-clickable .swiper-pagination-bullet{cursor:pointer}.swiper-pagination-bullet:only-child{display:none!important}.swiper-pagination-bullet-active{opacity:var(--swiper-pagination-bullet-opacity, 1);background:var(--swiper-pagination-color,var(--swiper-theme-color))}.swiper-pagination-vertical.swiper-pagination-bullets,.swiper-vertical>.swiper-pagination-bullets{right:var(--swiper-pagination-right,8px);left:var(--swiper-pagination-left,auto);top:50%;transform:translate3d(0px,-50%,0)}.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet,.swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{margin:var(--swiper-pagination-bullet-vertical-gap,6px) 0;display:block}.swiper-pagination-vertical.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,.swiper-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{top:50%;transform:translateY(-50%);width:8px}.swiper-pagination-vertical.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,.swiper-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{display:inline-block;transition:.2s transform,.2s top}.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 var(--swiper-pagination-bullet-horizontal-gap,4px)}.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{left:50%;transform:translateX(-50%);white-space:nowrap}.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transition:.2s transform,.2s left}.swiper-horizontal.swiper-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,:host(.swiper-horizontal.swiper-rtl) .swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transition:.2s transform,.2s right}.swiper-pagination-fraction{color:var(--swiper-pagination-fraction-color,inherit)}.swiper-pagination-progressbar{background:var(--swiper-pagination-progressbar-bg-color,rgba(0,0,0,.25));position:absolute}.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{background:var(--swiper-pagination-color,var(--swiper-theme-color));position:absolute;left:0;top:0;width:100%;height:100%;transform:scale(0);transform-origin:left top}.swiper-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{transform-origin:right top}.swiper-horizontal>.swiper-pagination-progressbar,.swiper-pagination-progressbar.swiper-pagination-horizontal,.swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,.swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{width:100%;height:var(--swiper-pagination-progressbar-size,4px);left:0;top:0}.swiper-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,.swiper-pagination-progressbar.swiper-pagination-horizontal.swiper-pagination-progressbar-opposite,.swiper-pagination-progressbar.swiper-pagination-vertical,.swiper-vertical>.swiper-pagination-progressbar{width:var(--swiper-pagination-progressbar-size,4px);height:100%;left:0;top:0}.swiper-pagination-lock{display:none}.swiper-scrollbar{border-radius:var(--swiper-scrollbar-border-radius,10px);position:relative;-ms-touch-action:none;background:var(--swiper-scrollbar-bg-color,rgba(0,0,0,.1))}.swiper-scrollbar-disabled>.swiper-scrollbar,.swiper-scrollbar.swiper-scrollbar-disabled{display:none!important}.swiper-horizontal>.swiper-scrollbar,.swiper-scrollbar.swiper-scrollbar-horizontal{position:absolute;left:var(--swiper-scrollbar-sides-offset,1%);bottom:var(--swiper-scrollbar-bottom,4px);top:var(--swiper-scrollbar-top,auto);z-index:50;height:var(--swiper-scrollbar-size,4px);width:calc(100% - 2 * var(--swiper-scrollbar-sides-offset,1%))}.swiper-scrollbar.swiper-scrollbar-vertical,.swiper-vertical>.swiper-scrollbar{position:absolute;left:var(--swiper-scrollbar-left,auto);right:var(--swiper-scrollbar-right,4px);top:var(--swiper-scrollbar-sides-offset,1%);z-index:50;width:var(--swiper-scrollbar-size,4px);height:calc(100% - 2 * var(--swiper-scrollbar-sides-offset,1%))}.swiper-scrollbar-drag{height:100%;width:100%;position:relative;background:var(--swiper-scrollbar-drag-bg-color,rgba(0,0,0,.5));border-radius:var(--swiper-scrollbar-border-radius,10px);left:0;top:0}.swiper-scrollbar-cursor-drag{cursor:move}.swiper-scrollbar-lock{display:none}.swiper-zoom-container{width:100%;height:100%;display:flex;justify-content:center;align-items:center;text-align:center}.swiper-zoom-container>canvas,.swiper-zoom-container>img,.swiper-zoom-container>svg{max-width:100%;max-height:100%;object-fit:contain}.swiper-slide-zoomed{cursor:move;touch-action:none}.swiper .swiper-notification,swiper-container .swiper-notification{position:absolute;left:0;top:0;pointer-events:none;opacity:0;z-index:-1000}.swiper-free-mode>.swiper-wrapper{transition-timing-function:ease-out;margin:0 auto}.swiper-grid>.swiper-wrapper{flex-wrap:wrap}.swiper-grid-column>.swiper-wrapper{flex-wrap:wrap;flex-direction:column}.swiper-fade.swiper-free-mode .swiper-slide{transition-timing-function:ease-out}.swiper-fade .swiper-slide{pointer-events:none;transition-property:opacity}.swiper-fade .swiper-slide .swiper-slide{pointer-events:none}.swiper-fade .swiper-slide-active,.swiper-fade .swiper-slide-active .swiper-slide-active{pointer-events:auto}.swiper-cube{overflow:visible}.swiper-cube .swiper-slide{pointer-events:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;z-index:1;visibility:hidden;transform-origin:0 0;width:100%;height:100%}.swiper-cube .swiper-slide .swiper-slide{pointer-events:none}.swiper-cube.swiper-rtl .swiper-slide{transform-origin:100% 0}.swiper-cube .swiper-slide-active,.swiper-cube .swiper-slide-active .swiper-slide-active{pointer-events:auto}.swiper-cube .swiper-slide-active,.swiper-cube .swiper-slide-next,.swiper-cube .swiper-slide-next+.swiper-slide,.swiper-cube .swiper-slide-prev{pointer-events:auto;visibility:visible}.swiper-cube .swiper-slide-shadow-bottom,.swiper-cube .swiper-slide-shadow-left,.swiper-cube .swiper-slide-shadow-right,.swiper-cube .swiper-slide-shadow-top{z-index:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}.swiper-cube .swiper-cube-shadow{position:absolute;left:0;bottom:0px;width:100%;height:100%;opacity:.6;z-index:0}.swiper-cube .swiper-cube-shadow:before{content:'';background:#000;position:absolute;left:0;top:0;bottom:0;right:0;filter:blur(50px)}.swiper-flip{overflow:visible}.swiper-flip .swiper-slide{pointer-events:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;z-index:1}.swiper-flip .swiper-slide .swiper-slide{pointer-events:none}.swiper-flip .swiper-slide-active,.swiper-flip .swiper-slide-active .swiper-slide-active{pointer-events:auto}.swiper-flip .swiper-slide-shadow-bottom,.swiper-flip .swiper-slide-shadow-left,.swiper-flip .swiper-slide-shadow-right,.swiper-flip .swiper-slide-shadow-top{z-index:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}.swiper-creative .swiper-slide{-webkit-backface-visibility:hidden;backface-visibility:hidden;overflow:hidden;transition-property:transform,opacity,height}.swiper-cards{overflow:visible}.swiper-cards .swiper-slide{transform-origin:center bottom;-webkit-backface-visibility:hidden;backface-visibility:hidden;overflow:hidden}</style><script async="" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&amp;hl=zh-tw"></script><link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.zZZZhVqDDCw.L.W.O/am=AAAAAw/d=0/rs=AN8SPfpUkvS-Z71_1qzwNK-AklHkiHZ2gQ/m=el_main_css"><script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.zh_TW.UgIOoqVEN1o.O/am=AAAAAw/d=1/ed=1/rs=AN8SPfoHxujDk2LMHJ_LtZ4BNyZXPeo6Zw/m=el_main"></script></head><body class="zh new-2020 zh-tw new-2023 float-show" data-is-login="False" data-lang="zh-tw" style="position: relative; min-height: 100%; top: 0px;"><a id="top" class="anchor-fix" title="定位點" tabindex="-1">定位點</a> <a href="#main-content" class="acc-show-at-focus js-scroll-anchor" title="跳到主要內容區塊">跳到主要內容區塊</a> <input name="__RequestVerificationToken" type="hidden" value="Ol6HXoz4UgrxwtaHYWzY-Fn2XRUZjYgTrSup99sy0fQcoOru3SN7fXapR4YC1Ru1_H21U5ecUINKfks3BaGWsmSLmN7XoIP2kEodFDc7tqM1"><div id="fb-root"></div><div class="main-container is-transparent-header pt-0" id="main-container"><div class="smart-banner"><button class="btn-close-small" id="btn-hide-smart-banner" title="關閉">關閉</button><div class="app-install-link"><span class="app-text">遊桃園 APP 全新上線<br>立即下載</span> <a href="https://itunes.apple.com/tw/app/%E6%A1%83%E5%9C%92%E6%99%BA%E6%85%A7%E9%81%8A/id1317672236?mt=8" class="link ios" rel="noopener noreferrer" target="_blank" title="iOS版本下載(另開視窗)">ios下載</a> <a href="https://play.google.com/store/apps/details?id=com.csii.fusing" class="link android" rel="noopener noreferrer" target="_blank" title="Android版本下載(另開視窗)">Android下載</a></div><a href="https://itunes.apple.com/tw/app/%E6%A1%83%E5%9C%92%E6%99%BA%E6%85%A7%E9%81%8A/id1317672236?mt=8" class="btn-app-install ios" rel="noopener noreferrer" target="_blank" title="iOS版本立即安裝(另開視窗)">立即安裝</a> <a href="https://play.google.com/store/apps/details?id=com.csii.fusing" class="btn-app-install android" rel="noopener noreferrer" target="_blank" title="Android版本立即安裝(另開視窗)">立即安裝</a></div><div id="header-root"><h1 class="sr-only">桃園觀光導覽網</h1><header class="  header-wrapper-2022 fixed-top w-100 h-7 h-xl-10 px-xl-3"><div class="header-2022 d-flex align-items-center justify-content-between w-100 h-7 h-xl-10 mx-xl-auto px-2"><h1 class="false main-logo-2022 flex-shrink-0 z-100 position-relative z-100"><a href="/zh-tw" class="fill-parent text-hide" title="回首頁">桃園觀光導覽網</a></h1><button class="btn-open-menu-2022 d-xl-none rounded-[8px]"><span class="sr-only">導覽</span></button><div class="main-nav-wrapper-2022 invisible  xl:!visible"><div class="mobile-scroll-wrapper-2022"><nav class="main-nav-2022 d-flex flex-column flex-xl-row align-items-xl-center"><ul class="d-xl-flex align-items-start-center position-relative" id="main-nav-title-list"><li class=" item mr-xl-3 mr-0-last"><a class="false menu-title-2022 d-flex align-items-center w-100 h-xl-6 p-2 text-decoration-none text-default fz-20px fz-xl-18px font-weight-bold hover-primary trs-all" href="#">精采活動<i class="icon icon-triangle d-xl-none ml-auto fz-10px text-muted rotate-270" aria-hidden="true"></i></a><div class="js-sub-menu nav-sub-list-2022 justify-content-start justify-content-xl-center h-xl-auto pt-7 p-xl-8 bg-light  shadow"><a class="d-block position-relative flex-shrink-0 w-[360px] 2xl:w-[410px] mr-xl-6 mr-0-last hover-primary trs-all text-default text-decoration-none rounded-[16px] bg-white shadow" href="/zh-tw/event/calendar/"><div class="embed-responsive embed-responsive-3by4 rounded-[16px] undefined"><video class="d-block w-100 z-1 fit-cover" type="video/mp4" src="/content/videos/menu-01-01.mp4" poster="/content/videos/menu-01-01.jpg" preload="none" loop="" playsinline=""></video></div><div class="px-2 py-3 text-center fz-20px lh-initial">節慶與活動</div><div class="fill-parent"></div></a><a class="d-block position-relative flex-shrink-0 w-[360px] 2xl:w-[410px] mr-xl-6 mr-0-last hover-primary trs-all text-default text-decoration-none rounded-[16px] bg-white shadow" href="/zh-tw/multimedia/live-camera/"><div class="embed-responsive embed-responsive-3by4 rounded-[16px] undefined"><video class="d-block w-100 z-1 fit-cover" type="video/mp4" src="/content/videos/menu-01-02.mp4" poster="/content/videos/menu-01-02.jpg" preload="none" loop="" playsinline=""></video></div><div class="px-2 py-3 text-center fz-20px lh-initial">即時影像</div><div class="fill-parent"></div></a><div class="w-[330px] 2xl:w-[370px] flex-shrink-0 mr-6 mr-0-last align-self-start"><div class="row g-5"><div class="fz-16px col-12"><a href="/zh-tw/immersive/" class="d-flex align-items-center w-100 font-weight-bold hover-shadow trs-all rounded-[16px] text-white position-relative overflow-hidden" title="線上遊桃園"><div class="thumb-frame embed-responsive  before:pt-[78.378378%] rounded-[16px]"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/immersive.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-[16px]"><noscript></noscript></div><div class="sr-only absolute-bottom-left d-flex justify-content-center align-items-end w-100 h-50 p-2 fz-20px lh-initial text-shadow-title text-center">線上遊桃園</div></a></div><div class="fz-16px col-12"><a href="/zh-tw/digital-twin/" class="d-flex align-items-center w-100 font-weight-bold hover-shadow trs-all rounded-[16px] text-white position-relative overflow-hidden" title="虛擬旅行新體驗"><div class="thumb-frame embed-responsive  before:pt-[78.378378%] rounded-[16px]"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/matterport.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-[16px]"><noscript></noscript></div><div class="sr-only absolute-bottom-left d-flex justify-content-center align-items-end w-100 h-50 p-2 fz-20px lh-initial text-shadow-title text-center">虛擬旅行新體驗</div></a></div></div></div><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 256px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">當季快訊</div><ul class="false mt-2"><li class="false mb-12px"><a href="/zh-tw/event" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="最新消息"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>最新消息</div></a></li><li class="false mb-12px"><a href="/zh-tw/reports" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="桃園夯話題"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>桃園夯話題</div></a></li><li class="false mb-12px"><a href="/zh-tw/event/couponlist" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="優惠情報"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>優惠情報</div></a></li><li class="false mb-12px"><a href="/zh-tw/interesting-things" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="上週最熱門"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>上週最熱門</div></a></li><li class="false mb-12px"><a href="/zh-tw/event/scenicalbumlist" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="桃園花訊"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>桃園花訊</div></a></li></ul></div></div></li><li class=" item mr-xl-3 mr-0-last"><a class="false menu-title-2022 d-flex align-items-center w-100 h-xl-6 p-2 text-decoration-none text-default fz-20px fz-xl-18px font-weight-bold hover-primary trs-all" href="#">想做的事<i class="icon icon-triangle d-xl-none ml-auto fz-10px text-muted rotate-270" aria-hidden="true"></i></a><div class="js-sub-menu nav-sub-list-2022 justify-content-start justify-content-xl-center h-xl-auto pt-7 p-xl-8 bg-light  shadow"><div class="w-[680px] flex-shrink-0 mr-6 mr-0-last align-self-start"><div class="row g-5"><div class="fz-16px col-6"><a class="d-block w-100 font-weight-bold hover-shadow trs-all bg-white hover-primary trs-all rounded-[16px] position-relative overflow-hidden shadow fz-xl-20px" title="探索珍珠海岸 (另開視窗)" target="_blank" rel="noopener noreferrer" href="https://travel.tycg.gov.tw/pearl-coast/"><div class="thumb-frame embed-responsive embed-responsive-4by3 undefined rounded-[16px]"><img src="/content/images/global/blank.gif" data-src="/content/images/2022/menu/menu-2-1-12.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-[16px]"><noscript></noscript></div><div class="p-xl-2">探索珍珠海岸</div></a></div><div class="fz-16px col-6"><a href="/zh-tw/travel/ota" class="d-block w-100 font-weight-bold hover-shadow trs-all bg-white hover-primary trs-all rounded-[16px] position-relative overflow-hidden shadow fz-xl-20px" title="行程、票券預購專區"><div class="thumb-frame embed-responsive embed-responsive-4by3 undefined rounded-[16px]"><img src="/content/images/global/blank.gif" data-src="/content/images/2022/menu/menu-2-1-10.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-[16px]"><noscript></noscript></div><div class="p-xl-2">行程、票券預購專區</div></a></div><div class="fz-16px col-6"><a class="d-block w-100 font-weight-bold hover-shadow trs-all bg-white hover-primary trs-all rounded-[16px] position-relative overflow-hidden shadow fz-xl-20px" title="大龍門主題網 (另開視窗)" target="_blank" rel="noopener noreferrer" href="https://travel.tycg.gov.tw/dalongmen/"><div class="thumb-frame embed-responsive embed-responsive-4by3 undefined rounded-[16px]"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/do-02.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-[16px]"><noscript></noscript></div><div class="p-xl-2">大龍門主題網</div></a></div><div class="fz-16px col-6"><a href="/zh-tw/travel/tourlist" class="d-block w-100 font-weight-bold hover-shadow trs-all bg-white hover-primary trs-all rounded-[16px] position-relative overflow-hidden shadow fz-xl-20px" title="行程快搜"><div class="thumb-frame embed-responsive embed-responsive-4by3 undefined rounded-[16px]"><img src="/content/images/global/blank.gif" data-src="/content/images/2022/menu/menu-2-3-03.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-[16px]"><noscript></noscript></div><div class="p-xl-2">行程快搜</div></a></div></div></div><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 256px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">精選主題</div><ul class="false mt-2"><li class="false mb-12px"><a href="/zh-tw/travel/start-itinerary-in-taoyuan" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="遊臺灣從桃園開始"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>遊臺灣從桃園開始</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/travel-guide" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="旅遊懶人包"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>旅遊懶人包</div></a></li><li class="false mb-12px"><a class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="北橫觀星指南 (另開視窗)" target="_blank" rel="noopener noreferrer" href="https://travel.tycg.gov.tw/lalashan-dark-sky/"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>北橫觀星指南<i class="icon d-inline icon-link-out mt-1 ml-1 fz-13px text-info" aria-hidden="true"></i></div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/get-around-by-airport-mrt" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="搭機捷遊桃園"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>搭機捷遊桃園</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/temple-blessing-tour" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="宮廟祈福之旅"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>宮廟祈福之旅</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/child-venue" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="親子放電場館"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>親子放電場館</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/factory-tours" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="體驗觀光工廠"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>體驗觀光工廠</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/flower-viewing" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="四季賞花情報"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>四季賞花情報</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/new-traveler" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="初次造訪桃園"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>初次造訪桃園</div></a></li></ul></div><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 256px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">戶外遊憩</div><ul class="false mt-2"><li class="false mb-12px"><a href="/zh-tw/travel/dalongmentrail" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="大龍門古道"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>大龍門古道</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/trail" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="步道漫遊趣"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>步道漫遊趣</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/bicycle" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="單車旅行"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>單車旅行</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/parent-child-park" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="特色公園遊"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>特色公園遊</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/shihmen-reservoir-tour" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="石門水庫行"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>石門水庫行</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/indigenous-homelands" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="北橫原鄉"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>北橫原鄉</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/riversides-and-ponds" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="水岸埤塘"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>水岸埤塘</div></a></li></ul></div></div></li><li class=" item mr-xl-3 mr-0-last"><a class="false menu-title-2022 d-flex align-items-center w-100 h-xl-6 p-2 text-decoration-none text-default fz-20px fz-xl-18px font-weight-bold hover-primary trs-all" href="#">想去的地方<i class="icon icon-triangle d-xl-none ml-auto fz-10px text-muted rotate-270" aria-hidden="true"></i></a><div class="js-sub-menu nav-sub-list-2022 justify-content-start justify-content-xl-center h-xl-auto pt-7 p-xl-8 bg-light  shadow"><a href="/zh-tw/travel/districts" class="flex-shrink-0 w-[360px] 2xl:w-[410px] mr-xl-6 mr-0-last hover-primary trs-all text-default text-decoration-none rounded-[16px] bg-white shadow" title="分區介紹"><div class="thumb-frame embed-responsive embed-responsive-3by4 undefined rounded-[16px]"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/go-01-zh-tw.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-[16px]"><noscript></noscript></div><div class="px-2 py-3 text-center fz-20px lh-initial">分區介紹</div></a><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 256px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">景點</div><ul class="false mt-2"><li class="false mb-12px"><a href="/zh-tw/travel" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="景點搜尋"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>景點搜尋</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/mapnavigate" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="旅遊地圖"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>旅遊地圖</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/popular-attractions" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="TOP熱門景點"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>TOP熱門景點</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/mountainous" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="山林探險"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>山林探險</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/urban" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="都會散步"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>都會散步</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/coastal" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="海岸追風"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>海岸追風</div></a></li></ul></div><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 256px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">美食&amp;購物</div><ul class="false mt-2"><li class="false mb-12px"><a href="/zh-tw/consume?type=gourmet" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="美食快搜"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>美食快搜</div></a></li><li class="false mb-12px"><a href="/zh-tw/consume?type=shopping" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="購物快搜"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>購物快搜</div></a></li><li class="false mb-12px"><a href="/zh-tw/consume/delicious" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="必吃美食攻略"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>必吃美食攻略</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/irresistible-souvenirs" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="伴手禮推薦"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>伴手禮推薦</div></a></li><li class="false mb-12px"><a href="/zh-tw/consume/business-district" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="夜市商圈逛逛逛"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>夜市商圈逛逛逛</div></a></li><li class="false mb-12px"><a href="/zh-tw/consume/shopping-paradise" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="購物天堂在桃園"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>購物天堂在桃園</div></a></li><li class="false mb-12px"><a href="/zh-tw/consume?type=shopping&amp;category=105" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="金牌好禮"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>金牌好禮</div></a></li></ul></div><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 256px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">住宿</div><ul class="false mt-2"><li class="false mb-12px"><a href="/zh-tw/accommodation/recommend" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="精選住宿指南"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>精選住宿指南</div></a></li><li class="false mb-12px"><a href="/zh-tw/accommodation" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="旅館與民宿"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>旅館與民宿</div></a></li><li class="false mb-12px"><a href="/zh-tw/accommodation/besttaoyuanstay" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="桃園好棧"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>桃園好棧</div></a></li><li class="false mb-12px"><a href="/zh-tw/accommodation?certification=149" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="穆斯林友善"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>穆斯林友善</div></a></li><li class="false mb-12px"><a href="/zh-tw/accommodation?certification=148" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="環保旅店 "><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>環保旅店 </div></a></li><li class="false mb-12px"><a class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="臺灣旅宿網 (另開視窗)" target="_blank" rel="noopener noreferrer" href="https://taiwanstay.net.tw/"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>臺灣旅宿網<i class="icon d-inline icon-link-out mt-1 ml-1 fz-13px text-info" aria-hidden="true"></i></div></a></li><li class="false mb-12px"><a class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="穆斯林旅館 (另開視窗)" target="_blank" rel="noopener noreferrer" href="https://www.taiwan.net.tw/m1.aspx?sNo=0020118&amp;keyString=%5E10003%5E"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>穆斯林旅館<i class="icon d-inline icon-link-out mt-1 ml-1 fz-13px text-info" aria-hidden="true"></i></div></a></li></ul></div></div></li><li class=" item mr-xl-3 mr-0-last"><a class="false menu-title-2022 d-flex align-items-center w-100 h-xl-6 p-2 text-decoration-none text-default fz-20px fz-xl-18px font-weight-bold hover-primary trs-all" href="#">計畫旅行<i class="icon icon-triangle d-xl-none ml-auto fz-10px text-muted rotate-270" aria-hidden="true"></i></a><div class="js-sub-menu nav-sub-list-2022 justify-content-start justify-content-xl-center h-xl-auto pt-7 p-xl-8 bg-light  shadow"><a href="https://funpass.travel.taipei/banner/Ticket" class="flex-shrink-0 w-[360px] 2xl:w-[410px] mr-xl-6 mr-0-last hover-primary trs-all text-default text-decoration-none rounded-[16px] bg-white shadow" title="基北北桃好玩卡"><div class="thumb-frame embed-responsive embed-responsive-3by4 undefined rounded-[16px]"><img src="/content/images/global/blank.gif" data-src="/content/images/2022/menu/menu-4-1-02.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-[16px]"><noscript></noscript></div><div class="px-2 py-3 text-center fz-20px lh-initial">基北北桃好玩卡</div></a><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 256px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">規劃工具</div><ul class="false mt-2"><li class="false mb-12px"><a href="/zh-tw/multimedia/publication" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="旅遊地圖與指南"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>旅遊地圖與指南</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/play-taoyuan" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="旅遊指南"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>旅遊指南</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/app" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="APP下載"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>APP下載</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/servicecenter/visitor-center" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="旅服中心"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>旅服中心</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/servicecenter/touristinformation-center" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="借問站"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>借問站</div></a></li><li class="false mb-12px"><a href="/zh-tw/multimedia/faq" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="常見問題"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>常見問題</div></a></li><li class="false mb-12px"><a href="/zh-tw/travel/travel-tips" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="外籍旅客須知"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>外籍旅客須知</div></a></li></ul></div><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 256px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">影音資訊</div><ul class="false mt-2"><li class="false mb-12px"><a href="/zh-tw/multimedia/albumlist" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="觀光相簿"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>觀光相簿</div></a></li><li class="false mb-12px"><a href="/zh-tw/multimedia/filmcategory" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="多媒體影音"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>多媒體影音</div></a></li><li class="false mb-12px"><a href="/zh-tw/multimedia/links" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="好站連結"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>好站連結</div></a></li><li class="false mb-12px"><a class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="歷屆活動網 (另開視窗)" target="_blank" rel="noopener noreferrer" href="https://gallery.tycg.gov.tw/event-highlights"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>歷屆活動網<i class="icon d-inline icon-link-out mt-1 ml-1 fz-13px text-info" aria-hidden="true"></i></div></a></li><li class="false mb-12px"><a class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="桃園旅遊雜誌 (另開視窗)" target="_blank" rel="noopener noreferrer" href="https://ebook.tycg.gov.tw/book/list.php?type=27"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>桃園旅遊雜誌<i class="icon d-inline icon-link-out mt-1 ml-1 fz-13px text-info" aria-hidden="true"></i></div></a></li></ul></div><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 256px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">怎麼來</div><ul class="false mt-2"><li class="false mb-12px"><a href="/zh-tw/traffic/gettinghere" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="如何到桃園"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>如何到桃園</div></a></li><li class="false mb-12px"><a href="/zh-tw/traffic/airportmrt" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="桃園捷運"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>桃園捷運</div></a></li><li class="false mb-12px"><a class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="桃園國際機場 (另開視窗)" target="_blank" rel="noopener noreferrer" href="https://www.taoyuan-airport.com/main_ch/"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>桃園國際機場<i class="icon d-inline icon-link-out mt-1 ml-1 fz-13px text-info" aria-hidden="true"></i></div></a></li><li class="false mb-12px"><a href="/zh-tw/traffic/passenger" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="長途客運"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>長途客運</div></a></li><li class="false mb-12px"><a href="/zh-tw/traffic/driving" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="自行開車"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>自行開車</div></a></li><li class="false mb-12px"><a href="/zh-tw/traffic/thsr" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="高鐵"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>高鐵</div></a></li></ul></div><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 256px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">區內交通</div><ul class="false mt-2"><li class="false mb-12px"><a href="/zh-tw/traffic/daxi" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="好行大溪快線"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>好行大溪快線</div></a></li><li class="false mb-12px"><a href="/zh-tw/traffic/xiaowulai" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="好行小烏來線"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>好行小烏來線</div></a></li><li class="false mb-12px"><a href="/zh-tw/traffic/shihmen" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="好行大龍門線"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>好行大龍門線</div></a></li><li class="false mb-12px"><a href="/zh-tw/traffic/dongyanshan" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="好行東眼山線"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>好行東眼山線</div></a></li><li class="false mb-12px"><a class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="市內公車 (另開視窗)" target="_blank" rel="noopener noreferrer" href="http://ebus.tycg.gov.tw/ebus"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>市內公車<i class="icon d-inline icon-link-out mt-1 ml-1 fz-13px text-info" aria-hidden="true"></i></div></a></li><li class="false mb-12px"><a class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" title="交通資訊中心 (另開視窗)" target="_blank" rel="noopener noreferrer" href="https://tcc.tycg.gov.tw/ATISNew/"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>交通資訊中心<i class="icon d-inline icon-link-out mt-1 ml-1 fz-13px text-info" aria-hidden="true"></i></div></a></li></ul></div></div></li></ul><div class="d-flex align-items-center ml-5"><a class="menu-title-2022 d-flex justify-content-center align-items-center w-5 h-5 mr-4px mr-0-last text-decoration-none hover-primary trs-all" href="/zh-tw/siteinformation/sitemap" title="網站導覽"><i class="icon icon-sitemap fz-17px" aria-hidden="true"></i><div class="sr-only">網站導覽</div></a><a class="menu-title-2022 d-flex justify-content-center align-items-center w-5 h-5 mr-4px mr-0-last text-decoration-none hover-primary trs-all" href="/zh-tw/member/login" title="會員登入"><i class="icon icon-avatar fz-18px" aria-hidden="true"></i><div class="sr-only">會員登入</div></a><a class="menu-title-2022 d-flex justify-content-center align-items-center w-5 h-5 mr-4px mr-0-last text-decoration-none hover-primary trs-all" href="/zh-tw/travel/mapnavigate" title="地圖導覽"><i class="icon icon-map fz-18px" aria-hidden="true"></i><div class="sr-only">地圖導覽</div></a><div class="position-relative lang-switch-blk"><a class="menu-title-2022 d-flex justify-content-center align-items-center w-5 h-5 mr-4px mr-0-last text-decoration-none hover-primary trs-all" href="#" title="language"><i class="icon icon-global fz-18px" aria-hidden="true"></i><div class="sr-only">language</div></a><div class="lang-switch-list mt-4 pt-12px absolute-top-right drop-shadow-black-25 z-2000"><i class="icon icon-triangle mr-2 rotate-180 text-white absolute-top-right" aria-hidden="true"></i><ul class="w-136px p-12px rounded bg-white fz-15px"><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/en" title="English">English</a></li><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/ja" title="日本語">日本語</a></li><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/ko" title="한국어">한국어</a></li><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/zh-cn" title="簡體中文">簡體中文</a></li><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/id" title="Indonesia">Indonesia</a></li><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/th" title="ไทย">ไทย</a></li><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/vi" title="Người việt nam">Người việt nam</a></li></ul></div></div><a class="menu-title-2022 d-flex justify-content-center align-items-center w-5 h-5 mr-4px mr-0-last text-decoration-none hover-primary trs-all" href="/zh-tw/search" title="全文檢索"><i class="icon icon-magnifier fz-18px" aria-hidden="true"></i><div class="sr-only">全文檢索</div></a></div></nav></div></div><button class="invisible mobile-nav-close-mask-2022 d-xl-none"><div class="sr-only">關閉選單</div></button></div></header><div class="absolute-top-left w-1 h-1 z-99999 mt-6 mt-xl-10 pointer-events-none "></div></div><noscript class="noscript-hint">您的瀏覽器並未啟動JavaScript，請開啟瀏覽器JavaScript狀態或是升級成可執行 JavaScript 的瀏覽器，以便正常使用網頁功能。</noscript><div class="px-2 px-md-3 px-xl-5"><div class="breadcrumb d-flex align-items-center h-5 mb-n5 fz-13px position-relative z-200 text-default" data-path="首頁&gt;想去的地方&gt;景點&gt;景點搜尋"><a class="brick d-none d-xl-flex justify-content-center align-items-center w-20px ml-n2 text-decoration-none" href="javascript:void(0)" accesskey="C" title="內容區塊定位點(C)">:::</a> <a class="d-block text-decoration-none text-inherit trs-all hover-primary" href="/zh-tw" title="首頁">首頁</a><div class="mx-4px">&gt;</div><span>想去的地方</span><div class="mx-4px">&gt;</div><span>景點</span><div class="mx-4px">&gt;</div><a class="d-block text-decoration-none text-inherit trs-all hover-primary" href="/zh-tw/travel" title="景點搜尋">景點搜尋</a></div><a class="anchor-fix" id="main-content" tabindex="0" title="定位點">定位點</a></div><div id="app-root"><main class="px-2 px-md-3 px-xl-5"><div class=""><div class="bg-hero-content full-width position-relative" style="background-image: url(&quot;https://travel.tycg.gov.tw/content/images/attractions/111537/1920x1080_attractions-image-sjvkrmgfauw7v2sqvbapsg.jpg&quot;);"><div class="absolute-bottom-center mb-3 mb-md-4 mb-xl-5 fz-40px fz-xl-50px w-90"><h2 class="unit-title text-white text-center">甘泉寺</h2><div class="d-flex justify-content-center w-100 maw-1600px mx-auto mt-2 position-relative "><div class="undefined d-flex align-items-center h-3 px-6px text-default fz-13px lh-initial bg-white-80 rounded-pill"><img src="/content/images/2022/google.svg" alt="" class="w-12px mr-2px">4.6<i class="icon icon-star fz-10px lh-initial ml-2px text-star" style="transform: scale(0.8);"></i></div></div></div></div><div class="position-relative z-100 full-width bg-white"><div class="full-width bg-white fz-16px fz-md-18px fz-xl-20px"><section class="maw-900px mx-auto"><div class="d-flex justify-content-between justify-content-md-end pt-2 pt-md-5 fz-13px fz-md-16px text-info"><div><span class="mr-4px">更新日期</span>2025-09-09</div><div class="d-flex align-items-center ml-md-5"><i class="icon icon-view mr-4px" aria-hidden="true"><span class="sr-only">人氣</span></i>118575</div></div><div class="d-md-flex"><div class="flex-fill"><div class="py-3 py-xl-4 border-bottom"><ul class="fz-16px fz-md-18px fz-xl-20px  flex-wrap overflow-hidden h-5"><li class="d-inline-flex bg-light rounded-pill h-5 px-20px mr-1 mr-0-last"><span class="my-auto">濱海追風</span></li><li class="d-inline-flex bg-light rounded-pill h-5 px-20px mr-1 mr-0-last"><span class="my-auto">歷史人文</span></li></ul></div><div class=" py-3 py-xl-4 border-bottom mb-0 fz-16px fz-md-18px fz-xl-20px">想了解觀音地名由來必須造訪的百年宮廟，廟內供奉石觀音佛祖，而享有盛名的觀音聖水，長年來已有不計其數的信徒前來朝聖。</div><section class="py-3 py-xl-4 border-bottom fz-16px fz-md-18px fz-xl-20px"><ul class="list-style-disc text-primary px-2 px-md-3"><li class="mb-1"><div class="text-default">探訪甘泉井，親嘗傳說中清甜可口的神奇泉水</div></li><li class="mb-1"><div class="text-default">欣賞三層宮殿式廟宇，探索精美絢麗的建築細節</div></li><li class="mb-1"><div class="text-default">參加觀世音佛誕、石觀音文化節，感受濃厚地方傳統文化  </div></li><li class="mb-1"><div class="text-default">觀賞全台唯一三層高的銅雕觀世音圖像，莊嚴且震撼</div></li></ul></section></div><aside class="flex-shrink-0 my-3 my-xl-4 ml-5"><div class="position-relative px-3 pb-3 w-257px bg-light rounded-16px text-info" style="padding-top: 170px;"><img src="/content/images/2022/attraction-region/328.png" alt="" class="w-150px absolute-top-right m-3"><div class="d-flex "><div class="fz-15px d-flex pb-1 font-weight-bold"><i class="icon icon-location text-primary mr-4px"></i>觀音區</div></div><div class="d-inline-flex align-content-center pt-10px border-top fz-16px "><i class="icon icon-weather wt-01 fz-20px mr-4px mb-4px"></i><div class="fz-16px mr-2 ">24<span class="fz-12px">°C</span></div><i class="icon icon-rain fz-14px mr-4px mb-4px"></i>10<span class="fz-12px ">%</span></div><a class="btn mih-40px rounded-pill fz-15px hover-primary mt-2" href="https://www.google.com/maps/place/25.03709,121.08164" title="google map (另開視窗)" target="_blank" rel="noopener noreferrer"><img src="/content/images/2022/static/google-map.png" alt="" class="w-12px mr-4px ">查看地圖</a></div></aside></div><div class="manual-script-blk py-3 py-xl-4 border-bottom mb-0 fz-16px fz-md-18px fz-xl-20px">位於桃園市觀音區的甘泉寺，不僅是當地最具傳奇色彩的信仰中心之一，更是結合儒、釋、道三教信仰的宗教建築奇蹟。這座歷經百年修繕而成的宏偉廟宇，以其瑰麗的建築風格與豐富的文化內涵，吸引著信徒與旅人。<br>
+<br>
+<strong>建廟起源與甘泉井的神蹟</strong><br>
+甘泉寺前身為福龍寺，起源於清乾隆年間（1780年），一名農夫拾得酷似觀音菩薩的石塊，並在地供奉為「石觀音」。後因泉水湧現治癒百病的神蹟，寺名遂改為甘泉寺，旁邊的甘泉井則至今清澈不絕，成為信徒朝聖的亮點。<br>
+<br>
+<strong>多元神祇與三層建築特色</strong><br>
+甘泉寺樓層分明，每層供奉不同的神明，包括石觀音佛祖、玉皇大帝與瑤池金母等，共計18尊神像。廟宇建築採用傳統宮殿式結構，剪黏脊飾上的神獸與人物雕刻細緻傳神，12根盤繞龍柱雄偉壯觀，背後銅雕觀世音圖像更是全台稀有的三層樓高巨幅作品。<br>
+<br>
+<img alt="參拜香客" id="img-111540-1753948157355" src="https://travel.tycg.gov.tw/Image/111540/?r=1753948157355" style="width: 100%; max-width: 760px;"><br>
+<strong>三大祭典：信仰與生活的交融</strong><br>
+甘泉寺一年一度的三大祭典，包括觀世音佛誕日、石觀音浮出紀念日以及中元普渡慶讚活動，充分展現信仰與地方文化的緊密聯繫。祭典融合傳統與現代，例如千人淨灘到客庄藝文表演，讓古老的宗教活動煥發新意。<br>
+<br>
+<strong>豐富的裝飾藝術</strong><br>
+廟宇內外裝飾藝術無處不在，從嘴含石珠的石獅、風調雨順的四大天王石雕，到富有歷史意義的百年匾額與彩繪壁畫，皆訴說著甘泉寺與地方信仰的深厚連結。<br>
+前來甘泉寺，不僅是一次對傳統文化的探訪，更是一次洗滌心靈的旅程。在這裡，歷史、建築與信仰三者完美交融，等待著旅人的探索。</div></section></div><div class="maw-1280px mx-auto mt-8 mt-xl-10"><ul class="d-flex justify-content-center border-bottom"><li class="mr-1 mr-0-last"><button class="d-flex align-items-center pb-2 px-2 px-md-3 px-xl-4 fz-16px fz-md-18px fz-xl-20px position-relative hover-primary trs-all text-nowrap border-bottom border-width-4px border-primary text-primary"><div class="sr-only">照片</div>照片</button></li><li class="mr-1 mr-0-last"></li><li class="mr-1 mr-0-last"></li><li class="mr-1 mr-0-last"><button class="d-flex align-items-center pb-2 px-2 px-md-3 px-xl-4 fz-16px fz-md-18px fz-xl-20px position-relative hover-primary trs-all text-nowrap border-bottom border-width-4px border-transparent text-gray-600"><div class="sr-only">街景</div>街景</button></li></ul><div class="embed-responsive embed-responsive-16by9 mt-10px bg-placeholder"><div class="embed-responsive-item"><div class="fill-parent"><div class="swiper swiper-initialized swiper-horizontal"><div class="swiper-wrapper"><div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 1200px;"><div class="item"><a class="hover-thumb-scale" href="https://travel.tycg.gov.tw/content/images/attractions/111538/480x360_attractions-image-vycy4rfaieymidkotojfpq.jpg" title="銅雕觀世音圖像(另開視窗)" target="_blank" rel="noopener noreferrer"><div class="thumb-frame embed-responsive embed-responsive-16by9  "><img src="/content/images/global/blank.gif" data-src="https://travel.tycg.gov.tw/content/images/attractions/111538/1024x768_attractions-image-vycy4rfaieymidkotojfpq.jpg" alt="銅雕觀世音圖像" class="thumb embed-responsive-item trs-all lazy "><noscript></noscript></div><span class="sr-only">銅雕觀世音圖像</span></a></div></div><div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 1200px;"><div class="item"><a class="hover-thumb-scale" href="https://travel.tycg.gov.tw/content/images/attractions/111539/480x360_attractions-image-tmh0cb7blukvim4vsxeyrg.jpg" title="廟宇藻井(另開視窗)" target="_blank" rel="noopener noreferrer"><div class="thumb-frame embed-responsive embed-responsive-16by9  "><img src="/content/images/global/blank.gif" data-src="https://travel.tycg.gov.tw/content/images/attractions/111539/1024x768_attractions-image-tmh0cb7blukvim4vsxeyrg.jpg" alt="廟宇藻井" class="thumb embed-responsive-item trs-all lazy "><noscript></noscript></div><span class="sr-only">廟宇藻井</span></a></div></div><div class="swiper-slide" data-swiper-slide-index="2" style="width: 1200px;"><div class="item"><a class="hover-thumb-scale" href="https://travel.tycg.gov.tw/content/images/attractions/111540/480x360_attractions-image-nfhrrirhweahse47cnawfa.jpg" title="參拜香客(另開視窗)" target="_blank" rel="noopener noreferrer"><div class="thumb-frame embed-responsive embed-responsive-16by9  "><img src="/content/images/global/blank.gif" data-src="https://travel.tycg.gov.tw/content/images/attractions/111540/1024x768_attractions-image-nfhrrirhweahse47cnawfa.jpg" alt="參拜香客" class="thumb embed-responsive-item trs-all lazy "><noscript></noscript></div><span class="sr-only">參拜香客</span></a></div></div><div class="swiper-slide" data-swiper-slide-index="3" style="width: 1200px;"><div class="item"><a class="hover-thumb-scale" href="https://travel.tycg.gov.tw/content/images/attractions/111541/480x360_attractions-image-v89n4lvdskck-mjmqujdxq.jpg" title="宇宙天石(另開視窗)" target="_blank" rel="noopener noreferrer"><div class="thumb-frame embed-responsive embed-responsive-16by9  "><img src="/content/images/global/blank.gif" data-src="https://travel.tycg.gov.tw/content/images/attractions/111541/1024x768_attractions-image-v89n4lvdskck-mjmqujdxq.jpg" alt="宇宙天石" class="thumb embed-responsive-item trs-all lazy "><noscript></noscript></div><span class="sr-only">宇宙天石</span></a></div></div><div class="swiper-slide" data-swiper-slide-index="4" style="width: 1200px;"><div class="item"><a class="hover-thumb-scale" href="https://travel.tycg.gov.tw/content/images/attractions/111542/480x360_attractions-image-3bfzhybyneo1oltnllcgea.jpg" title="甘泉亭(另開視窗)" target="_blank" rel="noopener noreferrer"><div class="thumb-frame embed-responsive embed-responsive-16by9  "><img src="/content/images/global/blank.gif" data-src="https://travel.tycg.gov.tw/content/images/attractions/111542/1024x768_attractions-image-3bfzhybyneo1oltnllcgea.jpg" alt="甘泉亭" class="thumb embed-responsive-item trs-all lazy "><noscript></noscript></div><span class="sr-only">甘泉亭</span></a></div></div><div class="swiper-slide" data-swiper-slide-index="5" style="width: 1200px;"><div class="item"><a class="hover-thumb-scale" href="https://travel.tycg.gov.tw/content/images/attractions/111543/480x360_attractions-image-lutkqhsaiu6olsjj9dcapg.jpg" title="甘泉井(另開視窗)" target="_blank" rel="noopener noreferrer"><div class="thumb-frame embed-responsive embed-responsive-16by9  "><img src="/content/images/global/blank.gif" data-src="https://travel.tycg.gov.tw/content/images/attractions/111543/1024x768_attractions-image-lutkqhsaiu6olsjj9dcapg.jpg" alt="甘泉井" class="thumb embed-responsive-item trs-all lazy "><noscript></noscript></div><span class="sr-only">甘泉井</span></a></div></div><div class="swiper-slide" data-swiper-slide-index="6" style="width: 1200px;"><div class="item"><a class="hover-thumb-scale" href="https://travel.tycg.gov.tw/content/images/attractions/111544/480x360_attractions-image-3gv1rgji_ukipr5s-loala.jpg" title="神明像(另開視窗)" target="_blank" rel="noopener noreferrer"><div class="thumb-frame embed-responsive embed-responsive-16by9  "><img src="/content/images/global/blank.gif" data-src="https://travel.tycg.gov.tw/content/images/attractions/111544/1024x768_attractions-image-3gv1rgji_ukipr5s-loala.jpg" alt="神明像" class="thumb embed-responsive-item trs-all lazy "><noscript></noscript></div><span class="sr-only">神明像</span></a></div></div><div class="swiper-slide" data-swiper-slide-index="7" style="width: 1200px;"><div class="item"><a class="hover-thumb-scale" href="https://travel.tycg.gov.tw/content/images/attractions/111545/480x360_attractions-image-3n41qxsgbue5rw1zflgkdg.jpg" title="精緻的石雕(另開視窗)" target="_blank" rel="noopener noreferrer"><div class="thumb-frame embed-responsive embed-responsive-16by9  "><img src="/content/images/global/blank.gif" data-src="https://travel.tycg.gov.tw/content/images/attractions/111545/1024x768_attractions-image-3n41qxsgbue5rw1zflgkdg.jpg" alt="精緻的石雕" class="thumb embed-responsive-item trs-all lazy "><noscript></noscript></div><span class="sr-only">精緻的石雕</span></a></div></div><div class="swiper-slide" data-swiper-slide-index="8" style="width: 1200px;"><div class="item"><a class="hover-thumb-scale" href="https://travel.tycg.gov.tw/content/images/attractions/111537/480x360_attractions-image-sjvkrmgfauw7v2sqvbapsg.jpg" title="廟宇外觀(另開視窗)" target="_blank" rel="noopener noreferrer"><div class="thumb-frame embed-responsive embed-responsive-16by9  "><img src="/content/images/global/blank.gif" data-src="https://travel.tycg.gov.tw/content/images/attractions/111537/1024x768_attractions-image-sjvkrmgfauw7v2sqvbapsg.jpg" alt="廟宇外觀" class="thumb embed-responsive-item trs-all lazy "><noscript></noscript></div><span class="sr-only">廟宇外觀</span></a></div></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div><div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div></div></div></div></div></div><div class="maw-900px mx-auto mt-5 mt-xl-10"><section class="py-3 py-xl-5 border-bottom"><div class="font-weight-bold fz-18px fz-md-20px fz-xl-22px">景點資訊</div><div class="pt-1 pt-xl-3 fz-16px fz-md-18px fz-xl-20px"><div class="d-flex mb-3 mb-0-last"><div class="w-8 w-md-9 w-xl-10 flex-shrink-0 d-flex justify-content-between text-gray-600">電話</div><span class="mx-1 mx-md-10px mx-xl-12px">/</span><div>03-4732622</div></div><div class="d-flex mb-3 mb-0-last"><div class="w-8 w-md-9 w-xl-10 flex-shrink-0  d-flex justify-content-between text-gray-600">傳真</div><span class="mx-1 mx-md-10px mx-xl-12px">/</span><div>03-4732062</div></div><div class="d-flex mb-3 mb-0-last"><div class="w-8 w-md-9 w-xl-10 flex-shrink-0 d-flex justify-content-between text-gray-600">地址</div><span class="mx-1 mx-md-10px mx-xl-12px">/</span><a href="https://www.google.com/maps/place/25.03709,121.08164" class="text-primary " target="_blank" title="桃園市觀音區甘泉街一號(另開視窗)" rel="noreferrer"><div class="text-default hover-primary">桃園市觀音區甘泉街一號</div></a><i class="d-inline-flex icon icon-location text-primary ml-1"></i></div><div class="d-flex mb-3 mb-0-last"><div class="w-8 w-md-9 w-xl-10 flex-shrink-0 text-gray-600 text-nowrap">開放時間</div><span class="mx-1 mx-md-10px mx-xl-12px">/</span><div><ul><li class="false mb-1 mb-0-last">星期日：06:00 - 21:00</li><li class="false mb-1 mb-0-last">星期一：06:00 - 21:00</li><li class="false mb-1 mb-0-last">星期二：06:00 - 21:00</li><li class="false mb-1 mb-0-last">星期三：06:00 - 21:00</li><li class="text-success mb-1 mb-0-last">星期四：06:00 - 21:00</li><li class="false mb-1 mb-0-last">星期五：06:00 - 21:00</li><li class="false mb-1 mb-0-last">星期六：06:00 - 21:00</li></ul></div></div><div class="d-flex mb-3 mb-0-last"><div class="w-8 w-md-9 w-xl-10 flex-shrink-0 text-gray-600 text-nowrap">門票資訊</div><span class="mx-1 mx-md-10px mx-xl-12px">/</span><div>免費</div></div><div class="d-flex mb-3 mb-0-last"><div class="w-8 w-md-9 w-xl-10 flex-shrink-0 text-gray-600 text-nowrap">相關連結</div><span class="mx-1 mx-md-10px mx-xl-12px">/</span><a href="https://www.facebook.com/p/%E7%9F%B3%E8%A7%80%E9%9F%B3%E7%94%98%E6%B3%89%E5%AF%BA-61556538256486/" class="text-primary" rel="noopener noreferrer" target="_blank" title="facebook(另開視窗)"><div class="text-default hover-primary">FB粉絲團</div></a><i class="d-inline-flex icon icon-link-out text-primary ml-1"></i></div></div></section><section class="py-3 py-xl-5 border-bottom"><div class="font-weight-bold fz-18px fz-md-20px fz-xl-22px">服務資訊</div><div class="pt-1 pt-xl-3 fz-16px fz-md-18px fz-xl-20px"><ul class="d-flex flex-wrap mb-n1"><li class="mr-2 d-flex mb-1 align-items-center"><i class="icon icon-yes text-white bg-primary w-2 h-2 rounded-circle fz-14px mr-4px"></i>公車站</li><li class="mr-2 d-flex mb-1 align-items-center"><i class="icon icon-yes text-white bg-primary w-2 h-2 rounded-circle fz-14px mr-4px"></i>廁所</li></ul></div></section><section class="py-3 py-xl-5 border-bottom"><div class="font-weight-bold fz-18px fz-md-20px fz-xl-22px">如何到達</div><a href="https://maps.google.com/maps?daddr=25.03709,121.08164&amp;hl=zh-tw" title="依您的出發地，選擇適合的交通方式(另開視窗)" target="_blank" rel="noopener noreferrer" class="btn text-default mt-1 mt-xl-3 px-2 px-md-3 fz-16px fz-md-18px fz-xl-20px rounded-16px mih-40px d-inline-flex"><img src="/content/images/2022/static/google-map.png" alt="" class="w-2 mr-10px"><span class="">依您的出發地，選擇適合的交通方式</span></a></section><section class="py-3 py-xl-5 border-bottom"><div class="font-weight-bold fz-18px fz-md-20px fz-xl-22px">停車資訊</div><div class="manual-script-blk fz-16px fz-md-18px fz-xl-20px pt-1 pt-xl-3 mb-0">路邊停車</div></section><div class="position-relative undefined"><div class="z-2000 w-0 absolute-bottom-left pointer-events-none" style="height: calc(100% + 50vh);"></div></div></div><div class="position-relative undefined"><div class="z-2000 w-0 absolute-bottom-left pointer-events-none" style="height: calc(100% + 50vh);"></div></div><section class="maw-900px mx-auto d-flex justify-content-between align-items-center my-5 mb-md-6 mt-xl-8 mb-xl-15 pb-xl-1"><div class="d-flex z-1000"><ul class="d-flex fz-18px fz-md-24px justify-content-center align-content-center social-share-list"><li class="mr-2px mr-md-1 item"><a class="btn-share-fb rounded-16px" href="https://www.facebook.com/sharer/sharer.php?u=https://travel.tycg.gov.tw/zh-tw/Travel/Attraction/292" title="分享到 facebook(另開視窗)" target="_blank" rel="noopener noreferrer"><div class="sr-only">分享到 facebook</div></a></li><li class="mr-2px mr-md-1 item"><a class="btn-share-weibo rounded-16px" href="http://service.weibo.com/share/share.php?url=https://travel.tycg.gov.tw/zh-tw/Travel/Attraction/292&amp;amp;title=甘泉寺&amp;amp;language=zh-tw" title="分享到 Weibo(另開視窗)" target="_blank" rel="noopener noreferrer"><div class="sr-only">分享到 Weibo</div></a></li><li class="mr-2px mr-md-1 item"><a class="btn-share-line rounded-16px" href="http://line.naver.jp/R/msg/text/?甘泉寺%20https://travel.tycg.gov.tw/zh-tw/Travel/Attraction/292" title="分享到 line(另開視窗)" target="_blank" rel="noopener noreferrer"><div class="sr-only">分享到 line</div></a></li></ul></div></section><div class="position-relative undefined"><div class="z-2000 w-0 absolute-bottom-left pointer-events-none" style="height: calc(100% + 50vh);"></div></div><div class="position-relative undefined"><div class="z-2000 w-0 absolute-bottom-left pointer-events-none" style="height: calc(100% + 50vh);"></div></div></div></div></main><style>
+                .pswp__caption__center {
+                    text-align: center !important;
+                }
+            </style><div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"><span class="sr-only">關閉</span></button><button class="pswp__button pswp__button--share" title="Share"><span class="sr-only">分享</span></button><button class="d-none pswp__button pswp__button--fs" title="Toggle fullscreen"><span class="sr-only">切換全螢幕</span></button><button class="pswp__button pswp__button--zoom" title="Zoom in/out"><span class="sr-only">放大/縮小</span></button><button class="d-none pswp__button btn-slideshow pswp__button--slideshow" title="slideshow" id="pswp-btn-slideshow"><span class="sr-only">幻燈片</span></button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"><span class="sr-only">上一張</span></button><button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"><span class="sr-only">下一張</span></button><div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div><div class="loading-overlay fixed-top w-100 h-100 d-flex flex-column flex-wrap justify-content-center align-items-center op-0 pointer-events-none"><div class="d-flex justify-content-center align-items-center py-2 px-2 bg-black-20 rounded-lg"><div class="d-inline-flex align-items-center undefined"><div class="loading-animate rounded-pill flex-shrink-0" style="width: 20px; height: 20px; margin-right: 10px; animation-delay: -0.32s; background-color: rgb(238, 238, 238);"></div><div class="loading-animate rounded-pill flex-shrink-0" style="width: 20px; height: 20px; margin-right: 10px; animation-delay: -0.16s; background-color: rgb(238, 238, 238);"></div><div class="loading-animate rounded-pill flex-shrink-0" style="width: 20px; height: 20px; background-color: rgb(238, 238, 238);"></div></div></div></div><div class="false fixed top-0 left-0 md:top-auto md:bottom-0 md:ml-[24px] md:mb-[40px] z-[9999] w-[100%] md:max-w-[640px] p-[16px] pb-[24px] md:p-[24px] md:pb-[32px] bg-[#666] text-white transition-all duration-500 ease-in-out drop-shadow-[0_3px_12px_rgba(0,0,0,0.4)] rounded-b-[8px] md:rounded-[8px]"><div class="flex justify-end mb-2"><button class="btn btn-ghost size-10" style="--color: white;"><i class="icon icon-close" aria-hidden="true"></i><div class="sr-only">關閉</div></button></div><div>本網站使用 Cookies 等相關技術以持續優化網站服務，並有助於為您提供更佳的體驗，當您繼續使用本網站即表示您同意我們的 Cookie 使用政策。另外，網站提供周邊景點自動偵測服務，建議您允許本網站取得您的位置資訊，以開啟及使用此智慧化服務。</div><div class="flex justify-end mt-2"><button class="btn h-5 px-2">我知道了</button></div></div></div><footer class="position-relative z-100" id="footer-root"><footer class="footer-2022 bg-light border-top border-d7d7d7 z-200"><div class="d-md-flex justify-content-center maw-1280px mx-auto py-5 px-2 py-xl-6"><div class="flex-shrink-0 w-200px mx-xl-5"><div class="mb-2 mb-xl-3 font-weight-bold">更改您的語言</div><div class="google-translate-blk-2022 d-flex justify-content-center align-items-center h-6 border border-d7d7d7 rounded-16px position-relative w-100"><div id="google_translate_element"><div class="skiptranslate goog-te-gadget" dir="ltr" style=""><div id=":0.targetLanguage" class="goog-te-gadget-simple" style="white-space: nowrap;"><img src="https://www.google.com/images/cleardot.gif" class="goog-te-gadget-icon" alt="" style="background-image: url(&quot;https://translate.googleapis.com/translate_static/img/te_ctrl3.gif&quot;); background-position: -65px 0px;"><span style="vertical-align: middle;"><a aria-haspopup="true" class="VIpgJd-ZVi9od-xl07Ob-lTBxed" href="#"><span>請選取語言</span><img src="https://www.google.com/images/cleardot.gif" alt="" width="1" height="1"><span style="border-left: 1px solid rgb(187, 187, 187);">​</span><img src="https://www.google.com/images/cleardot.gif" alt="" width="1" height="1"><span aria-hidden="true" style="color: rgb(118, 118, 118);">▼</span></a></span></div></div></div></div></div><div class="mx-xl-5"><div class="mb-2 mb-xl-3 font-weight-bold">您可以在這裡找到我們</div><ul class="row mt-2 mb-n12px mx-n6px fz-13px" style="width: 320px;"><li class="col-6 px-6px mb-12px"><a class="d-flex align-items-start text-default text-decoration-none hover-primary trs-all" href="https://www.facebook.com/traveltaoyuan" title="樂遊桃園 (另開視窗)" target="_blank" rel="noopener noreferrer"><i class="icon icon-fb-mark flex-shrink-0 w-3 h-3 mr-1 fz-13px text-white bg-gray-500 rounded-circle" aria-hidden="true"></i><div class="pt-2px lh-initial">樂遊桃園</div></a></li><li class="col-6 px-6px mb-12px"><a class="d-flex align-items-start text-default text-decoration-none hover-primary trs-all" href="https://www.instagram.com/taoyuantravel/" title="Instagram (另開視窗)" target="_blank" rel="noopener noreferrer"><i class="icon icon-instagram flex-shrink-0 w-3 h-3 mr-1 fz-13px text-white bg-gray-500 rounded-circle" aria-hidden="true"></i><div class="pt-2px lh-initial">Instagram</div></a></li><li class="col-6 px-6px mb-12px"><a class="d-flex align-items-start text-default text-decoration-none hover-primary trs-all" href="https://www.facebook.com/gototaoyuan/" title="桃園風景區管理處 (另開視窗)" target="_blank" rel="noopener noreferrer"><i class="icon icon-fb-mark flex-shrink-0 w-3 h-3 mr-1 fz-13px text-white bg-gray-500 rounded-circle" aria-hidden="true"></i><div class="pt-2px lh-initial">桃園風景區管理處</div></a></li><li class="col-6 px-6px mb-12px"><a class="d-flex align-items-start text-default text-decoration-none hover-primary trs-all" href="https://www.youtube.com/channel/UCARB8y6PuoOBjZXJKIG-LDw" title="YouTube (另開視窗)" target="_blank" rel="noopener noreferrer"><i class="icon icon-youtube flex-shrink-0 w-3 h-3 mr-1 fz-13px text-white bg-gray-500 rounded-circle" aria-hidden="true"></i><div class="pt-2px lh-initial">YouTube</div></a></li><li class="col-6 px-6px mb-12px"><a class="d-flex align-items-start text-default text-decoration-none hover-primary trs-all" href="https://m.weibo.cn/u/7833193840?jumpfrom=weibocom" title="樂遊桃園 (另開視窗)" target="_blank" rel="noopener noreferrer"><i class="icon icon-weibo flex-shrink-0 w-3 h-3 mr-1 fz-13px text-white bg-gray-500 rounded-circle" aria-hidden="true"></i><div class="pt-2px lh-initial">樂遊桃園</div></a></li><li class="col-6 px-6px mb-12px"><a class="d-flex align-items-start text-default text-decoration-none hover-primary trs-all" href="https://taotalk.tycg.gov.tw/interface/Petition?channel=G_DEPC_380300000H" title="市政信箱 (另開視窗)" target="_blank" rel="noopener noreferrer"><i class="icon icon-mail flex-shrink-0 w-3 h-3 mr-1 fz-13px text-white bg-gray-500 rounded-circle" aria-hidden="true"></i><div class="pt-2px lh-initial">市政信箱</div></a></li><li class="col-6 px-6px mb-12px"><a class="d-flex align-items-start text-default text-decoration-none hover-primary trs-all" href="https://www.facebook.com/ExploreTaoyuan?mibextid=LQQJ4d" title="探索北橫 (另開視窗)" target="_blank" rel="noopener noreferrer"><i class="icon icon-fb-mark flex-shrink-0 w-3 h-3 mr-1 fz-13px text-white bg-gray-500 rounded-circle" aria-hidden="true"></i><div class="pt-2px lh-initial">探索北橫</div></a></li></ul></div><div class="mx-xl-5"><div class="mb-2 mb-xl-3 font-weight-bold text-center text-md-left">桃園市政府觀光旅遊局</div><div class="fz-13px"><div><p class="mb-4px mb-0-last d-flex justify-content-center justify-content-md-start w-xl-200px ">330206 桃園市桃園區縣府路1號</p><p class="mb-4px mb-0-last  d-flex justify-content-center justify-content-md-start w-xl-200px ">電話：(03)332-2101#6209</p></div><div class="mt-4px"><p class=" mb-4px mb-0-last d-flex justify-content-center justify-content-md-start">服務時間：週一至週五</p><p class=" mb-4px mb-0-last d-flex justify-content-center justify-content-md-start">上午8:00至12:00 下午13:00至17:00</p></div></div><div class="d-flex justify-content-center justify-content-md-start mt-2 mt-md-1"><a class="d-block" href="https://accessibility.moda.gov.tw/Applications/Detail?category=20250702171949" title="無障礙AA(另開視窗)" target="_blank" rel="noopener noreferrer"><img class="d-block h-4" src="/content/images/global/a11y.png" alt=""><div class="sr-only">無障礙AA</div></a></div></div><div class="mt-5 mt-md-0 ml-md-5 mx-xl-5"><ul class="fz-13px text-center text-md-left"><li class="mb-4px mb-xl-1 mb-0-last"><a class="text-decoration-none text-default hover-primary trs-all" href="/zh-tw/siteinformation/sitemap">網站導覽</a></li><li class="mb-4px mb-xl-1 mb-0-last"><a class="text-decoration-none text-default hover-primary trs-all" href="/zh-tw/siteinformation/securitypolicy">資訊安全政策</a></li><li class="mb-4px mb-xl-1 mb-0-last"><a class="text-decoration-none text-default hover-primary trs-all" href="/zh-tw/siteinformation/gwoia">網站資料開放宣告</a></li><li class="mb-4px mb-xl-1 mb-0-last"><a class="text-decoration-none text-default hover-primary trs-all" href="/zh-tw/siteinformation/privacypolicy">隱私權政策</a></li><li class="mb-4px mb-xl-1 mb-0-last"><a class="text-decoration-none text-default hover-primary trs-all" href="https://tour.tycg.gov.tw/" title="行政資訊網(另開視窗)" target="_blank" rel="noopener noreferrer">行政資訊網</a></li></ul><div class="w-md-20 mt-1 text-center text-md-left fz-13px">參訪人次 94,033,258</div></div></div><div class="py-1 px-2 text-center bg-gray-200 fz-12px">Copyright © 2026 桃園市政府觀光旅遊局</div></footer></footer></div><script>var headerTheme=''</script><script src="/scripts/alone/react/app-d9e8d2c33ccaa388cad9.js"></script><script src="/Scripts/_scripts.js"></script><div id="loading-overlay" class="loading-overlay"><div class="loading-hint"></div><p class="loading-desc">資料讀取中</p></div><script src="/scripts/alone/flickity.pkgd.min.js"></script><script src="/scripts/alone/spot-media.min.js"></script><script src="/scripts/alone/instagram-slider.min.js"></script><div class="func-btn-group fixed d-flex flex-column items-center gap-[8px] bottom-[40px] right-0 ml-auto mr-20px z-2000 pointer-events-none"><a class="group block relative pointer-events-auto outline-none" title="問小桃 (另開視窗)" target="_blank" rel="noopener noreferrer" href="https://travel.tycg.gov.tw/ai-service"><div class="flex justify-center items-center w-8 h-8 rounded-circle relative z-100 overflow-hidden" style="background: radial-gradient(50% 50%, rgb(220, 1, 117) 75%, rgb(254, 162, 154) 94.71%);"><div class="fill-parent group-hover:bg-primary group-focus-visible:bg-primary  trs-all"></div><img class="block w-6 relative" src="/content/images/global/chat-mascot.png" alt=""></div><div class="opacity-0 flex justify-end absolute top-4 right-full w-[100vw] pointer-events-none trs-all"><div class="false inline-flex items-center min-w-[56px] min-h-[32px] p-1 rounded-[8px] rounded-tr-[0] bg-gradient-to-b from-[#fc5e8a] to-[#dc0175]"><div class="inline-flex text-white text-[14px] font-bold"><span>有事問小桃，一起遊桃園</span><span class="ml-[2px] animate-blink">|</span></div></div><svg class="" width="8" height="8" viewBox="0 0 8 8"><polygon points="8,0 0,0 0,8" fill="#fc5e8a"></polygon></svg></div></a><button class="btn btn-primary flex-column d-xl-none w-6 h-6 pt-1 rounded-circle pointer-events-auto position-relative undefined"><div class="mb-n4px fz-13px lh-initial">附近</div><span class="fz-10px">玩什麼</span></button><button class="op-0 pointer-events-none btn btn-default flex-column w-6 h-6 rounded-circle z-2000 text-white"><i class="icon icon-top fz-18px text-white" aria-hidden="true"></i><div class="sr-only">TOP</div></button></div><div id="goog-gt-tt" class="VIpgJd-yAWNEb-L7lbkb skiptranslate" style="display: none; border-radius: 12px; margin: 0 0 0 -23px; padding: 0; font-family: 'Google Sans', Arial, sans-serif;" data-id=""><div id="goog-gt-vt" class="VIpgJd-yAWNEb-hvhgNd"><div class="VIpgJd-yAWNEb-hvhgNd-Ud7fr"><img src="https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg" width="24" height="24" alt=""><div class=" VIpgJd-yAWNEb-hvhgNd-IuizWc-i3jM8c " dir="ltr">原文</div></div><div class="VIpgJd-yAWNEb-hvhgNd-k77Iif"><div id="goog-gt-original-text" class="VIpgJd-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"></div></div><div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr"><div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od ltr" dir="ltr"><div class="VIpgJd-yAWNEb-hvhgNd-UTujCb">為這個翻譯評分</div><div class="VIpgJd-yAWNEb-hvhgNd-eO9mKe">你的意見回饋將用於協助改善 Google 翻譯品質</div></div><div class="VIpgJd-yAWNEb-hvhgNd-xgov5 ltr"><button id="goog-gt-thumbUpButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="譯文品質良好" aria-label="譯文品質良好" aria-pressed="false"><span id="goog-gt-thumbUpIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z"></path></svg></span><span id="goog-gt-thumbUpIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM5 7H1v13h4V7z"></path></svg></span></button><button id="goog-gt-thumbDownButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="譯文品質不佳" aria-label="譯文品質不佳" aria-pressed="false"><span id="goog-gt-thumbDownIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z"></path></svg></span><span id="goog-gt-thumbDownIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z"></path></svg></span></button></div></div><div id="goog-gt-votingHiddenPane" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><form id="goog-gt-votingForm" action="//translate.googleapis.com/translate_voting?client=te" method="post" target="votingFrame" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><input type="text" name="sl" id="goog-gt-votingInputSrcLang"><input type="text" name="tl" id="goog-gt-votingInputTrgLang"><input type="text" name="query" id="goog-gt-votingInputSrcText"><input type="text" name="gtrans" id="goog-gt-votingInputTrgText"><input type="text" name="vote" id="goog-gt-votingInputVote"></form><iframe name="votingFrame" frameborder="0"></iframe></div></div></div><div class="absolute-top-left w-0 h-0 z-99999 mt-10 mt-xl-15 pointer-events-none"></div><div class="VIpgJd-ZVi9od-aZ2wEe-wOHMyf"><div class="VIpgJd-ZVi9od-aZ2wEe-OiiCO"><svg xmlns="http://www.w3.org/2000/svg" class="VIpgJd-ZVi9od-aZ2wEe" width="96px" height="96px" viewBox="0 0 66 66"><circle class="VIpgJd-ZVi9od-aZ2wEe-Jt5cK" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div><iframe frameborder="0" class="VIpgJd-ZVi9od-xl07Ob-OEVmcd skiptranslate" title="語言翻譯小工具" style="visibility: visible; box-sizing: content-box; width: 210px; height: 307px; display: none;"></iframe></body></html>
