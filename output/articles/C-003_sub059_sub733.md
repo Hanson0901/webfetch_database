@@ -1,0 +1,30 @@
+# 觀音甘泉寺
+
+- 原始網址：https://www.ganquan-temple.org.tw/blog/data/114%E5%B9%B4%E5%BA%A6%E6%99%AE%E6%B8%A1%E6%B3%95%E6%9C%83
+- 網站：www.ganquan-temple.org.tw
+- 關鍵字：觀音, 甘泉寺
+
+114年度普渡法會
+114年度普渡法會訂於國曆9月13日（農曆7月23日），星期六，下午13:00開始，歡迎十方眾信大德，同霑法喜。
+活動辦法如下：
+- 普渡登記報名即日起至國曆9月11日下午16:00櫃檯登記截止。
+- 普渡供品每份1200元，超渡項目單項費用300元（祖先超渡、親眷超渡、嬰靈超渡、寵物靈超渡、三世冤親債主超渡），例如：報名登記人-王小美$1200，寵物靈超渡-小皮、萊恩$600，冤親債主$300，王氏歷代祖先超度$300，總費用為2400元。
+- 普渡供品領取方式：可自行攜回或捐贈弱勢團體，領取時間9/13-9/15 早上8:00-下午17:00，請攜帶收執聯至櫃檯有專人協助領取。期限內未領取供品者，將由廟方統一代捐慈善機構。
+
+## 相關連結
+- https://www.ganquan-temple.org.tw/
+- https://www.ganquan-temple.org.tw/aboutus
+- https://www.ganquan-temple.org.tw/aboutus/奉祀神祇
+- https://www.ganquan-temple.org.tw/aboutus/參拜順序
+- https://www.ganquan-temple.org.tw/news
+- https://www.ganquan-temple.org.tw/news/活動公告
+- https://www.ganquan-temple.org.tw/news/活動花絮
+- https://www.ganquan-temple.org.tw/news/媒體報導
+- https://www.ganquan-temple.org.tw/blog
+- https://www.ganquan-temple.org.tw/blog/贊普
+- https://www.ganquan-temple.org.tw/blog/公益慈善
+- https://www.ganquan-temple.org.tw/asset
+- https://www.ganquan-temple.org.tw/asset/文物介紹
+- https://www.ganquan-temple.org.tw/contactus
+- https://www.ganquan-temple.org.tw/sitemap
+- https://www.ganquan-temple.org.tw/service/隱私權政策

@@ -1,0 +1,42 @@
+# 公佈欄 | 經濟部觀音產業園區服務中心
+
+- 原始網址：https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=goContent&sn=103317
+- 網站：www.bip.gov.tw
+- 關鍵字：觀音
+
+2026/04/07
+一、修正草案業經經濟部於115年4月7日以經水字第11560202090號公告預告在案。
+二、耗水費徵收辦法修正草案如附件。本案另載於本部水利署全球資訊網站(網址：https://www.wra.gov.tw)，及經濟部主管法規查詢系統/草案預告論壇(網址：https://law.moea.gov.tw/DraftForum.aspx)(或由「經濟部全球資訊網首頁/法規及訴願/草案預告」可連結本網頁)。
+三、對公告內容有任何意見或修正建議者，請於本公告刊登公報隔日起60日內陳述意見或洽詢：
+(一)承辦單位：經濟部水利署。
+(二)地址：40873臺中市南屯區黎明路2段501號。
+(三)聯絡人：金正工程司、游專員。
+(四)電話：02-89415081、04-22501319。
+(五)傳真：02-89415027、04-22501619。
+(六)電子郵件：ulifare@wra.gov.tw、niya@wra.gov.tw。
+相關資料:
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/kuangin/
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=99
+- https://www.bip.gov.tw/iphw/kuangin/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=80
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=20
+- https://www.bip.gov.tw/iphw/kuangin/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/activity.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/policy.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=10
+- https://www.bip.gov.tw/iphw/kuangin/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=download
+- https://www.bip.gov.tw/iphw/kuangin/factory.do?method=list
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=06
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=07
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=70
+- https://www.bip.gov.tw/iphw/kuangin/index.do?id=0
+- https://www.bip.gov.tw/iphw/downLoad?index=news&id=103317&f=0
+- https://www.bip.gov.tw/iphw/downLoad?index=news&id=103317&f=1
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

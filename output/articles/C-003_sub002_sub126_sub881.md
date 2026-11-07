@@ -1,0 +1,37 @@
+# 首頁 | 經濟部龍德兼利澤產業園區服務中心
+
+- 原始網址：https://www.bip.gov.tw/iphw/lungte/
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+龍德
+龍德產業園區係由經濟部產業園區管理局策動推動，中興工程顧問社負責工程規劃設計監造，中華工程公司負責開發施工，於民國66年11月開發，至67年12月底完成。
+利澤
+經濟部產業園區管理局為促進宜蘭縣地區工業發展，於民國六十九年編訂開發利澤產業園區。當時於完成台二線公路以西部份產業園區及住宅社區之開發工程後，由於經濟不景氣影響而暫緩開發。
+民國七十六年，台塑企業為興建石化中、下游工廠，購置本產業園區台二線公路以東約291公頃土地；然因地方基於環保考量爭議，致土地未能再法定期限內建廠使用，強制買回重予規劃增設公共設施系統，俾利中小企業建廠使用。
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/lungte/index.do?id=99
+- https://www.bip.gov.tw/iphw/lungte/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/lungte/index.do?id=80
+- https://www.bip.gov.tw/iphw/lungte/index.do?id=20
+- https://www.bip.gov.tw/iphw/lungte/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/lungte/activity.do?method=list
+- https://www.bip.gov.tw/iphw/lungte/policy.do?method=list
+- https://www.bip.gov.tw/iphw/lungte/index.do?id=10
+- https://www.bip.gov.tw/iphw/lungte/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/lungte/index.do?id=download
+- https://www.bip.gov.tw/iphw/lungte/factory.do?method=list
+- https://www.bip.gov.tw/iphw/lungte/index.do?id=06
+- https://www.bip.gov.tw/iphw/lungte/index.do?id=07
+- https://www.bip.gov.tw/iphw/lungte/index.do?id=70
+- https://www.bip.gov.tw/iphw/lungte/entreg.do?method=goContent&sn=93361
+- https://www.bip.gov.tw/iphw/lungte/entreg.do?method=goContent&sn=93033
+- https://www.bip.gov.tw/iphw/lungte/bulletin.do?method=goContent&sn=109370
+- https://www.bip.gov.tw/iphw/lungte/bulletin.do?method=goContent&sn=109338
+- https://www.bip.gov.tw/iphw/lungte/policy.do?method=goContent&sn=99792
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11
+- https://www.bip.gov.tw/page.aspx?pageid=71edf48eb01bcb07

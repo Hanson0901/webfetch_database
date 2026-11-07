@@ -1,0 +1,70 @@
+# 關於臺北分局 | 經濟部產業園區管理局臺北分局
+
+- 原始網址：https://www.bip.gov.tw/iphw/tpb/index.do?id=20
+- 網站：www.bip.gov.tw
+- 關鍵字：待人工補充
+
+梁又文分局長
+梁又文
+- 經濟部產業園區管理局臺北分局分局長
+►學歷
+- 國立臺南第一高級中學畢業
+- 國立成功大學都市計畫系畢業
+- 國立台北大學都市計畫碩士
+- 國立政治大學博士
+►公務經歷
+- 內政部營建署專員、技正
+- 台南縣政府城鄉發展局副局長、局長
+- 經濟部加工出口區管理處第一組、第二組組長
+- 經濟部加工出口區管理處台中分處、中港分處分處長
+►專業資格
+- 教育部兼任副教授資格(副字第030700號)
+- 行政院公共工程委員會採購評審委員
+- 台南縣都市計畫委員會委員、都市設計審議委員會副主任委員
+- 台南市都市計畫委員會委員
+- 金門縣都市計畫委員會委員
+- 台中市區域計畫委員會委員
+- 勞動部勞動力發展署企業人力資源提升計畫審查委員
+- 國立台北科技大學建築研究所兼任副教授
+►專業證照
+- 都市計畫技師
+- 專利代理人
+►榮譽
+- 中華民國永續發展學會博士論文獎助學金
+- 內政部營建署三等服務獎章
+- 台北市仁愛國民中學家長會副會長
+- 國立政治大學社會科學院傑出校友
+- 經濟部模範公務人員
+- 中華民國都市計劃學會特頒計畫獎狀(專業類)
+
+## 相關連結
+- https://www.bip.gov.tw/iphw/tpb/
+- https://www.bip.gov.tw/
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=99
+- https://www.bip.gov.tw/iphw/tpb/tbfaq.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=80
+- https://www.bip.gov.tw/iphw/tpb/bulletin.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/activity.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/policy.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/entreg.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=download
+- https://www.bip.gov.tw/iphw/tpb/factory.do?method=list
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=70
+- https://www.bip.gov.tw/iphw/tpb/index.do?id=0
+- https://www.bip.gov.tw/iphw/dawulun/
+- https://www.bip.gov.tw/iphw/wuku/
+- https://www.bip.gov.tw/iphw/shulin/
+- https://www.bip.gov.tw/iphw/tucheng/
+- https://www.bip.gov.tw/iphw/linkou/
+- https://www.bip.gov.tw/iphw/dayuan/
+- https://www.bip.gov.tw/iphw/kuangin/
+- https://www.bip.gov.tw/iphw/jhongli/
+- https://www.bip.gov.tw/iphw/gueishan/
+- https://www.bip.gov.tw/iphw/taoyuanyouth/
+- https://www.bip.gov.tw/iphw/pingjhen/
+- https://www.bip.gov.tw/iphw/hsinchu/
+- https://www.bip.gov.tw/iphw/lungte/
+- https://www.bip.gov.tw/iphw/hpharb/
+- https://www.bip.gov.tw/iphw/meeluen/
+- https://www.bip.gov.tw/page.aspx?pageid=2b22a8184c06e87f
+- https://www.bip.gov.tw/page.aspx?pageid=5890c0f4b258de11

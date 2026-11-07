@@ -1,0 +1,51 @@
+# 大地農場－農業易遊網
+
+- 原始網址：https://ezgo.ardswc.gov.tw/zh-tw/spot/7251/
+- 網站：農業易遊網
+- 關鍵字：待人工補充
+
+跳到主要內容區塊定位點主要內容區塊
+4.7
+星期六：10:00 – 17:00
+0975-302-995
+基本資訊
+開放時間：
+- 星期日：10:00 – 17:00
+- 星期一：10:00 – 17:00
+- 星期二：10:00 – 17:00
+- 星期三：休息
+- 星期四：10:00 – 17:00
+- 星期五：10:00 – 17:00
+- 星期六：10:00 – 17:00
+
+## 相關連結
+- https://ezgo.ardswc.gov.tw/zh-tw/
+- https://ezgo.ardswc.gov.tw/zh-tw/hot-topic/
+- https://ezgo.ardswc.gov.tw/zh-tw/events/
+- https://ezgo.ardswc.gov.tw/zh-tw/epapers/
+- https://ezgo.ardswc.gov.tw/zh-tw/social-medias/
+- https://ezgo.ardswc.gov.tw/zh-tw/votes/
+- https://ezgo.ardswc.gov.tw/zh-tw/seasonal-tours/
+- https://ezgo.ardswc.gov.tw/zh-tw/selected-tours/
+- https://ezgo.ardswc.gov.tw/zh-tw/selected-columns/
+- https://ezgo.ardswc.gov.tw/zh-tw/tags/
+- https://ezgo.ardswc.gov.tw/zh-tw/themes/
+- https://ezgo.ardswc.gov.tw/zh-tw/areas/
+- https://ezgo.ardswc.gov.tw/zh-tw/leisure-areas/
+- https://ezgo.ardswc.gov.tw/zh-tw/farms/
+- https://ezgo.ardswc.gov.tw/zh-tw/shops/
+- https://ezgo.ardswc.gov.tw/zh-tw/tianmamas/
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=32
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=34
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=35
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=36
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?category=306
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=81
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=76
+- https://ezgo.ardswc.gov.tw/zh-tw/map/
+- https://ezgo.ardswc.gov.tw/zh-tw/immersive/
+- https://ezgo.ardswc.gov.tw/zh-tw/gourment/tianmama/
+- https://ezgo.ardswc.gov.tw/zh-tw/dishes/
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=74
+- https://ezgo.ardswc.gov.tw/zh-tw/spots/?primary=83,84
