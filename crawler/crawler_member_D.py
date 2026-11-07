@@ -823,9 +823,10 @@ def keywords_for(text: str) -> list[str]:
 
 def youtube_id(url: str) -> str | None:
     parsed = urlparse(url)
-    if parsed.netloc in ("youtu.be", "www.youtu.be"):
+    hostname = (parsed.hostname or "").lower()
+    if hostname in ("youtu.be", "www.youtu.be"):
         return parsed.path.strip("/").split("/")[0] or None
-    if "youtube.com" in parsed.netloc:
+    if hostname == "youtube.com" or hostname.endswith(".youtube.com"):
         if parsed.path == "/watch":
             from urllib.parse import parse_qs
             return parse_qs(parsed.query).get("v", [None])[0]
